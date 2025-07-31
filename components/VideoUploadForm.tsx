@@ -8,7 +8,7 @@ const VideoUploadForm = () => {
   return (
     <div className="space-y-6 w-full mb-9">
       <div className="mx-auto max-w-1/2 space-y-8">
-        <h2 className="">Upload Video to Mux</h2>
+        <h2 className="mb-6">Upload and Stream Videos in NEXTJS</h2>
 
         <MuxUploader
           endpoint={async () => {

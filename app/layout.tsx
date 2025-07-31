@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "video uploader",
-  description: "Next + MuxVideo Uploader + Webhook",
+  title: "NEXTJS + MUX VIDEO API",
+  description: "How to handle videos in NEXTJS",
 };
 
 export default function RootLayout({

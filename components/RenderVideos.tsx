@@ -17,7 +17,7 @@ const RenderVideos = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-3 gap-6">
+    <div className="grid grid-cols-3 gap-6 py-6">
       {videos.map((video: any) =>
         video.playback_ids?.[0] ? (
           <Link

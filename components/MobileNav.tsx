@@ -13,6 +13,9 @@ import {
 } from "@/components/ui/sheet";
 import { Menu, X } from "lucide-react";
 import Logo from "./Logo";
+import Link from "next/link";
+import SideBarItem from "./SideBarItem";
+import { navItems } from "@/fixtures/sidebar";
 
 interface Prop {
   className?: string;
@@ -33,12 +36,31 @@ const MobileNav = ({ className }: Prop) => {
         </SheetTrigger>
         <SheetContent className=" border-none  outline-none text-white bg-purple-darker">
           <SheetHeader>
-            <SheetTitle>Are you absolutely sure?</SheetTitle>
-            <SheetDescription>
-              This action cannot be undone. This will permanently delete your
-              account and remove your data from our servers.
-            </SheetDescription>
+            <SheetTitle className="">MUX Video API </SheetTitle>
           </SheetHeader>
+          <div className="p-6">
+            <ul className="space-y-8">
+              {navItems.map((item) => (
+                <li key={item.id}>
+                  <SideBarItem navItem={item} toggle={toggle} />
+                </li>
+              ))}
+
+              <Link
+                className={cn(
+                  "flex flex-row w-full gap-3",
+                  toggle
+                    ? "flex-col gap-0 items-center justify-center"
+                    : "flex-row"
+                )}
+                href="https://www.mux.com/"
+                passHref
+              >
+                😎
+                <p className="font-light ">MUX Docs</p>
+              </Link>
+            </ul>
+          </div>
         </SheetContent>
       </Sheet>
     </div>
