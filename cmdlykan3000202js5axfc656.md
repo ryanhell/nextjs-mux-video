@@ -1,5 +1,5 @@
 ---
-title: "Real-Time Video Streaming & Webhook Automation Using MUX API and Next.js"
+title: "Real-Time Video Streaming  Using MUX API and Next.js"
 seoTitle: "Build a Scalable Video Platform with MUX Video API and Next.js"
 seoDescription: "How to Build a Robust Video Flow with MUX & Next.js (Uploads, Playback, Webhooks)"
 datePublished: Sun Jul 27 2025 17:33:44 GMT+0000 (Coordinated Universal Time)
