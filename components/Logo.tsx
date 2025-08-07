@@ -21,10 +21,10 @@ const Logo = () => {
       </div>
       <div className="md:flex tracking-wider uppercase text-lg hidden">
         <div className="text-primary font-extrabold border-r-0 pr-0.5    p-2 border-4 border-primary bg-transparent">
-          next
+          Ryan
         </div>
         <div className="text-white font-extrabold pl-0.5 border-l-0  p-2 border-4 border-white bg-transparent">
-          video
+          Hell
         </div>
       </div>
     </Link>
