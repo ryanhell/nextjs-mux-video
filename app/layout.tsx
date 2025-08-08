@@ -7,6 +7,7 @@ import MobileNav from "@/components/MobileNav";
 import Header from "@/components/Header";
 import SidaBar from "@/components/SidaBar";
 import BagShawGallery from "@/components/BagShawGallery";
+import { RegisterLink, LoginLink } from "@kinde-oss/kinde-auth-nextjs/components";
 
 
 const geistSans = Geist({
@@ -39,7 +40,8 @@ export default function RootLayout({
           <div className="p-6  px-8  flex-1 ">
 
             <header className="w-full hidden lg:flex items-center justify-between">
-
+              <LoginLink>Sign in</LoginLink>
+              <RegisterLink>Sign up</RegisterLink>
               <MobileNav className="flex lg:hidden" />
             </header>
             {children}

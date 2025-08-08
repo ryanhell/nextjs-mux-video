@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@kinde-oss/kinde-auth-nextjs": "^2.8.6",
     "@mux/mux-node": "^12.4.0",
     "@mux/mux-player-react": "^3.5.3",
     "@mux/mux-uploader-react": "^1.2.0",
