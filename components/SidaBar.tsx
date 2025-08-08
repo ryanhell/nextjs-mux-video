@@ -50,7 +50,7 @@ const SidaBar = ({ className }: Prop) => {
       <ScrollArea
         type="always"
         className={cn("h-full p-6", toggle && " w-auto px-2", className)}
-        //   style={{ height: 600 }} // Dynamically set the height
+      //   style={{ height: 600 }} // Dynamically set the height
       >
         {/* menu item */}
         <div
@@ -81,11 +81,11 @@ const SidaBar = ({ className }: Prop) => {
                   ? "flex-col gap-0 items-center justify-center"
                   : "flex-row"
               )}
-              href="https://www.mux.com/"
+              href="/BagShawsBags"
               passHref
             >
               😎
-              <p className="font-light ">MUX Docs</p>
+              <p className="font-light ">Sally BAGSHAW</p>
             </Link>
           </ul>
         </div>
