@@ -1,6 +1,8 @@
 import BagShawGallery from "@/components/BagShawGallery";
+import React from "react";
 
-export default function BagShawsBags() {
+
+const page = () => {
     return (
         <div className="min-h-screen bg-gray-50">
 
@@ -133,6 +135,7 @@ export default function BagShawsBags() {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
+export default page;
