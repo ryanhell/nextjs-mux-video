@@ -30,8 +30,8 @@ export const navItems = [
 
   {
     id: 4,
-    name: "Other",
-    path: "/",
+    name: "Sally Bagshaw",
+    path: "components/BagShawsBags",
     icon: {
       name: "code",
       classes: "h-6 w-6",
