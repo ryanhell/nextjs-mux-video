@@ -4,6 +4,7 @@ import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
 import Header from "@/components/Header";
 import SidaBar from "@/components/SidaBar";
+import BagShawGallery from "@/components/BagShawGallery";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NEXTJS + MUX VIDEO API",
-  description: "How to handle videos in NEXTJS",
+  title: "Ryan Hell Defense Evidence case # 2410025304",
+  description: "Case evidence Ryan Hell vs Chelan County Washington State Case # 2410025304",
 };
 
 export default function RootLayout({
@@ -33,7 +34,9 @@ export default function RootLayout({
         <main className="flex-1   overflow-y-auto">
           <div className="p-6  px-8  flex-1 ">
             <Header />
-            <div className="">{children}</div>
+            <div className="">{children}
+              <BagShawGallery />
+            </div>
           </div>
         </main>
         <SidaBar className="order-first  overflow-y-auto" />
@@ -44,6 +47,6 @@ export default function RootLayout({
           duration={10000}
         />
       </body>
-    </html>
+    </html >
   );
 }
