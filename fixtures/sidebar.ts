@@ -31,7 +31,7 @@ export const navItems = [
   {
     id: 4,
     name: "Sally Bagshaw",
-    path: "components/BagShawsBags",
+    path: "/BagShawsBags",
     icon: {
       name: "code",
       classes: "h-6 w-6",
