@@ -1,4 +1,6 @@
 import React from "react";
+import Image from 'next/image';
+
 
 const page = () => {
     return (
@@ -6,7 +8,13 @@ const page = () => {
 
             <div className="relative h-96 md:h-[500px] lg:h-[600px] overflow-hidden">
 
-                <div className="absolute inset-0">
+                <div className="relative inset-0">
+                    <Image
+                        src="../ryansPhotos/Jeremiah/jeremiah_1.jpg"
+                        alt="Jeremiah of Rivercom 911"
+                        layout="fill"
+                        objectFit="cover" // Optional:
+                    />
                     <img
                         src="/ryansPhotos/Jeremiah/EE393B94-068B-404F-AE0C-54E639BEC559_4_5005_c.jpeg"
                         alt="Person header image"
