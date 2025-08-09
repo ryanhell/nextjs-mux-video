@@ -24,7 +24,6 @@ const page = () => {
                             <ul className="text-lg sm:text-xl md:text-2xl text-gray-200 max-w-2xl">
                                 <li>21 year Rivercom employee</li>
                                 <li>Worked his way up the ladder to senior op man where he still sits today</li>
-                                <li></li>
                             </ul>
                         </div>
                     </div>
