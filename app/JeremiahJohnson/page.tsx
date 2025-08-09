@@ -13,12 +13,13 @@ const page = () => {
                         src="../ryansPhotos/Jeremiah/jeremiah_1.jpg"
                         alt="Jeremiah of Rivercom 911"
                         layout="fill"
-                        objectFit="cover" // Optional:
+                        objectFit="cover"
                     />
-                    <img
-                        src="/ryansPhotos/Jeremiah/EE393B94-068B-404F-AE0C-54E639BEC559_4_5005_c.jpeg"
-                        alt="Person header image"
-                        className="w-full h-full object-cover object-center"
+                    <Image
+                        src="../ryansPhotos/Jeremiah/jeremiah_2.jpg"
+                        alt="Jeremiah of Rivercom 911"
+                        layout="fill"
+                        objectFit="cover"
                     />
 
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
