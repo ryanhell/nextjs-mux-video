@@ -10,7 +10,7 @@ const page = () => {
 
                 <div className="absolute inset-0">
                     <Image
-                        src="../ryansPhotos/Jeremiah/jeremiah_1.jpg"
+                        src="/ryansPhotos/Jeremiah/jeremiah_1.jpg"
                         alt="Jeremiah of Rivercom 911"
                         layout="fill"
                         objectFit="cover"
