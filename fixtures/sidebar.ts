@@ -4,6 +4,7 @@ import {
   VideoIcon,
   FileVideo,
   Brain,
+  Activity
 } from "lucide-react";
 
 export const navItems = [
@@ -33,9 +34,9 @@ export const navItems = [
     name: "Rivercom 911 Operation Manager",
     path: "/JeremiahJohnson",
     icon: {
-      name: "code",
+      name: "activity",
       classes: "h-6 w-6",
-      icon: Code,
+      icon: Activity,
     },
   },
 ];
