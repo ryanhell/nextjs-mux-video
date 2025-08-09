@@ -3,7 +3,7 @@ import {
   Video,
   VideoIcon,
   FileVideo,
-  Code,
+  Brain,
 } from "lucide-react";
 
 export const navItems = [
@@ -23,9 +23,9 @@ export const navItems = [
     name: "Sally Bagshaw",
     path: "/SallyBagshaw",
     icon: {
-      name: "code",
+      name: "brain",
       classes: "h-6 w-6",
-      icon: Code,
+      icon: Brain,
     },
   },
   {
