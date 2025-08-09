@@ -1,4 +1,3 @@
-import BagShawGallery from "@/components/BagShawGallery";
 import React from "react";
 import Image from "next/image";
 
@@ -24,18 +23,17 @@ const page = () => {
                     <div className="w-full px-4 sm:px-6 lg:px-8 pb-8 md:pb-12">
                         <div className="max-w-7xl mx-auto">
                             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4">
-                                Who is Sally Bagshaw?
+                                Meet Rivercom 911's Operations Center Manager
                             </h1>
                             <ul className="text-lg sm:text-xl md:text-2xl text-gray-200 max-w-2xl">
-                                <li>Fellow at Harvard's Advanced Leadership Initiative</li>
-                                <li>Two term city council woman</li>
-                                <li>13 Year King County Prosecutor and 8 of those years as Chief Civil Prosecutor </li>
+                                <li>21 year Rivercom employee</li>
+                                <li>Worked his way up the ladder to senior op man where he still sits today</li>
+                                <li></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            <BagShawGallery />
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 lg:py-20">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
 

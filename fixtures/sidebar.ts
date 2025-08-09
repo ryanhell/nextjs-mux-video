@@ -7,17 +7,7 @@ import {
 } from "lucide-react";
 
 export const navItems = [
-  {
-    id: 1,
-    name: "Upload Video",
-    path: "/",
-    icon: {
-      name: "video",
-      icon: VideoIcon,
-      classes: "h-6 w-6",
-    },
-  },
-  {
+   {
     id: 2,
     name: "View Videos",
     path: "/videos",
@@ -32,6 +22,16 @@ export const navItems = [
     id: 4,
     name: "Sally Bagshaw",
     path: "/SallyBagshaw",
+    icon: {
+      name: "code",
+      classes: "h-6 w-6",
+      icon: Code,
+    },
+  },
+  {
+    id: 5,
+    name: "Rivercom 911 Operation Manager",
+    path: "/JeremiahJohnson",
     icon: {
       name: "code",
       classes: "h-6 w-6",
