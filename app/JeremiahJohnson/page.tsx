@@ -41,14 +41,14 @@ const page = () => {
                                 <h1>Rivercom 911 Operations Manager Attempts to Swat Witness Who He Failed To Extort After Kidnapping and Interfering With a Duress Call for a Diasabled Person in Grave Medical Need</h1>
                                 <p className="leading-relaxed mb-6">
                                     That headline sound too dramatic? Well its precisely what happened.
-                                    At the end of the day Jeremiah made a massive mistake and committed a signifanctly more serious set of crimes than anyone wants to talk about.
+                                    At the end of the day Jeremiah made a massive mistake and committed a signifanctly more serious set of crimes than anyone wants to talk about.</p>
                                     <ul>
                                         <li>He had to be a ring leader and centrally complicit in the scheme top kidnap us during a 911 call for emergency medical assistance.</li>
                                         <li>He knows better than anybody the severityof the crimes he engaged in; he runs the call center.</li>
                                         <li>He knew I had him dead to rights and he attempted to MURDER me by swatting me</li>
                                         <li>Rivercom is not some small town yokles dispatcher. They serve all of Chelan and Douglas county.</li>
                                     </ul>
-                                </p>
+                            
                                 <h4>Why So Angry </h4>
                                 <p className="leading-relaxed mb-6">
                                     I just dont know what person would talk all that death talk Jeremiah was; if listem closely you can hear it in the video. You can see also hear his wife Jenna say she is going to "slap the shit out of me" and beat my ass. These people were extremely violent. While perhaps unpleasant sounding I am not threatening anyone. Im bewildered and scared for the life and wellbeing of my passenger, myself, and the dogs. Its a lot of responsibilitiy. And its an extremely tricky situation.
