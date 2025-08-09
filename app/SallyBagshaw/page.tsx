@@ -1,5 +1,6 @@
 import BagShawGallery from "@/components/BagShawGallery";
 import React from "react";
+import Image from "next/image";
 
 
 const page = () => {
@@ -10,7 +11,7 @@ const page = () => {
 
                 <div className="absolute inset-0">
                     <img
-                        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&h=600&fit=crop&crop=face"
+                        src="/ryansPhotos/IMG_6450 2.JPG"
                         alt="Person header image"
                         className="w-full h-full object-cover object-center"
                     />
@@ -23,11 +24,13 @@ const page = () => {
                     <div className="w-full px-4 sm:px-6 lg:px-8 pb-8 md:pb-12">
                         <div className="max-w-7xl mx-auto">
                             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4">
-                                John Doe
+                                Who is Sally Bagshaw?
                             </h1>
-                            <p className="text-lg sm:text-xl md:text-2xl text-gray-200 max-w-2xl">
-                                Creative Director & Digital Artist
-                            </p>
+                            <ul className="text-lg sm:text-xl md:text-2xl text-gray-200 max-w-2xl">
+                                <li>Fellow at Harvard's Advanced Leadership Initiative</li>
+                                <li>Two term city council woman</li>
+                                <li>13 Year King County Prosecutor and 8 of those years as Chief Civil Prosecutor </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -41,7 +44,10 @@ const page = () => {
                             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">About</h2>
                             <div className="prose prose-lg max-w-none text-gray-700">
                                 <p className="text-xl leading-relaxed mb-6">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                                    I do not wish to say whether I think Mrs Bagshaw is a bad person or a good person but I will say that I have been trying to address this bizarre and deadly encounter which I cought her vacating the scene to allow the deputies to come and do whatever it was that they could not do while Sally Bagshaw was on the property. Seems outright sinister Im not gonna lie. Matter of fact; after over a year of really looking at the Bagshaw component from a hundred angles; I can not see a logical or practical reason she would have been there or yelled "I can not let Ryan see me" and i really dont get why she would have to vacate the property unless they planned to shoot me, after all that is what Operations Manager Jeremiah Johnson claimed, and what he remarked about on the evidence video, and I think it is actually noted in the transcipts with Rivercom 911 center as dispatch. notifed Jeremia that the. deputy was en route to arrest me and take me away. "Ryan needs to disappear for good not just go to jail or be taken away." </p>
+                                <p className="leading-relaxed mb-6">
+                                    <h4>Why So Angry </h4>
+                                    I just dont know what type of talk that is; for a OPERATIONS MANAGER in his shoes; doing what they did, and I simply could not pay and asked to leave with my passenger and saud I was reporting them. His wife actually assaulted me; punched me in the face with a closed fist when I wasnt looking. Im convinced the murder dialogue was not a joke. It was not just a temper talking. No, it was a panicked kidnapper who had just been told very cooly and calmly that he made a massive error when he decided to kidnap and extort me, and most damnding, whem he used his position of trust to abuse us and block us from legitimate life saving urgent medical assistance. He was shaking like a leaf on a tree and chain smoking. The death talk wasnt hollow threats at me; they were vivid plans orders, or request. And he very nearly achieved success.
                                 </p>
                                 <p className="leading-relaxed mb-6">
                                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -82,7 +88,7 @@ const page = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                                     </svg>
                                     <span className="text-gray-700">john.doe@example.com</span>
-                                </div>
+                                </div>/p
                                 <div className="flex items-center">
                                     <svg className="w-5 h-5 text-gray-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
