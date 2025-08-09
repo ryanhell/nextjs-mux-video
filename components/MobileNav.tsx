@@ -45,20 +45,6 @@ const MobileNav = ({ className }: Prop) => {
                   <SideBarItem navItem={item} toggle={toggle} />
                 </li>
               ))}
-
-              <Link
-                className={cn(
-                  "flex flex-row w-full gap-3",
-                  toggle
-                    ? "flex-col gap-0 items-center justify-center"
-                    : "flex-row"
-                )}
-                href="https://www.mux.com/"
-                passHref
-              >
-                😎
-                <p className="font-light ">MUX Docs</p>
-              </Link>
             </ul>
           </div>
         </SheetContent>

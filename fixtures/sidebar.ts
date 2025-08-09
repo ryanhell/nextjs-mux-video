@@ -10,7 +10,7 @@ import {
 export const navItems = [
    {
     id: 2,
-    name: "View Videos",
+    name: "Tampered Evidence Videos",
     path: "/videos",
     icon: {
       name: "file-video",

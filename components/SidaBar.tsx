@@ -73,20 +73,6 @@ const SidaBar = ({ className }: Prop) => {
                 <SideBarItem navItem={item} toggle={toggle} />
               </li>
             ))}
-
-            <Link
-              className={cn(
-                "flex flex-row w-full gap-3",
-                toggle
-                  ? "flex-col gap-0 items-center justify-center"
-                  : "flex-row"
-              )}
-              href="/BagShawsBags"
-              passHref
-            >
-              😎
-              <p className="font-light ">Sally BAGSHAW</p>
-            </Link>
           </ul>
         </div>
 

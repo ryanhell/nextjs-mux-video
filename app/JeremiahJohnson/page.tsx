@@ -1,5 +1,6 @@
 import React from "react";
 import Image from 'next/image';
+import JeremiahsList from "@/components/JeremiahsList";
 
 
 const page = () => {
@@ -31,7 +32,7 @@ const page = () => {
                 </div>
             </div>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 lg:py-20">
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
 
                     <div className="lg:col-span-2 space-y-8">
                         <section>
@@ -43,13 +44,13 @@ const page = () => {
                                 <p className="leading-relaxed mb-6">
                                     That headline sound too dramatic? Well its precisely what happened.
                                     At the end of the day Jeremiah made a massive mistake and committed a signifanctly more serious set of crimes than anyone wants to talk about.
-                                    <ul>
-                                        <li>He had to be a ring leader and centrally complicit in the scheme top kidnap us during a 911 call for emergency medical assistance.</li>
-                                        <li>He knows better than anybody the severityof the crimes he engaged in; he runs the call center.</li>
-                                        <li>He knew I had him dead to rights and he attempted to MURDER me by swatting me</li>
-                                        <li>Rivercom is not some small town yokles dispatcher. They serve all of Chelan and Douglas county.</li>
-                                    </ul>
                                 </p>
+                                <p className="leading-relaxed mb-6">As the Rivercom 911 Call Center Operations Manager; Jeremiah knew exactly what he was doing was the equivilent to a male kindergartner teacher taking a child home to spend the night at their home </p>
+                                <p className="leading-relaxed mb-6">While the knee jerk reaction is to blame scrupulous opportunist parents seeking punative damages; lets be very clear here: this was not a rescue nor were they good sammaritans nor did they do any of this out of the kindness of their hearts. They demanded a very high price; and they held back urgent medical needs until they were paid. That circumvents a number of very astute and very well known civil provisions across the state and federal level. Jeremiah is not a stupid man looking at his resume. However; he is a leader of a large 911 operation centewr and he is likely well liked and coddled by some local officials who are less than pure at times to say it nicely..</p>
+                                <p className="leading-relaxed mb-6">
+                                    I believe Sally Bagshaw represented an enormous opportunity to gain traction and become noticed in Washington State government circles, I note this sadly. I also believe Bagshaws presence was what emboldened Jeremiah to make these idiotic decisions and then continue to follow through with them after I informed him I would be reporting them all to State Patrol if he did not surrendor my truck, whcih they clearly stole; and let me take my passenger to the ER. I had already offered to effect immediate payments for wheel etc and they just would not budge on that so i said let us walk let us call for a ride. NOTHING was allowed. Jeremiahs actions were brazenly, and patently criminal, as were those of the female who they now deny being a dispatcher. Jeremiah though, he knew what he was getting into. And when he realized he prayed on someone who knew his rights and was not going to be tricked into making a mistake; he panicked. It was a gamble he took for personal gain. He was more than willing to kill my passenger and then later order the deputy to murder me; just to cover up his folly. For these reasons alone someone really needs to assess the facts. Hopeful;ly someone with integrity and familiarity with 911 policy. This was a conspiracy and attempted murder which I survived. Sally Bagshaw had orchistrated it, Jeremiah gladly conducted it with a smile until I started telling them I knew what was going on and would report them.
+                                </p>
+                                <JeremiahsList />
                                 <h4>Why So Angry </h4>
                                 <p className="leading-relaxed mb-6">
                                     I just dont know what person would talk all that death talk Jeremiah was; if listem closely you can hear it in the video. You can see also hear his wife Jenna say she is going to "slap the shit out of me" and beat my ass. These people were extremely violent. While perhaps unpleasant sounding I am not threatening anyone. Im bewildered and scared for the life and wellbeing of my passenger, myself, and the dogs. Its a lot of responsibilitiy. And its an extremely tricky situation.
@@ -70,85 +71,14 @@ const page = () => {
                                 </p>
                             </div>
                         </section>
-                        <section>
-                            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Jeremiah Johnson</h2>
-                            <div className="space-y-8">
-                                <div className="border-l-4 border-blue-500 pl-6">
-                                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Operations Center Manager</h3>
-                                    <p className="text-blue-600 font-medium mb-2">Rivercom 911 • 2008 - Present</p>
-                                    <p className="text-gray-700">
-                                        Jeremiah started his career as a dispatcher and later radio tech from what I gather. He then proved to be trustworthy and knowledgable, as well as demonstrated some level of integrity suffice to gain the highest faility level role of Operations Center Manager.
-                                    </p>
-                                </div>
-                                <div className="border-l-4 border-blue-500 pl-6">
-                                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Art Director</h3>
-                                    <p className="text-blue-600 font-medium mb-2">Design Studio Co. • 2017 - 2020</p>
-                                    <p className="text-gray-700">
-                                        Managed visual design projects and collaborated with cross-functional teams.
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                    <div className="space-y-8">
-                        <div className="bg-white rounded-2xl shadow-lg p-6 md:p-8">
-                            <h3 className="text-xl font-bold text-gray-900 mb-6">Career 911 Dispatch Specialist?</h3>
-                            <div className="space-y-4">
-                                <div className="flex items-center">
-                                    <svg className="w-5 h-5 text-gray-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-                                    </svg>
-                                    <span className="text-gray-700">unlikely this event was merely a lapse in judgement by Jeremiah and or his spouse.</span>
-                                </div>
-                                <div className="flex items-center">
-                                    <p>Years of Experience</p>
-                                    <span className="text-gray-700">17</span>
-                                </div>
-                                <div className="flex items-center">
-                                    <svg className="w-5 h-5 text-gray-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                                    </svg>
-                                    <span className="text-gray-700">San Francisco, CA</span>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div className="bg-white rounded-2xl shadow-lg p-6 md:p-8">
-                            <h3 className="text-xl font-bold text-gray-900 mb-6">Skills</h3>
-                            <div className="flex flex-wrap gap-2">
-                                <span className="px-3 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">UI/UX Design</span>
-                                <span className="px-3 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">Branding</span>
-                                <span className="px-3 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">Photography</span>
-                                <span className="px-3 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">Adobe Creative Suite</span>
-                                <span className="px-3 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">Figma</span>
-                                <span className="px-3 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">Team Leadership</span>
-                            </div>
-                        </div>
 
-                        <div className="bg-white rounded-2xl shadow-lg p-6 md:p-8">
-                            <h3 className="text-xl font-bold text-gray-900 mb-6">Connect</h3>
-                            <div className="flex space-x-4">
-                                <a href="#" className="w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors">
-                                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd" d="M20 10C20 4.477 15.523 0 10 0S0 4.477 0 10c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V10h2.54V7.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V10h2.773l-.443 2.89h-2.33v6.988C16.343 19.128 20 14.991 20 10z" clip-rule="evenodd"></path>
-                                    </svg>
-                                </a>
-                                <a href="#" className="w-10 h-10 bg-blue-400 text-white rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors">
-                                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                                        <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84"></path>
-                                    </svg>
-                                </a>
-                                <a href="#" className="w-10 h-10 bg-blue-700 text-white rounded-full flex items-center justify-center hover:bg-blue-800 transition-colors">
-                                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                                        <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     );
 }
+
+export default page;
