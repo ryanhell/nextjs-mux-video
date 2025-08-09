@@ -8,7 +8,7 @@ const page = () => {
 
             <div className="relative h-96 md:h-[500px] lg:h-[600px] overflow-hidden">
 
-                <div className="relative inset-0">
+                <div className="absolute inset-0">
                     <Image
                         src="../ryansPhotos/Jeremiah/jeremiah_1.jpg"
                         alt="Jeremiah of Rivercom 911"
