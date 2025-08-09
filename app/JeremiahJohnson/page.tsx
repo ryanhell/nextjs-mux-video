@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-
 
 const page = () => {
     return (
@@ -10,7 +8,7 @@ const page = () => {
 
                 <div className="absolute inset-0">
                     <img
-                        src="/ryansPhotos/IMG_6450 2.JPG"
+                        src="/ryansPhotos/Jeremiah/EE393B94-068B-404F-AE0C-54E639BEC559_4_5005_c.jpeg"
                         alt="Person header image"
                         className="w-full h-full object-cover object-center"
                     />
