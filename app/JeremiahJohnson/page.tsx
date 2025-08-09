@@ -15,13 +15,6 @@ const page = () => {
                         layout="fill"
                         objectFit="cover"
                     />
-                    <Image
-                        src="../ryansPhotos/Jeremiah/jeremiah_2.jpg"
-                        alt="Jeremiah of Rivercom 911"
-                        layout="fill"
-                        objectFit="cover"
-                    />
-
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
                 </div>
 
