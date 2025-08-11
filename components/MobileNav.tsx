@@ -36,7 +36,7 @@ const MobileNav = ({ className }: Prop) => {
         </SheetTrigger>
         <SheetContent className=" border-none  outline-none text-white bg-purple-darker">
           <SheetHeader>
-            <SheetTitle className="">MUX Video API </SheetTitle>
+            <SheetTitle className="">Ryan Hell Evidence Log</SheetTitle>
           </SheetHeader>
           <div className="p-6">
             <ul className="space-y-8">

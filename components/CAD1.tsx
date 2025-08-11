@@ -11,11 +11,11 @@ export default function CAD1() {
                         objectFit="cover"
                         alt="Picture of the author" />
                 </div>
-                <div className="w-full md:w-1/2 p-4 bg-green-200">
+                <div className="w-full md:w-1/2 p-4 bg-green-200 relative">
                     <Image
                         src="/CADFiles/intialDuressCallto911/RyanHell391_page2.jpg"
-                        width={500}
-                        height={500}
+                        layout="fill"
+                        objectFit="cover"
                         alt="Picture of the author" />
                 </div>
             </div>
