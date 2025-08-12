@@ -23,8 +23,8 @@ const page = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 lg:py-20">
                 <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-12">
                     <div className="lg:col-span-2 space-y-8">
-                        <h4 className="text-slate-900 TypographyH3">Crime Free Since 2002!</h4>
                         <h4 className="text-3xl text-slate-900">...Reformed convict, with a new lease on life after 5 yerars of engineering university reviews from authentic new customers.</h4>
+                        <h4 className="text-slate-900 TypographyH3">Crime Free Since 2002! That includes driving infractions and late library books. </h4>
                         <h4 className="text-3xl text-slate-900">...3 time business owner and senior construction manager working with countless of townships, buros, and other larger size municioalities and cities across the east coast..dealing with dificult and frustrating problems and very angry and sometimes abusive even violent extortionist even.... its a thing out east too.</h4>
                         <h3 className="text-4xl text-slate-900">...Cum Laud Alumni from an accredited University Program 5 years of learning teams for software engineering, technical communications and business informatics.</h3>
                         <p className="text-slate-900 text-4xl">
