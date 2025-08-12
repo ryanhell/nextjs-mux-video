@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import Banner from "@/components/Banner";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
@@ -15,10 +15,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "NEXTJS + MUX VIDEO API",
-  description: "How to handle videos in NEXTJS",
-};
+
 
 export default function RootLayout({
   children,
@@ -27,6 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex min-h-screen h-screen flex-1  flex-row overflow-y-hidden `}
       >

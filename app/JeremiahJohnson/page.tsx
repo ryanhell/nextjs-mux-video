@@ -3,7 +3,7 @@ import Image from 'next/image';
 import JeremiahsList from "@/components/JeremiahsList";
 
 
-const page = () => {
+export default function page() {
     return (
         <div className="min-h-screen bg-gray-50">
             <div className="relative h-96 md:h-[500px] lg:h-[600px] overflow-hidden">
@@ -19,9 +19,12 @@ const page = () => {
                 <div className="relative z-10 h-full flex items-end">
                     <div className="w-full px-4 sm:px-6 lg:px-8 pb-8 md:pb-12">
                         <div className="max-w-7xl mx-auto">
-                            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4">
-                                Meet Rivercom 911's Operations Center Manager
+                            <h1 className="text-lg font-semibold">
+                                According to Rivercom 911 and Chelan County Prosecutors
                             </h1>
+                            <h1 className="text-4xl">RIVERCOM 911 OPERATION MANAGER..</h1>
+                            <h2>..just happen to have time on 4th of July to run off pick us up and take us to his PERSONAL home....</h2>
+                            <h3 className="text-lead tect-3xl">....and nobody thinks its weird he would even bvring callers to his personal home`? </h3>
                             <ul className="text-lg sm:text-xl md:text-2xl text-gray-200 max-w-2xl">
                                 <li>21 year Rivercom employee</li>
                                 <li>Worked his way up the ladder to senior op man where he still sits today</li>
@@ -81,4 +84,3 @@ const page = () => {
     );
 }
 
-export default page;

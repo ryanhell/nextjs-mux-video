@@ -21,9 +21,7 @@ const page = () => {
                 <div className="relative z-10 h-full flex items-end">
                     <div className="w-full px-4 sm:px-6 lg:px-8 pb-8 md:pb-12">
                         <div className="max-w-7xl mx-auto">
-                            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4">
-                                Sally Bagshaw was ordered here to hurry and leave so cops could come on the property.
-                            </h1>
+
                             <p className="quote">Where is Ryan? I cant let Ryan see me!"</p>
                             <ul className="text-lg sm:text-xl md:text-2xl text-gray-200 max-w-2xl">
                                 <li>Fellow at Harvard's Advanced Leadership Initiative</li>
@@ -38,7 +36,10 @@ const page = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-12">
                     <div className="lg:col-span-2 space-y-8">
                         <section>
-                            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-10">About</h2>
+                            <h1 className="text-4xl text-slate-500">
+                                Sally Bagshaw desperately flees crimescene.
+                            </h1>
+                            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-10">In what reality is it acceptable for Seattle's 20 year veteran CHIEF Prosecutor to flee a kidnap and extortion scene, where dispatchers impede a desperate and stranded motorist 911 duress call then speed them off to their personal residence and hold them promising an ambulance which ultimately never arrived.... gravely endangering both passengers, stealing their truck, then falsifying a set of seriuous criminal charges to disappear and discredit the man from reporting these bad actors</h2>
                             <div className="prose prose-lg max-w-none text-gray-700">
                                 <p className="text-xl leading-relaxed mb-10">
                                     I do not wish to say whether I think Mrs Bagshaw is a bad person or a good person but I will say that I have been trying to address this bizarre and deadly encounter which I cought her vacating the scene to allow the deputies to come and do whatever it was that they could not do while Sally Bagshaw was on the property. Seems outright sinister Im not gonna lie. Matter of fact; after over a year of really looking at the Bagshaw component from a hundred angles; I can not see a logical or practical reason she would have been there or yelled "I can not let Ryan see me" and i really dont get why she would have to vacate the property unless they planned to shoot me, after all that is what Operations Manager Jeremiah Johnson claimed, and what he remarked about on the evidence video, and I think it is actually noted in the transcipts with Rivercom 911 center as dispatch. notifed Jeremia that the. deputy was en route to arrest me and take me away. "Ryan needs to disappear for good not just go to jail or be taken away." </p>

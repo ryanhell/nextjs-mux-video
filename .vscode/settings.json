@@ -1,0 +1,8 @@
+{
+    "powermode.enabled": true,
+    "powermode.presets": "fireworks",
+    "powermode.combo.location": "editor",
+    "powermode.combo.counterEnabled": "show",
+    "terminal.integrated.fontFamily": "Victor Mono",
+    "terminal.integrated.fontLigatures.enabled": true
+}

@@ -257,13 +257,14 @@ h1 {
   }
   body {
     @apply bg-background text-[14px]  text-foreground;
+    margin-top: 60p;
   }
 }
 
 mux-player::part(center play button) {
   /* display: none; */
   /* background-color: rgba(248, 250, 252, 0.2);
-  transition: background-color 0.3s ease; */
+  transition: background-color 0.3s ease; *x/
 }
 .olcards,
 .olcards * {
