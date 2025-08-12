@@ -1,5 +1,6 @@
 import BagShawGallery from "@/components/BagShawGallery";
 import React from "react";
+import { TypographyH3 } from "@/components/ui/TypographyH3";
 
 const page = () => {
     return (
@@ -20,13 +21,12 @@ const page = () => {
 
                 <div className="relative z-10 h-full flex items-end">
                     <div className="w-full px-4 sm:px-6 lg:px-8 pb-8 md:pb-12">
-                        <div className="max-w-7xl mx-auto">
-
-                            <p className="quote">Where is Ryan? I cant let Ryan see me!"</p>
-                            <ul className="text-lg sm:text-xl md:text-2xl text-gray-200 max-w-2xl">
+                        <div className="max-w-7xl mx-auto bg-red-600">
+                            <h2 className="TypographyH3">VIP Flees Back Exit And is Ushered Away As Deputies Wait...</h2>
+                            <ul className="TypographyH3">
                                 <li>Fellow at Harvard's Advanced Leadership Initiative</li>
-                                <li>Two term city council woman</li>
-                                <li>13 Year King County Prosecutor and 8 of those years as Chief Civil Prosecutor </li>
+                                <li>Two term city council Woman</li>
+                                <li>13 Year King County CHIEF Prosecutor and 8 of those years as Chief Civil Prosecutor</li>
                             </ul>
                         </div>
                     </div>
@@ -35,13 +35,26 @@ const page = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 lg:py-20">
                 <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-12">
                     <div className="lg:col-span-2 space-y-8">
-                        <section>
-                            <h1 className="text-4xl text-slate-500">
-                                Sally Bagshaw desperately flees crimescene.
+                        <section className="bg-black">
+                            <h2 className="text-slate-100">Where is Ryan? I cant let Ryan see me!"</h2>
+                            <ul className="">
+                                <li>
+                                    ....former 20 year CHIEF king County / Seattle Prosecuting Attorney..
+                                </li>
+                                <li>
+                                    ...and later 2 term SEATTLE CITY COUNSEL WOMAN..
+                                </li>
+                            </ul>
+
+                            <h2 className="text-6xl text-slate-50">....former 20 year CHIEF king County / Seattle Prosecuting Attorney..</h2>
+                            <h4 className="text-3xl">...and later 2 term SEATTLE CITY COUNSEL WOMAN..</h4>
+                            <h3 className="text-3xl">...Lifelong HARVARD fellow</h3>
+                            <h1 className="text-4xl text-slate-100">
+                                SALLY BAGSHAW....caught on film desperately fleeing a crimescene where Chelan Deputies were called in to eliminate a witness.
                             </h1>
-                            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-10">In what reality is it acceptable for Seattle's 20 year veteran CHIEF Prosecutor to flee a kidnap and extortion scene, where dispatchers impede a desperate and stranded motorist 911 duress call then speed them off to their personal residence and hold them promising an ambulance which ultimately never arrived.... gravely endangering both passengers, stealing their truck, then falsifying a set of seriuous criminal charges to disappear and discredit the man from reporting these bad actors</h2>
-                            <div className="prose prose-lg max-w-none text-gray-700">
-                                <p className="text-xl leading-relaxed mb-10">
+                            <p className="text-xl leading-relaxed mb-10">...after dispatchers impede a desperate and stranded motorist 911 duress call then speed them off to their personal residence and hold them promising an ambulance which ultimately never arrived.... gravely endangering both passengers, stealing their truck, then falsifying a set of seriuous criminal charges to disappear and discredit the man from reporting these bad actors</p>
+                            <div className="prose prose-lg max-w-none">
+                                <p className="text-xl leading-relaxed mb-10 text-blue-200">
                                     I do not wish to say whether I think Mrs Bagshaw is a bad person or a good person but I will say that I have been trying to address this bizarre and deadly encounter which I cought her vacating the scene to allow the deputies to come and do whatever it was that they could not do while Sally Bagshaw was on the property. Seems outright sinister Im not gonna lie. Matter of fact; after over a year of really looking at the Bagshaw component from a hundred angles; I can not see a logical or practical reason she would have been there or yelled "I can not let Ryan see me" and i really dont get why she would have to vacate the property unless they planned to shoot me, after all that is what Operations Manager Jeremiah Johnson claimed, and what he remarked about on the evidence video, and I think it is actually noted in the transcipts with Rivercom 911 center as dispatch. notifed Jeremia that the. deputy was en route to arrest me and take me away. "Ryan needs to disappear for good not just go to jail or be taken away." </p>
                                 <BagShawGallery />
                                 <p className="leading-relaxed mb-6">
@@ -58,7 +71,7 @@ const page = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

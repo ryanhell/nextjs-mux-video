@@ -1,5 +1,5 @@
 {
-    "powermode.enabled": true,
+    "powermode.enabled": false,
     "powermode.presets": "fireworks",
     "powermode.combo.location": "editor",
     "powermode.combo.counterEnabled": "show",

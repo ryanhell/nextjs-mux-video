@@ -4,11 +4,21 @@ import {
   VideoIcon,
   FileVideo,
   Brain,
-  Activity
+  Activity,
 } from "lucide-react";
 
 export const navItems = [
-   {
+  {
+    id: 1,
+    name: "Rivercom 911",
+    path: "/911Calls",
+    icon: {
+      name: "Activity",
+      classes: "h-6 w-6",
+      icon: Activity,
+    },
+  },
+  {
     id: 2,
     name: "Tampered Evidence Videos",
     path: "/videos",
@@ -20,7 +30,7 @@ export const navItems = [
   },
 
   {
-    id: 4,
+    id: 3,
     name: "Sally Bagshaw",
     path: "/SallyBagshaw",
     icon: {
@@ -30,11 +40,21 @@ export const navItems = [
     },
   },
   {
-    id: 5,
+    id: 4,
     name: "Rivercom 911 Operation Manager",
     path: "/JeremiahJohnson",
     icon: {
       name: "activity",
+      classes: "h-6 w-6",
+      icon: Activity,
+    },
+  },
+  {
+    id: 5,
+    name: "My Bio",
+    path: "/aboutRyan",
+    icon: {
+      name: "Activity",
       classes: "h-6 w-6",
       icon: Activity,
     },
