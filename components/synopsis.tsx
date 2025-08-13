@@ -1,0 +1,29 @@
+import Link from "next/link";
+import TailwindCSS from "TailwindCSS";;
+
+export default function Synopsis() {
+    return (
+        <>
+            <div className="box shadow 2xl">
+                <ul>
+                    <li>Washington State 911 Rules @ Washington Emergency Management<br></br>
+                        <Link href="https://mil.wa.gov/e911" target="_blank">https://mil.wa.gov/e911</Link>
+                    </li>
+                    <li>
+                        Multiple Federal and State guidelines clearly PROHIBIT the use of any 911 system for anything besides explicit threat to life and limb or significant loss of property etc. A roadside repair is an absurd excuse to lie as a reason the Manager of Rivercom left work July 4th, went to pick people up, and take them to his personal home where Sally Bagshaw just happened to be and was ordered by Jeremiah to FLEE.
+                    </li>
+                </ul>
+                <div className="box">
+                    <h3>This is clearly not rookie mistakes. And its clearly not a frivolous loophole or minor singular error made.The undeniable violations of Federal and State 911 Statutes, Frameworks and Policy are too much for even an entire state of corrupt leadership to deny. Its out there and its easy to see. Yet nobody will engage while I am being hauled away to a jail wih a lot of suspiious fentynal overdoses etc.</h3>
+
+                </div>
+
+                <div className="box mb-28">
+                    <p className="text-gray-900 leading-none">I need legal help fast. </p>
+                    <p className="text-white">My life is in grave danger. As a whistrleblower I have laid it on the line to inform my fellow citizens of things the media wouldnt or couldnt. And I am in deseprate need of legal aid asap.</p>
+                </div>
+            </div>
+        </>
+    );
+}
+

@@ -21,12 +21,15 @@ const page = () => {
 
                 <div className="relative z-10 h-full flex items-end">
                     <div className="w-full px-4 sm:px-6 lg:px-8 pb-8 md:pb-12">
-                        <div className="max-w-7xl mx-auto bg-red-600">
-                            <h2 className="TypographyH3">VIP Flees Back Exit And is Ushered Away As Deputies Wait...</h2>
-                            <ul className="TypographyH3">
-                                <li>Fellow at Harvard's Advanced Leadership Initiative</li>
-                                <li>Two term city council Woman</li>
-                                <li>13 Year King County CHIEF Prosecutor and 8 of those years as Chief Civil Prosecutor</li>
+                        <div className="max-w-7xl bg-red-700 mx-8 px-16 opacity-66">
+                            <h4 className="TypographyH3 text-lg text-white">Seattle Elitist Politico Caught Fleeing Failed
+                                PLOT TO MURDER ME after dispatchers kidnap and assault me then SWATTED me at a isolated desert canyon home belonging to Rivercom 911 Operation Manager..</h4>
+                            <p className="text-white">AND THAT IS NOT HYPERBOLE</p>
+                            <h4 className="text-card">Meet Sally Bagshaw!</h4>
+                            <ul className="text-lg text-white px-5">
+                                <li>~ Active "Fellow at Harvard's Advanced Leadership Initiative"</li>
+                                <li>~ Former Two term city council Woman and valiant protector of ED MURRAY</li>
+                                <li>~ Former 13 Year King County CHIEF Prosecutor and 8 of those years as Chief Civil Prosecutor</li>
                             </ul>
                         </div>
                     </div>
@@ -36,8 +39,8 @@ const page = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-12">
                     <div className="lg:col-span-2 space-y-8">
                         <section className="bg-black">
-                            <h2 className="text-slate-100">Where is Ryan? I cant let Ryan see me!"</h2>
-                            <ul className="">
+                            <h2 className="text-white">Where is Ryan? I cant let Ryan see me!"</h2>
+                            <ul className="text-white">
                                 <li>
                                     ....former 20 year CHIEF king County / Seattle Prosecuting Attorney..
                                 </li>
@@ -46,7 +49,7 @@ const page = () => {
                                 </li>
                             </ul>
 
-                            <h2 className="text-6xl text-slate-50">....former 20 year CHIEF king County / Seattle Prosecuting Attorney..</h2>
+                            <h2 className="text-6xl text-white">....former 20 year CHIEF king County / Seattle Prosecuting Attorney..</h2>
                             <h4 className="text-3xl">...and later 2 term SEATTLE CITY COUNSEL WOMAN..</h4>
                             <h3 className="text-3xl">...Lifelong HARVARD fellow</h3>
                             <h1 className="text-4xl text-slate-100">
