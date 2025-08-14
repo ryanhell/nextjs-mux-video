@@ -5,6 +5,7 @@ import {
   FileVideo,
   Brain,
   Activity,
+  ScanEye,
 } from "lucide-react";
 
 export const navItems = [
@@ -28,7 +29,6 @@ export const navItems = [
       icon: FileVideo,
     },
   },
-
   {
     id: 3,
     name: "Sally Bagshaw",
@@ -57,6 +57,26 @@ export const navItems = [
       name: "Activity",
       classes: "h-6 w-6",
       icon: Activity,
+    },
+  },
+  {
+    id: 6,
+    name: "Files",
+    path: "/Downloads",
+    icon: {
+      name: "ScanEye",
+      classes: "h-6 w-6",
+      icon: ScanEye,
+    },
+  },
+  {
+    id: 7,
+    name: "Coluckum Pics",
+    path: "/Downloads",
+    icon: {
+      name: "ScanEye",
+      classes: "h-6 w-6",
+      icon: ScanEye,
     },
   },
 ];

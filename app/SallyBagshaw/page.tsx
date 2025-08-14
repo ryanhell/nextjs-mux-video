@@ -1,6 +1,5 @@
 import BagShawGallery from "@/components/BagShawGallery";
 import React from "react";
-import { TypographyH3 } from "@/components/ui/TypographyH3";
 
 const page = () => {
     return (
