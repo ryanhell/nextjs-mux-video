@@ -313,3 +313,20 @@
     "colors.gray.900"
   ); /* Example: changing text color on selection */
 }
+h1 {
+  font-size: 1.5rem; /* Default for smaller screens */
+}
+
+@media (min-width: 768px) {
+  /* For screens 768px and wider */
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* For screens 1024px and wider */
+  h1 {
+    font-size: 4rem;
+  }
+}

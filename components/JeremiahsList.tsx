@@ -5,7 +5,8 @@ export default function () {
       </div>
       <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
         <div className="mb-8">
-          <h3>An Op Man Knows Better</h3>
+          <h3> Taxpayers Payed Tens of Millions ...</h3>
+          <p className="text-2xl?">For compliance training, </p>
           <ul className="text-xl leading-relaxed list-disc list-inside">
             <li> Jeremiah's role was essentially required to access Rivercom assets used to kidnap my party upon our duress.</li>
             <li> The incident was genuinely wholesome in that the crisis which initiated our need was not permiated by these bad actors, as far as I can tell</li>

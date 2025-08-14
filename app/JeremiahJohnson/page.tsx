@@ -1,7 +1,7 @@
 import React from "react";
 import Image from 'next/image';
 import JeremiahsList from "@/components/JeremiahsList";
-
+import { Card, CardHeader, CardContent, CardDescription, CardFooter, CardTitle, CardAction } from "@/components/ui/card";
 
 export default function page() {
     return (
@@ -43,7 +43,40 @@ export default function page() {
                             <div className="prose prose-lg max-w-none text-gray-700">
                                 <p className="text-xl leading-relaxed mb-6">
                                     What seems apparent to me immeidately upon meeting Jeremiah Johnon, who is a long tenured Rivercom member and most notable serves as their Operations Center Manager. I was trying to verify the guys real name bevause at this point they have tamopered with or falsified almost every piece of evidence and character and so forth. FOR EXAMPLE; the courts are saying Rivercom 911 now claims Jenna, the female with Jeremiah when he picked us up; the same female who punched me and also made lewd comments accusing me of vulgar things I had not said nor ever wanted to think. I actually watched this womam, with Jeremiah, walk into the Rivercom 911 center secure door at the Chelan County Court house the day I was realeased from jail. I seen her swipe an access card then walk inside. Without a doubt. So someone is lying here." </p>
-                                <h1>Rivercom 911 Operations Manager Attempts to Swat Witness Who He Failed To Extort After Kidnapping and Interfering With a Duress Call for a Diasabled Person in Grave Medical Need</h1>
+                                <Card className="w-full text-center shadow-none dark py-4">
+                                    <CardHeader>
+                                        <CardTitle>Jeremiah, AKA {`'`}Rivercom 911 Operations Manager{`'`}.</CardTitle>
+                                        <CardDescription className="text-left text-1xl"></CardDescription>
+
+                                    </CardHeader>
+                                    <CardContent>
+                                        <p className="text-2xl text-blue-100 text-left indent-7">This was a conspiracy to commit cold blooded murder. Likely on a variety of accounts, however; Jeremiah attempted to swat me to silence me after I failed to fight upon hours of provocations, assaults, harassment, insults, and terror, and me saying he would be reported promptly to state and federal authorities. <br></br>Jeremiah was panic stricken when I presented the short list of major federal and state felonies he was committing and the fact that he dragged us into this while my passenger is a legally disabled woman. We are law abiding citizens in urgent duress and I will pursue legal actions. Jeremiah then made a series of comments and frantic phone calls to attempt to have me shot by Chelan County Deputy buddies in order to silence me.</p>
+
+                                        <p className="text-2xl lead">This is established by video evidence mentioned above as well as dispatch notes where jeremiah informed Rivercom base that "Ryan doesnt just need to go to jail, he needs to disappear for good."</p>
+                                        <blockquote className="mt-6 border-l-2 pl-6 text-3xl *:italic">
+                                            "Ryan doesnt just need to go to jail, he needs to disappear for good."
+                                        </blockquote>
+                                    </CardContent>
+                                    <CardContent className="left text-lead">
+                                        <blockquote className="mt-6 border-l-2 pl-6 text-3xl *:italic">
+                                            "When {`(`}Jeremiah{`'`}s deputy friend{`)`} gets here, it'll be over real quick. Whatever happens it will be messy but it will be over real quick"
+                                        </blockquote>
+                                    </CardContent>
+                                    <CardFooter>
+                                        <p>I'm sorry, but the only threats or disturbing commments visable in ANY of the documents or videos are those made by Jeremiah and his wife Jenna. </p>
+                                    </CardFooter>
+                                </Card>
+                                <Card className="bg bg-red-900 to bg-blend-color-burn text-white">
+                                    <CardHeader>
+                                        <p className="text-4xl text-shadow-border">Not a good luck, but not a lie at all!</p>
+                                    </CardHeader>
+                                    <CardContent>
+
+                                        <h3 className="text-2xl italic lead">"Rivercom 911 Operations Manager Attempts to Swat Witness After Failing To Extort Him While Interfering With a 911 Duress Call for a Diasabled Person in Valid, Grave Medical Need"</h3>
+                                    </CardContent>
+                                </Card>
+
+
                                 <p className="leading-relaxed mb-6">
                                     That headline sound too dramatic? Well its precisely what happened.
                                     At the end of the day Jeremiah made a massive mistake and committed a signifanctly more serious set of crimes than anyone wants to talk about.
@@ -74,13 +107,15 @@ export default function page() {
                                 </p>
                             </div>
                         </section>
-
-
-
                     </div>
+
+
+
+
                 </div>
             </div>
-        </div>
+        </div >
+
     );
 }
 
