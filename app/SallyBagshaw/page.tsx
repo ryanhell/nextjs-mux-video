@@ -2,6 +2,8 @@ import BagShawGallery from "@/components/BagShawGallery";
 import React from "react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 const page = () => {
     return (
@@ -9,27 +11,19 @@ const page = () => {
 
             <div className="relative h-96 md:h-[500px] lg:h-[600px] overflow-hidden">
 
-                <div className="absolute inset-0">
-                    <img
-                        src="/ryansPhotos/IMG_6450 2.JPG"
+                <div style={{ width: '100%', height: '100%', position: 'relative' }}>
+                    <Image
                         alt="Sally Bagshaw flees crime scene hit and run after failed kidnap extortion plot interfered with medical 911 call Rivercom 911"
-                        className="w-full h-full object-cover object-center"
+                        src="/ryansPhotos/IMG_6450 2.JPG"
+                        layout="fill"
+                        objectFit="cover" // or 'contain', 'none', etc.
                     />
-
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
-                </div>
-
-
-                <div className="relative z-10 h-full flex items-end">
-                    <div className="w-full px-4 sm:px-6 lg:px-8 pb-8 md:pb-12">
-                        <div className="max-w-7xl bg-red-700 mx-8 px-16 opacity-66">
-                            <h4 className="text-3xl text-white">Seattle favorite elitist & former chief prosecutor is seen being ordered to vacate the scene as Deputies arrive to silence the victim in a failed kidnapping and murder plot in Chelan County.</h4>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 lg:py-20">
-
+                <Card className="bg-black MD:max-w-2/3 mx-auto"><h4 className="text-3xl px-2 text-white mx-33">Seattle's most senior ranking former law lady; at the scene unbeknownst to us, and ordered to leave immediately because the deputies could not enter the property with her there. </h4>
+                </Card>
 
 
                 <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-12">
@@ -47,31 +41,35 @@ const page = () => {
                             </CardContent>
                         </Card>
                         <section className="bocontainer-wrapper section-soft flex-1 md:py-12x">
-                            <h2 className="text-white">Seattle's beloved homeless advocate...has a new hobby. Wonder if she met the Decker daughters?</h2>
-                            <ul className="text-white">
-                                <li>
-                                    ....former 20 year CHIEF king County / Seattle Prosecuting Attorney..
-                                </li>
-                                <li>
-                                    ...and later 2 term SEATTLE CITY COUNSEL WOMAN..
-                                </li>
-                                <li>
-                                    ...ridged snd aggressive poponent for Ed Murray until the bitter end. Violently vindictive enough to gravely endanger my passenger who was certifiably DYING and in need of ambulatory care.
-                                </li>
-                                <li>
-                                    ..In fact Bagshaw was fleeing the scene after ordering Jeremiah to call in their Chelan deputy to murder me and claim I resisted. Absolute SCUM and FILTH.
-                                </li>
-                                <li>
-                                    FOLKS: this isnt their first trip om this ride.
-                                </li>
-                            </ul>
+                            <Card className="max-w-9/12 tables px-12">
+                                <h2 className="text-white font-black">An Official Harvard Fellow, You Dont Say?</h2>
+                                <ul className="text-white">
+                                    <li>
+                                        12 year Chief Prosecuting Attorney in Seattle / King County.
+                                    </li>
+                                    <li>
+                                        Two Term Seattle Council..
+                                    </li>
+                                    <li>
+                                        Aggressive proponent for disgraced former Seattle mayor Ed Murray who I myself was key in helping  Seattle Times to locate Murray's sealed court archives proving he molesting a foster son.
+                                    </li>
+                                    <li>
+                                        Council woman at the time when a significant accuser of Murrays had settled a 1980's molestation case in 2017. That man Delvin Heckard was found diceased of a heroin, not fentynal, overdose in a hotel days later.
+                                    </li>
+                                    <li>
+                                        FOLKS: this isnt their first trip om this ride.
+                                    </li>
+                                </ul>
+                            </Card>
 
                             <h2 className="text-6xl text-white">....former 20 year CHIEF king County / Seattle Prosecuting Attorney..</h2>
                             <h4 className="text-3xl">...and later 2 term SEATTLE CITY COUNSEL WOMAN..</h4>
                             <h3 className="text-3xl">...Lifelong HARVARD fellow</h3>
                             <h1 className="text-4xl text-slate-300">
-                                SALLY BAGSHAW....caught on film desperately fleeing a crimescene where Chelan Deputies were called in to eliminate a witness.
+                                SALLY BAGSHAW....caught on film desperately fleeing a crimescene where Chelan Deputies were called in to eliminate a witness, that witness being me.
                             </h1>
+                            <p className="lead">How desperate? I stepped close enough to cause her to strike me, slowly but she had to hit me to leave. For a woman of her background and knowledge she had to have been GRAVEKLY DESPERATE to leave before the cops came</p>"
+
                             <p className="text-xl leading-relaxed mb-10">...after dispatchers impede a desperate and stranded motorist 911 duress call then speed them off to their personal residence and hold them promising an ambulance which ultimately never arrived.... gravely endangering both passengers, stealing their truck, then falsifying a set of seriuous criminal charges to disappear and discredit the man from reporting these bad actors</p>
                             <div className="prose prose-lg max-w-none">
                                 <p className="text-xl leading-relaxed mb-10 text-blue-100">

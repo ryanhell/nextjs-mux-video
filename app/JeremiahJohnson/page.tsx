@@ -7,14 +7,13 @@ export default function page() {
     return (
         <div className="tables min-h-screen" >
             <div className="relative h-96 md:h-[500px] lg:h-[600px] overflow-hidden">
-                <div className="absolute inset-0">
+                <div style={{ width: '100%', height: '100%', position: 'relative' }}>
                     <Image
+                        alt="Rivercom 911 Operation Manager Jeremiah Johnson"
                         src="/ryansPhotos/Jeremiah/jeremiah_1.jpg"
-                        alt="Jeremiah of Rivercom 911"
                         layout="fill"
-                        objectFit="cover"
+                        objectFit="cover" // or 'contain', 'none', etc.
                     />
-
                 </div>
                 <div className="relative z-10 h-full flex items-end">
                     <div className="w-full px-4 sm:px-6 lg:px-8 pb-8 md:pb-12">
