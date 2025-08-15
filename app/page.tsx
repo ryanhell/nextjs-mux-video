@@ -5,8 +5,8 @@ import { Card, CardHeader, CardContent, CardTitle, CardDescription } from "@/com
 
 export default function Home() {
   return (
-    <div className="py-6">
-      <h2 className="text-2xl">Dificult complex case with many twist....designed to confuse...by a 20 year senior CHIEF prosecutor {`(`}retired but still pulling shit apparently{`)`}</h2>
+    <div className="container mx-auto">
+      <p className="text-2xl">Dificult complex case with many twist....its designed intendehaust and overwhelm an already weary and underrepresented defendent. d to ex...by a 20 year senior CHIEF prosecutor {`(`}retired but still pulling shit apparently{`)`}</p>
       <h3 className="text-4xl">This incident was not just sketchy dispatchers and tow mutts trying to get over on tourist. </h3>
       <p className="text-2xl">It was kidnapping with a clear conspiracy to commit murder while interfering in life threatening medical duress call to 911. I have not violated any laws or rules or even decency expectations of any sort. </p>
       <p className="text-3xl">The sheer volume of discrepencioes and unaddressed detaails like what the hell was a retired former 20 year CHIEF prosecutor from Seattle doing runnin out the back door so to speak, of these scumbag corrupt city workers home?</p>

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from 'next/image';
 import JeremiahsList from "@/components/JeremiahsList";
-import { Card, CardHeader, CardContent, CardDescription, CardFooter, CardTitle, CardAction } from "@/components/ui/card";
+import { Card, CardHeader, CardContent, CardDescription, CardFooter, CardTitle } from "@/components/ui/card";
 
 export default function page() {
     return (

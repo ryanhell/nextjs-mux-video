@@ -1,9 +1,10 @@
 import BagShawGallery from "@/components/BagShawGallery";
 import React from "react";
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 
 const page = () => {
     return (
-        <div className="min-h-screen bg-gray-50">
+        <div className="min-h-screen bg-gradient-to-r from-yellow-200 via-yellow-300 to-yellow-400">
 
             <div className="relative h-96 md:h-[500px] lg:h-[600px] overflow-hidden">
 
@@ -21,30 +22,46 @@ const page = () => {
                 <div className="relative z-10 h-full flex items-end">
                     <div className="w-full px-4 sm:px-6 lg:px-8 pb-8 md:pb-12">
                         <div className="max-w-7xl bg-red-700 mx-8 px-16 opacity-66">
-                            <h4 className="TypographyH3 text-lg text-white">Seattle Elitist Politico Caught Fleeing Failed
-                                PLOT TO MURDER ME after dispatchers kidnap and assault me then SWATTED me at a isolated desert canyon home belonging to Rivercom 911 Operation Manager..</h4>
-                            <p className="text-white">AND THAT IS NOT HYPERBOLE</p>
-                            <h4 className="text-card">Meet Sally Bagshaw!</h4>
-                            <ul className="text-lg text-white px-5">
-                                <li>~ Active "Fellow at Harvard's Advanced Leadership Initiative"</li>
-                                <li>~ Former Two term city council Woman and valiant protector of ED MURRAY</li>
-                                <li>~ Former 13 Year King County CHIEF Prosecutor and 8 of those years as Chief Civil Prosecutor</li>
-                            </ul>
+                            <h4 className="text-3xl text-white">Seattle favorite elitist & former chief prosecutor is seen being ordered to vacate the scene as Deputies arrive to silence the victim in a failed kidnapping and murder plot in Chelan County.</h4>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 lg:py-20">
+
+
+
                 <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-12">
                     <div className="lg:col-span-2 space-y-8">
-                        <section className="bg-black">
-                            <h2 className="text-white">Where is Ryan? I cant let Ryan see me!"</h2>
+                        <Card className="shadow-2xl">
+                            <CardContent className="shadow-2xl">
+
+                                <CardTitle>
+                                    <blockquote className="shadowmt-6 border-l-2 pl-6 text-3xl *:italic">
+                                        "Where is Ryan? I can't let Ryan see me!"
+                                    </blockquote>
+                                    <blockquote className="author"> Sally Bagshaw
+                                    </blockquote>
+                                </CardTitle>
+                            </CardContent>
+                        </Card>
+                        <section className="bocontainer-wrapper section-soft flex-1 md:py-12x">
+                            <h2 className="text-white">Seattle's beloved homeless advocate...has a new hobby. Wonder if she met the Decker daughters?</h2>
                             <ul className="text-white">
                                 <li>
                                     ....former 20 year CHIEF king County / Seattle Prosecuting Attorney..
                                 </li>
                                 <li>
                                     ...and later 2 term SEATTLE CITY COUNSEL WOMAN..
+                                </li>
+                                <li>
+                                    ...ridged snd aggressive poponent for Ed Murray until the bitter end. Violently vindictive enough to gravely endanger my passenger who was certifiably DYING and in need of ambulatory care.
+                                </li>
+                                <li>
+                                    ..In fact Bagshaw was fleeing the scene after ordering Jeremiah to call in their Chelan deputy to murder me and claim I resisted. Absolute SCUM and FILTH.
+                                </li>
+                                <li>
+                                    FOLKS: this isnt their first trip om this ride.
                                 </li>
                             </ul>
 
