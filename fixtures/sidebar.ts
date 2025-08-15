@@ -6,6 +6,7 @@ import {
   Brain,
   Activity,
   ScanEye,
+  Antenna,
 } from "lucide-react";
 
 export const navItems = [
@@ -77,6 +78,16 @@ export const navItems = [
       name: "ScanEye",
       classes: "h-6 w-6",
       icon: ScanEye,
+    },
+  },
+  {
+    id: 8,
+    name: "CAD Files",
+    path: "/CADFiles",
+    icon: {
+      name: "Antenna",
+      classes: "h-6 w-6",
+      icon: Antenna,
     },
   },
 ];

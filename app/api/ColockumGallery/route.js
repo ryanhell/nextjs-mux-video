@@ -5,15 +5,15 @@ import path from 'path';
 export async function GET() {
   try {
     const publicDir = path.join(process.cwd(), 'public');
-    const galleryDir = path.join(publicDir, 'Chelan/July4_2024'); // Changed from 'gallery' to 'ryansPhotos'
+    const galleryDir2 = path.join(publicDir, 'Chelan/July4_2024'); // Changed from 'gallery' to 'ryansPhotos'
     
     // Check if ryansPhotos directory exists
-    if (!fs.existsSync(galleryDir)) {
+    if (!fs.existsSync(galleryDir2)) {
       return NextResponse.json({ images: [] });
     }
 
     // Read all files from the ryansPhotos directory
-    const files = fs.readdirSync(galleryDir);
+    const files = fs.readdirSync(galleryDir2);
     
     // Filter for image files
     const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg'];
@@ -24,7 +24,7 @@ export async function GET() {
       })
       .map(file => ({
         name: file,
-        src: `/Chelan/july4_2024/${file}`, // Changed from '/gallery/' to '/ryansPhotos/'
+        src: `Chelan/july4_2024/${file}`, // Changed from '/gallery/' to '/ryansPhotos/'
         alt: path.parse(file).name
       }));
 

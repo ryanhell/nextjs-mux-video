@@ -1,12 +1,12 @@
 import React from "react";
 import Image from 'next/image';
 import JeremiahsList from "@/components/JeremiahsList";
-import ColuckumJukly4_2024images from "@/components/ColuckumJukly4_2024images";
+import ColockumGallery from "@/components/ColockumGallery";
 
 export default function page() {
     return (
         <div className="flex">
-            <ColuckumJukly4_2024images />
+            <ColockumGallery />
         </div>
     );
 }

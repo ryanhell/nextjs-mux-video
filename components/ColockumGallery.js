@@ -14,7 +14,7 @@ export default function Gallery() {
 
     const fetchImages = async () => {
         try {
-            const response = await fetch('/api/ColockumGallery ');
+            const response = await fetch('/api/gallery');
 
             if (!response.ok) {
                 throw new Error('Failed to fetch images');
@@ -55,14 +55,10 @@ export default function Gallery() {
 
     return (
         <div className="container mx-auto px-4 py-8">
-            <h1 className="text-3xl font-bold text-center mb-8">July 3rd to 4th in Colockum Park</h1>
-            <h2>A vacation, innocent emergency then a desperate 911 call intercepted by criminal elemnents of Seattle government.</h2>
-            <p></p>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div className="content_bg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-9">
                 {images.map((image, index) => (
-                    <div key={index} className="group relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-                        <div className="relative aspect-square">
+                    <div key={index} className="group relative overflow-hidden rounded-lg  hover:shadow-xl transition-shadow duration-300 drop-shadow-2xl">
+                        <div className="relative aspect-square shadow">
                             <Image
                                 src={image.src}
                                 alt={image.alt}
