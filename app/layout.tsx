@@ -28,8 +28,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex min-h-screen h-screen flex-1  flex-row overflow-y-hidden `}
       >
-        <main className="flex-1   overflow-y-auto">
-          <div className="p-6  px-8  \flex-1 ">
+        <main className="flex-1 overflow-y-auto">
+          <div className="p-6 px-8 flex-1 ">
             <Header />
             <div className="">{children}</div>
           </div>
@@ -37,7 +37,7 @@ export default function RootLayout({
         <SidaBar className="order-first  overflow-y-auto" />
 
         <Toaster
-          className="bg-purple-darker text-light"
+          className="bg-red-200 text-light"
           position="top-right"
           duration={10000}
         />

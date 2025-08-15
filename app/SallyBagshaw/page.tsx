@@ -4,7 +4,7 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 
 const page = () => {
     return (
-        <div className="min-h-screen bg-gradient-to-r from-yellow-200 via-yellow-300 to-yellow-400">
+        <div className="min-h-screen bagshaw">
 
             <div className="relative h-96 md:h-[500px] lg:h-[600px] overflow-hidden">
 
@@ -73,10 +73,10 @@ const page = () => {
                             </h1>
                             <p className="text-xl leading-relaxed mb-10">...after dispatchers impede a desperate and stranded motorist 911 duress call then speed them off to their personal residence and hold them promising an ambulance which ultimately never arrived.... gravely endangering both passengers, stealing their truck, then falsifying a set of seriuous criminal charges to disappear and discredit the man from reporting these bad actors</p>
                             <div className="prose prose-lg max-w-none">
-                                <p className="text-xl leading-relaxed mb-10 text-blue-200">
+                                <p className="text-xl leading-relaxed mb-10 text-blue-100">
                                     I do not wish to say whether I think Mrs Bagshaw is a bad person or a good person but I will say that I have been trying to address this bizarre and deadly encounter which I cought her vacating the scene to allow the deputies to come and do whatever it was that they could not do while Sally Bagshaw was on the property. Seems outright sinister Im not gonna lie. Matter of fact; after over a year of really looking at the Bagshaw component from a hundred angles; I can not see a logical or practical reason she would have been there or yelled "I can not let Ryan see me" and i really dont get why she would have to vacate the property unless they planned to shoot me, after all that is what Operations Manager Jeremiah Johnson claimed, and what he remarked about on the evidence video, and I think it is actually noted in the transcipts with Rivercom 911 center as dispatch. notifed Jeremia that the. deputy was en route to arrest me and take me away. "Ryan needs to disappear for good not just go to jail or be taken away." </p>
                                 <BagShawGallery />
-                                <p className="leading-relaxed mb-6">
+                                <p className="leading-relaxed mb-6 text-2xl">
                                     I have never even heard of Sally Bagshaw but the minute I realized she was the mystery VIP who fled in Chelan County; I didnt have to dig deep to realize this all makes sense now. In 2017 had helped investigators located a sealed archive from Eugene Oregon where a cps judge ruled Ed Murray had molested his foster son. My wife was a Federal Officer; a TSO at Seatac and shortly after the Murray scandal peaked; my wife was robbed and more relivently, chased into a very busy and dangerous hiway while she waited for her bus to work. There was no secret made of the fact they did it; because the detective in Federal Way named Nolan, who called her in weeks later, asked her to bring me. He made snide remarks and gestures and was incredibly bold about letting me know it was inside. Towards the end he asked my wife whewre she was moving us as we had been planning to move for a while; and she said NYC, Nolan replied "oh yah what part?", my wife answered "Queens". Nolan then sneered and looked at me then said "tahts where Im from. I got family there still and he gives me a grin that might as well have been spitting in my face."
                                 </p>
                                 <p className="leading-relaxed mb-6">

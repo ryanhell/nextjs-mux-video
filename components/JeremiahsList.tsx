@@ -7,7 +7,7 @@ export default function () {
         <div className="mb-8">
           <h3> Taxpayers Payed Tens of Millions ...</h3>
           <p className="text-2xl?">For compliance training, </p>
-          <ul className="text-xl leading-relaxed list-disc list-inside">
+          <ul className="text-xl leading-relaxed list-dis">
             <li> Jeremiah's role was essentially required to access Rivercom assets used to kidnap my party upon our duress.</li>
             <li> The incident was genuinely wholesome in that the crisis which initiated our need was not permiated by these bad actors, as far as I can tell</li>
             <li> Jeremiah is a highly trained ADMINISTRATOR for a highly regulated 911 center: he knows better than anybody the severity of the crimes he voluntarily was engaged in.</li>

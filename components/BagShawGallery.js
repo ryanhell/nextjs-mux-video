@@ -59,10 +59,10 @@ export default function Gallery() {
     <h2>"It doesnt matter you have to go now the deputies are waiting at the end of the road they wont come on the property while you are here, you have to go now!"</h2>
     <p>Sally Bagshaw is who we think this lady was. She had been ordered to flee the property because for some odd reason the sheriffs deputies would not come on the property until she was off of it. After the officers placed me in the squad car Jeremiah the dispatcher who picked up us, extorted me then threatened shoot me and stole my truck then created thus false charge and attempted to swat me by calling a deputy buddy and ortdering him to make me disappear for good and saying that it was urgent; well Jewremiah is standing at the cops suv I am in and I distinctly heard Jeremiah asking to deputy in a frantic voice where this lady was did they see her and deputy said yes. Deouty didnt sound as enthusiastic and jermeiah you could tell had done these sorts of things many times before. </p>
       
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="content_bg grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-9">
         {images.map((image, index) => (
-          <div key={index} className="group relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-            <div className="relative aspect-square">
+          <div key={index} className="group relative overflow-hidden rounded-lg  hover:shadow-xl transition-shadow duration-300 drop-shadow-2xl">
+            <div className="relative aspect-square shadow">
               <Image
                 src={image.src}
                 alt={image.alt}

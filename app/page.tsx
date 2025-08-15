@@ -2,12 +2,45 @@ import Background from "@/components/Background";
 import Image from "next/image";
 import CAD1 from "@/components/CAD1";
 import { Card, CardHeader, CardContent, CardTitle, CardDescription } from "@/components/ui/card";
+import PDFGallery from '@/components/PDFGallery';
+
 
 export default function Home() {
   return (
-    <div className="container mx-auto">
-      <p className="text-2xl">Dificult complex case with many twist....its designed intendehaust and overwhelm an already weary and underrepresented defendent. d to ex...by a 20 year senior CHIEF prosecutor {`(`}retired but still pulling shit apparently{`)`}</p>
-      <h3 className="text-4xl">This incident was not just sketchy dispatchers and tow mutts trying to get over on tourist. </h3>
+    <div className="container tables mx-auto">
+      <Card className="md:mx-33 px-12 mb-33">
+        <h1 className="text-sm lead">Chelan County Washington State</h1>
+        <h3>Supperior Court Case # 2410025304</h3>
+        <h2>Ryan Hell Defendent</h2>
+        <p>Rivercom 911 a private 911 company largely involved and at stake</p>
+        <p className="text-2xl">On a isolated gravel wagon road in desert like conditions, July 4th outside of cell service; I had a flat tire and a disabled diabetic passenger who was slipping into diabetic coma quickly with no insulin water or food on hand for over 18 hours as we struggled to get my truck out.</p>
+        <p className="text-2xl">My legitimate 911 call for ambulance or emergency medical assistance.. coldly refused. LAUGHED at. Instead we were kidnapped by false promise of hope for survival, taken to the personal home of the 911 centers Operations Manager, where they seperated and held for over 3 hours while denying us medical aid.</p>
+        <p className="text-2xl">They sent another party to steal my truck off the mountain bringing their own spare tire then demanded 1000 dollars in cash only payment and denying us access to using a phone or each other while taking turns yelling and berating me, assaulted me, and claimed they now owned mytruck and would shoot me if I did not leave their property. Neither of us were allowed to call family or loved ones while they orchastrated a SWAT type event to try to eliminate me after I threatened to report them.</p>
+        <p className="text-2xl">
+          I am fraudulantly charged with verbal threats to kill, the charges being used as a means to silence me or disappear me I fear. The Private PSAP who are caught red handed hsing their PSAP and our emergency circumstances were aiding as it was discovered; a NON-authority person, former chief prosecutor and politico who utilized the unscrupulous 911 system and staff for her political attack with near deadly seriousness. This woman is believed to have been involved in another fatal cover up involving Devon Heckard a former child rape victim of the mayor she served later as city council i</p>
+      </Card>
+      <Card className="md:mx-44 px-12">
+        <ul className="text-xl list-inside list-decimal">
+          <li>Tampered Dash Cam Footage Using AI</li>
+          <li>Blocked me then destroyed my 911 audio</li>
+          <li>Altered 911 CAD Files</li>
+          <li>Denied Ambulance to disabled person in urgent need</li>
+          <li>Assaulted someone during medical duress </li>
+          <li>Kidnap by false pretence promising ambulance would come to the house</li>
+          <li>Interfered with our cell phones cutting us off from calling for help</li>
+          <li>Stole my truck, drove it over 4 miles damaging it and performing work without my knowledge or my consent.</li>
+          <li>Extortion for demanding 1000 dollars cash for said unauthorized repairs as they have called these.</li>
+          <li>Fraud since the repairs were not even needed as the truck was let go to drive to Seattle that day after putting MY wheel back on and driving it all it needed was air as I had said since the beginning.</li>
+          <li> False statements made by deputies who I witnessed in video being informed by the tow op on scene that A I owed him no money. B He never towed my truck, he drove it.</li>
+        </ul>
+      </Card>
+      <p className="text-2xl">However; there is still a substanctial amount of incredibly damnding evidence and it is pretty obvious these officials didnt merely make a bad judgement call; they were engaged in straight up nefarious activities and targeted me, a law abiding legal citixen while trying to save a womans life and do the right thing. Theyve called themselves GOOD SAMARITANS over and over. Keep in mind its on video they DEMANDED 1000 cash for the tire they surprised me with, and when that tow driver backed out and stopped, the two dispatchers started saying I owed them now. For saving our life. They also acknowledge the passenger was near death.</p>
+      <p>Yet strangely enought hey never list the female in any of the police reports or incident logs, oir CAD files. Being that she was the ONLY reason I called and she was rhe entire reason for needed aid car.. its not right.</p>
+
+
+      <p className="text-2xl">Dificult complex case with many twist....its been intentionally designed to overwhelm an already weary and underrepresented defendent...done by a 20 year senior CHIEF prosecutor {`(`}retired but still pulling shameful shit apparently{`)`}</p>
+      <h3 className="text-4xl">This incident was not just sketchy dispatchers and tow mutts trying to get over on tourist. </
+      h3>
       <p className="text-2xl">It was kidnapping with a clear conspiracy to commit murder while interfering in life threatening medical duress call to 911. I have not violated any laws or rules or even decency expectations of any sort. </p>
       <p className="text-3xl">The sheer volume of discrepencioes and unaddressed detaails like what the hell was a retired former 20 year CHIEF prosecutor from Seattle doing runnin out the back door so to speak, of these scumbag corrupt city workers home?</p>
 
@@ -36,7 +69,7 @@ export default function Home() {
             <h3 className="text-2xl">Taunting Me, or Throwing Me a Bone?"</h3>
             <p className="text-1xl">After nearly an entire YEAR, I was finally told I could watch but not take home Jenas videos. I was invited to assigned counsels office to watch a copy of un-tampered video which clearly showed deputy asking tow operatopr for impound bill and the tow operator said Ryan doesnt owe me anything. He was asked about impound, tow, and the services / parts rendered to "fix" my truck and the tow operator adimently and sternly informed the deputy that he was not owed ANYTHING by me and he had no interest in my truck. Yet that deputy lied on his incident report stating that I was outraged over some repair or impound bill I wasnt able to pay. Keep in mind also; my truck was given to my passenger to drive home. They wrote that up as "we dropped his truck off at the park and ride" but in fact the tow operator drove my passenger to the park and ride then sent her on her way. The deputy actually came to the car window to get my consent on his body cam which conflicts the claim Chelan Sherifs make that their deputies are not equip[ed with body cams. But the Deputy did in fact ask and I graciously said yes please and thanks. They lack chain of custody for an impound claim. Further, the truck had a tire failure again due to low pressure and it had to be towed from Snoqualmie to Seattle that same night.  </p>
           </ul>
-
+          <PDFGallery />
         </CardContent>
       </Card>
     </div>
