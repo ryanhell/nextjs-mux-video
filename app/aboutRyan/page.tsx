@@ -63,13 +63,13 @@ const page = () => {
                             I desperately need help. Whether you are a lawyer or a civil expert who can help with advice or mentorship. Thios trial is soon. I am being railroaded by a corrupt city and the powers that be who are undeniably very concerned with their multi million dollar 911 PSAP after their Operation Manager engaged in a very serious criminal act on behalf of Sally Bagshaw.
                         </h4>
                         <p className="text-slate-900 text-4xl">This case is being heard in Chelan County Washington State. The case number is
-                            2410025304
+                            <strong><ul>2410025304</ul></strong>
                         </p>
 
-                        <p className="phone text-4xl text-blue-600">
+                        <p className="phone text-blue-600">
                             267-777-2344
                         </p>
-                        <p className="email text-4xl text-green-600">
+                        <p className="email text-green-600">
                             ryanbrooklyn2020@gmail.com
                         </p>
 

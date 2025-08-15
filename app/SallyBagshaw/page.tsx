@@ -1,10 +1,11 @@
 import BagShawGallery from "@/components/BagShawGallery";
 import React from "react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+import Image from "next/image";
 
 const page = () => {
     return (
-        <div className="min-h-screen bagshaw">
+        <div className="min-h-screen bg-gray-50">
 
             <div className="relative h-96 md:h-[500px] lg:h-[600px] overflow-hidden">
 
