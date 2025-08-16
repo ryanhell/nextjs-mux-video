@@ -60,6 +60,8 @@ const page = () => {
                                         FOLKS: this isnt their first trip om this ride.
                                     </li>
                                 </ul>
+                                <Button><a href="https://www.advancedleadership.harvard.edu/2020-fellows-and-partners/sally-bagshaw" target="_blank">Advanced Leadership Harvard {`()`}Opens New Tab @ Harvards public site about Bagshaw{`)`}</a></Button>
+
                             </Card>
 
                             <h2 className="text-6xl text-white">....former 20 year CHIEF king County / Seattle Prosecuting Attorney..</h2>
