@@ -63,10 +63,9 @@ const page = () => {
 
 
                                 <div className="Card">
-                                    <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"><a href="https://www.advancedleadership.harvard.edu/2020-fellows-and-partners/sally-bagshaw" target="_blank">Bagsaws Harvard Page</a>
+                                    <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"><a href="https://www.advancedleadership.harvard.edu/2020-fellows-and-partners/sally-bagshaw" target="_blank">Bagsaws Harvard Page</a></button>
 
-                                        <span></span>
-                                    </button></div>
+                                </div>
 
                             </Card>
 
