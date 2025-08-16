@@ -14,9 +14,7 @@ export default function page() {
             <div className="grid md:grid-cols-2 gap-4">
                 <div className="card">
                     <div className="title">Initial 911 Duress Call CAD Files</div>
-                    <p className="text-2xl">
-                        Can you spot the life threatening medical emergency?                    </p>
-                    <p>They spent a year with all hands on deck to cover this up and alter evidence and its still there.</p>
+
                     <div className="content">
                         <button className="bg-black hover:bg-blue-700 text-white font-bold py-2 mb-12 px-4 rounded"> <a href="CADFiles/intialDuressCallto911/24C06391 _page1.jpg" download="CAD1-T">Initial Duress 911 Call CAD File Page Two of Two ~ Tampered</a></button>
                         <button className="bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"> <a href="CADFiles/intialDuressCallto911/RyanHell391_page2.pdf" download="CAD1-T">Initial Duress 911 Call CAD File Page Two of Two ~ Tampered</a></button>
