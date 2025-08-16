@@ -72,8 +72,8 @@ export const navItems = [
   },
   {
     id: 7,
-    name: "Coluckum Pics",
-    path: "/Downloads",
+    name: "Police Report",
+    path: "/PoliceReport",
     icon: {
       name: "ScanEye",
       classes: "h-6 w-6",

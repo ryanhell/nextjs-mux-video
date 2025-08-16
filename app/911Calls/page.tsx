@@ -8,8 +8,8 @@ export default function page() {
     return (
         <>
             <div className="">
-                <h1 className="text-8xl">CAD Evidence</h1>
-                <h2 className="TypographyH1">Rivercom 911 Engaged in SERIOUS sketchy business!</h2>
+                <h1 className="text-8xl text-black">CAD Evidence</h1>
+                <h2 className="text-black">Rivercom 911 Engaged in SERIOUS sketchy business!</h2>
                 <Synopsis></Synopsis>
             </div>
             <CAD1></CAD1>

@@ -94,9 +94,9 @@ export default function page() {
                                     </p>
                                     <JeremiahsList />
                                 </Card>
-                                <Card>
-                                    <h4>Why So Angry </h4>
-                                    <p className="leading-relaxed mb-6 tables">
+                                <Card className="olcards">
+                                    <h4 className="text-2xl">Why So Angry </h4>
+                                    <p className="mb-6 text-2xl">
                                         I just dont know what person would talk all that death talk Jeremiah was; if listem closely you can hear it in the video. You can see also hear his wife Jenna say she is going to "slap the shit out of me" and beat my ass. These people were extremely violent. While perhaps unpleasant sounding I am not threatening anyone. Im bewildered and scared for the life and wellbeing of my passenger, myself, and the dogs. Its a lot of responsibilitiy. And its an extremely tricky situation.
                                         I can't flee and get help; I am convinced these are cruel sick and corrupt officials who would just as well kill my passenger then blame me if I were to leave on my own for help. I cant call anyone there is no cell service just 911 and Jenna kept answering when I called. I cant fight my way out of this: there are 5 people who all work for various Chelan county agencies and I am more than well aware they would shoot me. They eventually say so. <br></br>
                                         If I may, I am just not seeing the context for <em>any</em> of the vitreal being leveled by Jeremiah or Jenna. Evan the tow driver surrendered his stake and had some words for Jeremiah for dragging him into this mess. Well, I in fact had asked Jeremiah what the hell was going on. "why are you doing this to me?". I asked him why did they refuse us an ambulance, then bring us way out here and ambush us with a tow truck trying to extort us? Why wont you let me go? What have I ever done to you or anyone else in this county for that matter?". Jeremiah looked like he was really struggling with staying cohesive so I knew it was the time to politely ask some questions and find out who set this all up. Again I politely begged Jeremiah to tell me why did I deserve to be prayed on, lied about, and murdered? Jeremiah's eyes finally vector to my eyes and he says thru parsed lips "oh hahahah....theres...theres a LOT wrong with you".<br></br>
