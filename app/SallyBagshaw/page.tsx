@@ -3,7 +3,6 @@ import React from "react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 
 const page = () => {
     return (
@@ -21,16 +20,15 @@ const page = () => {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
                 </div>
             </div>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 lg:py-20">
-                <Card className="bg-black MD:max-w-2/3 mx-auto"><h4 className="text-3xl px-2 text-white mx-33">Seattle's most senior ranking former law lady; at the scene unbeknownst to us, and ordered to leave immediately because the deputies could not enter the property with her there. </h4>
+            <div className="mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 lg:py-20">
+                <Card className="bg-black MD:max-w-2/3 mx-auto"><h4 className="text-3xl px-2 text-white mx-33">Seattle's most senior ranking former law lady; at the scene unbeknownst to us, Jeremiah told her she had to leave so the deputies could not enter the property with her there. </h4>
                 </Card>
 
 
                 <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-12">
                     <div className="lg:col-span-2 space-y-8">
-                        <Card className="shadow-2xl">
+                        <Card className="max-w-7/12 hadow-2xl mx-auto mt-12">
                             <CardContent className="shadow-2xl">
-
                                 <CardTitle>
                                     <blockquote className="shadowmt-6 border-l-2 pl-6 text-3xl *:italic">
                                         "Where is Ryan? I can't let Ryan see me!"
@@ -41,9 +39,9 @@ const page = () => {
                             </CardContent>
                         </Card>
                         <section className="bocontainer-wrapper section-soft flex-1 md:py-12x">
-                            <Card className="max-w-9/12 tables px-12">
+                            <Card className="max-w-7/12 tables px-12">
                                 <h2 className="text-white font-black">An Official Harvard Fellow, You Dont Say?</h2>
-                                <ul className="text-white">
+                                <ul className="text-white list-disc">
                                     <li>
                                         12 year Chief Prosecuting Attorney in Seattle / King County.
                                     </li>
@@ -56,11 +54,19 @@ const page = () => {
                                     <li>
                                         Council woman at the time when a significant accuser of Murrays had settled a 1980's molestation case in 2017. That man Delvin Heckard was found diceased of a heroin, not fentynal, overdose in a hotel days later.
                                     </li>
-                                    <li>
-                                        FOLKS: this isnt their first trip om this ride.
-                                    </li>
                                 </ul>
-                                <Button><a href="https://www.advancedleadership.harvard.edu/2020-fellows-and-partners/sally-bagshaw" target="_blank">Advanced Leadership Harvard {`()`}Opens New Tab @ Harvards public site about Bagshaw{`)`}</a></Button>
+                                <Image src="/harvardSucks.jpeg"
+                                    width={`600`}
+                                    height={`1200`}
+                                    alt={`Harvard Sucks and So Do Corrupt Politicians Who Murder Innocent Civilians and Frame People for Crimes`}
+                                />
+
+
+                                <div className="Card">
+                                    <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"><a href="https://www.advancedleadership.harvard.edu/2020-fellows-and-partners/sally-bagshaw" target="_blank">Bagsaws Harvard Page</a>
+
+                                        <span></span>
+                                    </button></div>
 
                             </Card>
 

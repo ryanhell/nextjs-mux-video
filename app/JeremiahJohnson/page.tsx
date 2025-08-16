@@ -34,6 +34,7 @@ export default function page() {
                     </div>
                 </div>
             </div>
+
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 lg:py-20">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
 
@@ -93,8 +94,9 @@ export default function page() {
                                     <p className="{styles.tablers} leading-relaxed px-5">
                                         I believe Sally Bagshaw represented an enormous opportunity to gain traction and become noticed in Washington State government circles, I note this sadly. I also believe Bagshaws presence was what emboldened Jeremiah to make these idiotic decisions and then continue to follow through with them after I informed him I would be reporting them all to State Patrol if he did not surrendor my truck, whcih they clearly stole; and let me take my passenger to the ER. I had already offered to effect immediate payments for wheel etc and they just would not budge on that so i said let us walk let us call for a ride. NOTHING was allowed. Jeremiahs actions were brazenly, and patently criminal, as were those of the female who they now deny being a dispatcher. Jeremiah though, he knew what he was getting into. And when he realized he prayed on someone who knew his rights and was not going to be tricked into making a mistake; he panicked. It was a gamble he took for personal gain. He was more than willing to kill my passenger and then later order the deputy to murder me; just to cover up his folly. For these reasons alone someone really needs to assess the facts. Hopeful;ly someone with integrity and familiarity with 911 policy. This was a conspiracy and attempted murder which I survived. Sally Bagshaw had orchistrated it, Jeremiah gladly conducted it with a smile until I started telling them I knew what was going on and would report them.
                                     </p>
-                                    <JeremiahsList />
+
                                 </Card>
+
                                 <Card className="olcards px-9">
                                     <h4 className="text-3xl">Why So Angry </h4>
                                     <p className="mb-6 text-2xl">
@@ -111,11 +113,8 @@ export default function page() {
                                 </Card>
                             </div>
                         </section>
+                        <JeremiahsList />
                     </div>
-
-
-
-
                 </div>
             </div>
         </div >

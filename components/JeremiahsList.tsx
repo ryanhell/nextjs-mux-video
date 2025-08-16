@@ -1,9 +1,10 @@
 export default function () {
   return (
-    <div className="w-full lg:max-w-full lg:flex">
-      <div className="h-48 lg:h-auto lg:w-100 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden">
+    <div className="Card">
+      <div className="CardHeader">
+        <h2 className="text-3xl">If Anyone Knew Better it Was Jeremiah and Sally Bagshaw</h2>
       </div>
-      <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+      <div className="shadow-white border-white bg-gradient-to-r from-blue-800 to-indigo-900 rounded-4xl lg:rounded-4xl lg:rounded-r p-9 drop-shadow-1xl flex flex-col justify-between leading-normal">
         <div className="mb-8">
           <h3> Taxpayers Payed Tens of Millions ...</h3>
           <p className="text-2xl?">For compliance training, </p>
@@ -17,8 +18,8 @@ export default function () {
         </div>
         <div className="flex items-center">
           <div className="text-sm">
-            <p className="text-gray-900 leading-none">Jeremiah Knew Better.</p>
-            <p className="text-gray-600">He never expected to be held accountable</p>
+            <p className="text-slate-200 leading-none">Jeremiah Knew Better.</p>
+            <p className="text-slate-100 text-2xl">He never expected to be held accountable</p>
           </div>
         </div>
       </div>
