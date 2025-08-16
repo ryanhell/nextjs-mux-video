@@ -73,7 +73,7 @@ export default function Home() {
             <h3 className="text-2xl">Taunting Me, or Throwing Me a Bone?"</h3>
             <p className="text-1xl">After nearly an entire YEAR, I was finally told I could watch but not take home Jenas videos. I was invited to assigned counsels office to watch a copy of un-tampered video which clearly showed deputy asking tow operatopr for impound bill and the tow operator said Ryan doesnt owe me anything. He was asked about impound, tow, and the services / parts rendered to "fix" my truck and the tow operator adimently and sternly informed the deputy that he was not owed ANYTHING by me and he had no interest in my truck. Yet that deputy lied on his incident report stating that I was outraged over some repair or impound bill I wasnt able to pay. Keep in mind also; my truck was given to my passenger to drive home. They wrote that up as "we dropped his truck off at the park and ride" but in fact the tow operator drove my passenger to the park and ride then sent her on her way. The deputy actually came to the car window to get my consent on his body cam which conflicts the claim Chelan Sherifs make that their deputies are not equip[ed with body cams. But the Deputy did in fact ask and I graciously said yes please and thanks. They lack chain of custody for an impound claim. Further, the truck had a tire failure again due to low pressure and it had to be towed from Snoqualmie to Seattle that same night.  </p>
           </ul>
-          <PDFGallery />
+
         </CardContent>
       </Card>
     </div>
