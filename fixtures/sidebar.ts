@@ -32,7 +32,7 @@ export const navItems = [
   },
   {
     id: 3,
-    name: "King Counties Chief Prosecutor Caught on Film Fleeing Seen",
+    name: "City's Chief Prosecutor Caught Onseen Orchastrating",
     path: "/SallyBagshaw",
     icon: {
       name: "brain",
@@ -42,7 +42,7 @@ export const navItems = [
   },
   {
     id: 4,
-    name: "Kidnapper Discovered and Confirmed to be The Rivercom 911 Operation Manager",
+    name: "Kidnapper Revelaed as Rivercom 911 Operation Manager",
     path: "/JeremiahJohnson",
     icon: {
       name: "activity",

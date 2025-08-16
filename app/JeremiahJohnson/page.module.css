@@ -15,7 +15,8 @@
   margin: 222px;
 }
 .tablers {
-  margin: 12px;
+  margin: 42px;
+  padding-inline: 33px;
   background: #e0eafc; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom,

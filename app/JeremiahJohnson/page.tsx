@@ -2,6 +2,7 @@ import React from "react";
 import Image from 'next/image';
 import JeremiahsList from "@/components/JeremiahsList";
 import { Card, CardHeader, CardContent, CardDescription, CardFooter, CardTitle } from "@/components/ui/card";
+import styles from "@/app/JeremiahJohnson/page.module.css";
 
 export default function page() {
     return (
@@ -41,14 +42,14 @@ export default function page() {
                             <h2 className="text-3xl md:text-4xl font-bold text-slate-200 mb-6">About</h2>
                             <div className="prose prose-lg max-w-none text-gray-700">
                                 <p className="text-xl leading-relaxed mb-6 text-white">
-                                    What seems apparent to me immeidately upon meeting Jeremiah Johnon, who is a long tenured Rivercom member and most notable serves as their Operations Center Manager. I was trying to verify the guys real name bevause at this point they have tamopered with or falsified almost every piece of evidence and character and so forth. FOR EXAMPLE; the courts are saying Rivercom 911 now claims Jenna, the female with Jeremiah when he picked us up; the same female who punched me and also made lewd comments accusing me of vulgar things I had not said nor ever wanted to think. I actually watched this womam, with Jeremiah, walk into the Rivercom 911 center secure door at the Chelan County Court house the day I was realeased from jail. I seen her swipe an access card then walk inside. Without a doubt. So someone is lying here." </p>
-                                <Card className="w-full text-center shadow-none dark py-4 {styles.blue}">
+                                    What seems apparent to me immediately upon meeting Jeremiah Johnson, who is a long tenured Rivercom member and most notable serves as their Operations Center Manager. I was trying to verify the guys real name bevause at this point they have tamopered with or falsified almost every piece of evidence and character and so forth. FOR EXAMPLE; the courts are saying Rivercom 911 now claims Jenna, the female with Jeremiah when he picked us up; the same female who punched me and also made lewd comments accusing me of vulgar things I had not said nor ever wanted to think. I actually watched this womam, with Jeremiah, walk into the Rivercom 911 center secure door at the Chelan County Court house the day I was realeased from jail. I seen her swipe an access card then walk inside. Without a doubt. So someone is lying here." </p>
+                                <Card className="w-full text-center shadow-none dark py-4 {styles.tabler}">
                                     <CardHeader>
                                         <CardTitle>Jeremiah, AKA {`'`}Rivercom 911 Operations Manager{`'`}.</CardTitle>
                                         <CardDescription className="text-left text-1xl"></CardDescription>
 
                                     </CardHeader>
-                                    <CardContent>
+                                    <CardContent className="py-4 mx-8">
                                         <h3 className="text-2xl">Dont let a former Chief prosecutor fool you..</h3>
                                         <p className="text-2xl text-blue-100 text-left indent-7">This was a conspiracy to commit cold blooded murder. Likely on a variety of accounts, however; Jeremiah attempted to swat me to silence me after I failed to fight upon hours of provocations, assaults, harassment, insults, and terror, and me saying he would be reported promptly to state and federal authorities. <br></br>Jeremiah was panic stricken when I presented the short list of major federal and state felonies he was committing and the fact that he dragged us into this while my passenger is a legally disabled woman. We are law abiding citizens in urgent duress and I will pursue legal actions. Jeremiah then made a series of comments and frantic phone calls to attempt to have me shot by Chelan County Deputy buddies in order to silence me.</p>
 
@@ -80,22 +81,22 @@ export default function page() {
 
 
                                 <Card className="{styles.blue} mt-7">
-                                    <p className="text-xl {stylez.blue}leading-relaxed px-5 mb-6 text-slate-700">
+                                    <p className="text-xl {styles.blue}leading-relaxed px-5 mb-6 text-slate-700">
                                         That headline sound too dramatic? Well its precisely what happened.
                                         At the end of the day Jeremiah made a massive mistake and committed a signifanctly more serious set of crimes than anyone wants to talk about.
                                     </p>
-                                    <p className="leading-relaxed mb-6">As the Rivercom 911 Call Center Operations Manager; Jeremiah knew exactly what he was doing was the equivilent to a male kindergartner teacher taking a child home to spend the night at their home </p>
-                                    <p className="leading-relaxed mb-6">While the knee jerk reaction is to blame scrupulous opportunist parents seeking punative damages; lets be very clear here: this was not a rescue nor were they good sammaritans nor did they do any of this out of the kindness of their hearts. They demanded a very high price; and they held back urgent medical needs until they were paid. That circumvents a number of very astute and very well known civil provisions across the state and federal level. Jeremiah is not a stupid man looking at his resume. However; he is a leader of a large 911 operation centewr and he is likely well liked and coddled by some local officials who are less than pure at times to say it nicely..</p>
+                                    <p className="leading-relaxed mb-6 px-12">As the Rivercom 911 Call Center Operations Manager; Jeremiah knew exactly what he was doing was the equivilent to a male kindergartner teacher taking a child home to spend the night at their home </p>
+                                    <p className="leading-relaxed mb-6 px-5">While the knee jerk reaction is to blame scrupulous opportunist parents seeking punative damages; lets be very clear here: this was not a rescue nor were they good sammaritans nor did they do any of this out of the kindness of their hearts. They demanded a very high price; and they held back urgent medical needs until they were paid. That circumvents a number of very astute and very well known civil provisions across the state and federal level. Jeremiah is not a stupid man looking at his resume. However; he is a leader of a large 911 operation centewr and he is likely well liked and coddled by some local officials who are less than pure at times to say it nicely..</p>
                                 </Card>
 
                                 <Card className="{styles.tablers}">
-                                    <p className="{styles.tablers} leading-relaxed mb-6">
+                                    <p className="{styles.tablers} leading-relaxed px-5">
                                         I believe Sally Bagshaw represented an enormous opportunity to gain traction and become noticed in Washington State government circles, I note this sadly. I also believe Bagshaws presence was what emboldened Jeremiah to make these idiotic decisions and then continue to follow through with them after I informed him I would be reporting them all to State Patrol if he did not surrendor my truck, whcih they clearly stole; and let me take my passenger to the ER. I had already offered to effect immediate payments for wheel etc and they just would not budge on that so i said let us walk let us call for a ride. NOTHING was allowed. Jeremiahs actions were brazenly, and patently criminal, as were those of the female who they now deny being a dispatcher. Jeremiah though, he knew what he was getting into. And when he realized he prayed on someone who knew his rights and was not going to be tricked into making a mistake; he panicked. It was a gamble he took for personal gain. He was more than willing to kill my passenger and then later order the deputy to murder me; just to cover up his folly. For these reasons alone someone really needs to assess the facts. Hopeful;ly someone with integrity and familiarity with 911 policy. This was a conspiracy and attempted murder which I survived. Sally Bagshaw had orchistrated it, Jeremiah gladly conducted it with a smile until I started telling them I knew what was going on and would report them.
                                     </p>
                                     <JeremiahsList />
                                 </Card>
-                                <Card className="olcards">
-                                    <h4 className="text-2xl">Why So Angry </h4>
+                                <Card className="olcards px-9">
+                                    <h4 className="text-3xl">Why So Angry </h4>
                                     <p className="mb-6 text-2xl">
                                         I just dont know what person would talk all that death talk Jeremiah was; if listem closely you can hear it in the video. You can see also hear his wife Jenna say she is going to "slap the shit out of me" and beat my ass. These people were extremely violent. While perhaps unpleasant sounding I am not threatening anyone. Im bewildered and scared for the life and wellbeing of my passenger, myself, and the dogs. Its a lot of responsibilitiy. And its an extremely tricky situation.
                                         I can't flee and get help; I am convinced these are cruel sick and corrupt officials who would just as well kill my passenger then blame me if I were to leave on my own for help. I cant call anyone there is no cell service just 911 and Jenna kept answering when I called. I cant fight my way out of this: there are 5 people who all work for various Chelan county agencies and I am more than well aware they would shoot me. They eventually say so. <br></br>
@@ -104,14 +105,8 @@ export default function page() {
 
                                 </Card>
                                 <Card>
-                                    <p className="leading-relaxed mb-6">
+                                    <p className="mb-6 px-7">
                                         For a 911 CALL CENTER OPERATIONS MANAGER in his shoes; doing what he did, all I did to enrage him was I simply could not pay 1000 dollars cash on the spot, and I asked to leave with my passenger who still had not even been so much as assessed. As a dispatcher Jeremiah is well aware of the need to assess all parties of a medical inbound emergency. They not only refused to assess or treat; they have not mentioned her name one time in any logs, incident reports or summatioons of the incident. . His wife actually assaulted me; punched me in the face with a closed fist when I wasnt looking. Im convinced the murder dialogue was not a joke. It was not just a temper talking. No, it was a panicked kidnapper who had just been told very cooly and calmly that he made a massive error when he decided to kidnap and extort me, and most damnding, whem he used his position of trust to abuse us and block us from legitimate life saving urgent medical assistance. He was shaking like a leaf on a tree and chain smoking. The death talk wasnthollow threats at me; they were vivid plans orders, or request. And he very nearly achieved success. Nothing I did or said that day warranted the type of death threats Jeremiah made. Keep in mind he barely even made the threats known to me; it wasnt until much later I learned he was calling in his deputy buddy to murder me.
-                                    </p>
-                                    <p className="leading-relaxed mb-6">
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                    </p>
-                                    <p className="leading-relaxed">
-                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.
                                     </p>
                                 </Card>
                             </div>
