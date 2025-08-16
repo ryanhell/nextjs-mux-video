@@ -39,7 +39,7 @@ export default function page() {
 
                     <div className="lg:col-span-2 space-y-8">
                         <section>
-                            <h2 className="text-3xl md:text-4xl font-bold text-slate-200 mb-6">About</h2>
+                            <h2 className="text-3xl md:text-4xl font-bold text-slate-200 mb-6">Rivercom 911{`'`}s Operation Manager, Kidnapper, Truck Thief</h2>
                             <div className="prose prose-lg max-w-none text-gray-700">
                                 <p className="text-xl leading-relaxed mb-6 text-white">
                                     What seems apparent to me immediately upon meeting Jeremiah Johnson, who is a long tenured Rivercom member and most notable serves as their Operations Center Manager. I was trying to verify the guys real name bevause at this point they have tamopered with or falsified almost every piece of evidence and character and so forth. FOR EXAMPLE; the courts are saying Rivercom 911 now claims Jenna, the female with Jeremiah when he picked us up; the same female who punched me and also made lewd comments accusing me of vulgar things I had not said nor ever wanted to think. I actually watched this womam, with Jeremiah, walk into the Rivercom 911 center secure door at the Chelan County Court house the day I was realeased from jail. I seen her swipe an access card then walk inside. Without a doubt. So someone is lying here." </p>
