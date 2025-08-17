@@ -6,8 +6,6 @@ export default function Page() {
         <div className="container mt-22">
             <Card>
                 <img src="/PoliceReport/Chelan_2410025304_PoliceReportWork.pdf"
-                    alt={'Chelan County Incident Report for Case 2410025304 Ryan Hell, Kidnapped by Rivercom 911 Operations Manager During Medical Duress Call'}
-                    fill objectFit="cover"
                 />
             </Card>
             <br></br>

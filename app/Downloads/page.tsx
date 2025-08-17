@@ -4,7 +4,6 @@ import JeremiahsList from "@/components/JeremiahsList";
 import ColockumGallery from "@/components/ColockumGallery";
 import { Card } from "@/components/ui/card";
 
-
 export default function page() {
 
     return (
