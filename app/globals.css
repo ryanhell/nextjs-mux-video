@@ -459,11 +459,12 @@ h1 {
   }
 }
 .Card {
-  margin-inline: 23px;
+  margin-inline: 2px;
 }
 body {
   background: #d0dbe1;
-  padding: 2rem;
+  padding: 0.05rem;
+  padding-left: 0.5rem;
 }
 
 .grid-container {
@@ -471,7 +472,7 @@ body {
   margin-inline: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
-  gap: 2rem;
+  gap: 1rem;
 }
 .card {
   --grad: red, blue;
