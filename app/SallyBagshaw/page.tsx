@@ -21,7 +21,8 @@ const page = () => {
                 </div>
             </div>
             <div className="mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 lg:py-20">
-                <Card className="bg-black MD:max-w-2/3 mx-auto"><h4 className="text-3xl px-2 text-white mx-33">Seattle's most senior ranking former law lady; at the scene unbeknownst to us, Jeremiah told her she had to leave so the deputies could not enter the property with her there. </h4>
+                <Card className="content_bg mx-auto"><h4 className="text-3xl text-white mx-9">Seattle's most senior ranking former law lady; sneaking out of the crime scene she orchastrated with Rivercom 911 Operations Manager. </h4>
+                    <CardHeader><p className="text-2xl text-white italic">What would they do to us for a crime like this?!</p></CardHeader>
                 </Card>
 
 
@@ -39,28 +40,28 @@ const page = () => {
                             </CardContent>
                         </Card>
                         <section className="bocontainer-wrapper section-soft flex-1 md:py-12x">
-                            <Card className="max-w-7/12 tables px-12">
-                                <h2 className="text-white font-black">An Official Harvard Fellow, You Dont Say?</h2>
-                                <ul className="text-white list-disc">
-                                    <li>
-                                        12 year Chief Prosecuting Attorney in Seattle / King County.
-                                    </li>
-                                    <li>
-                                        Two Term Seattle Council..
-                                    </li>
-                                    <li>
-                                        Aggressive proponent for disgraced former Seattle mayor Ed Murray who I myself was key in helping  Seattle Times to locate Murray's sealed court archives proving he molesting a foster son.
-                                    </li>
-                                    <li>
-                                        Council woman at the time when a significant accuser of Murrays had settled a 1980's molestation case in 2017. That man Delvin Heckard was found diceased of a heroin, not fentynal, overdose in a hotel days later.
-                                    </li>
-                                </ul>
-                                <Image src="/harvardSucks.jpeg"
-                                    width={`600`}
-                                    height={`1200`}
-                                    alt={`Harvard Sucks and So Do Corrupt Politicians Who Murder Innocent Civilians and Frame People for Crimes`}
-                                />
+                            <Card className="max-w-9/12 px-12 harvardSucks">
+                                <h2 className="text-3xl text-white font-black text-right">Harvard? You don't say.</h2><hr></hr>
+                                <div className="harvard max-w-6/7">
+                                    <ul className="text-white text-2xl list-disc list-inside">
+                                        <li>
+                                            12 year Chief Prosecuting Attorney in Seattle / King County.
+                                        </li>
+                                        <li>
+                                            Two Term Seattle Council..
+                                        </li>
+                                        <li>
+                                            Aggressive proponent for disgraced former Seattle mayor Ed Murray who I myself was key in helping  Seattle Times to locate Murray's sealed court archives proving he molesting a foster son.
+                                        </li>
+                                        <li>
+                                            Council woman at the time when a significant accuser of Murrays had settled a 1980's molestation case in 2017. That man Delvin Heckard was found diceased of a heroin, not fentynal, overdose in a hotel days later.
+                                        </li>
+                                    </ul>
+                                    <p>Im not a gambling man, but if I were... I might think Mrs Bagshaw was actually involved in a lot more than hunting me. Like fascilitating the murder and improper burial of the 10,000 reported homeless in Seattle who virtually vanished within weeks after a major set of violent and swift attacks...including vehicle on pedestrian fatalities, and countless ahem..."missing persons". </p><p>It isnt easy to grasp, but none of my story is. What i can assure you is the woman fled like a coward after a really sloppy attempt to murder me and an entirely unrelated person my passenger; a elder disabled grandmother with her dogs.. </p>
 
+                                    <p>Dont let Bagshaws demeanor and claims to help homeless fool you. She in fact has been caught often contradicting her claims of philanthropy. Ultimately big money and power is all she seeks.</p>
+                                    <p>Were we mistaken for homeless squatters? Perhaps that is why they attacked us as they did. One thing is for certain, it was a near fatal attack and it has lasting impact on our lives, health, and so far over a year of sheer panic has occured as I scramble to fight an evolving set of bogus allogations and mounting fabricated and erased evidence; much of it being done openly as no state or federal agency or wathcdog has the balls to jump in and help. </p>
+                                </div>
 
                                 <div className="Card">
                                     <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center"><a href="https://www.advancedleadership.harvard.edu/2020-fellows-and-partners/sally-bagshaw" target="_blank">Bagsaws Harvard Page</a></button>

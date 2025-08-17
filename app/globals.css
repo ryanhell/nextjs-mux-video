@@ -361,6 +361,12 @@ h1 {
   );
   color: white;
 }
+.harvardSucks {
+  background: linear-gradient(rgba(37, 124, 17, 0.665), rgba(74, 104, 123, 0.9)),
+    url(/harvardSucks.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .content_bg {
   background-image: url("../public/micro_carbon.jpg");
   background-repeat: repeat;
