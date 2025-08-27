@@ -39,11 +39,11 @@ const page = () => {
                                 </CardTitle>
                             </CardContent>
                         </Card>
-                        <section className="bocontainer-wrapper section-soft flex-1 md:py-12x">
+                        <section className="bocontainer-wrapper section-soft flex-1">
                             <Card className="max-w-9/12 px-12 harvardSucks">
-                                <h2 className="text-3xl text-white font-black text-right">Harvard? You don't say.</h2><hr></hr>
+                                <h2 className="text-4xl text-white text-right">Harvard? You don't say.</h2><hr></hr>
                                 <div className="harvard max-w-6/7">
-                                    <ul className="text-white text-2xl list-disc list-inside">
+                                    <ul className="border-1 px-5 list-disc list-inside text-xl leading-relaxed drop-shadow-md text-slate-200 drop-shadow-slate-500 float-start">
                                         <li>
                                             12 year Chief Prosecuting Attorney in Seattle / King County.
                                         </li>
@@ -57,10 +57,10 @@ const page = () => {
                                             Council woman at the time when a significant accuser of Murrays had settled a 1980's molestation case in 2017. That man Delvin Heckard was found diceased of a heroin, not fentynal, overdose in a hotel days later.
                                         </li>
                                     </ul>
-                                    <p>Im not a gambling man, but if I were... I might think Mrs Bagshaw was actually involved in a lot more than hunting me. Like fascilitating the murder and improper burial of the 10,000 reported homeless in Seattle who virtually vanished within weeks after a major set of violent and swift attacks...including vehicle on pedestrian fatalities, and countless ahem..."missing persons". </p><p>It isnt easy to grasp, but none of my story is. What i can assure you is the woman fled like a coward after a really sloppy attempt to murder me and an entirely unrelated person my passenger; a elder disabled grandmother with her dogs.. </p>
+                                    <p className="text-2xl leading-relaxed drop-shadow-md text-slate-100 drop-shadow-slate-500">Im not a gambling man, but if I were... I might think Mrs Bagshaw was actually involved in a lot more than hunting me. Like fascilitating the murder and improper burial of the 10,000 reported homeless in Seattle who virtually vanished within weeks after a major set of violent and swift attacks...including vehicle on pedestrian fatalities, and countless ahem..."missing persons". <br></br>It isnt easy to grasp, but none of my story is. What i can assure you is the woman fled like a coward after a really sloppy attempt to murder me and an entirely unrelated person my passenger; a elder disabled grandmother with her dogs.. </p>
 
-                                    <p>Dont let Bagshaws demeanor and claims to help homeless fool you. She in fact has been caught often contradicting her claims of philanthropy. Ultimately big money and power is all she seeks.</p>
-                                    <p>Were we mistaken for homeless squatters? Perhaps that is why they attacked us as they did. One thing is for certain, it was a near fatal attack and it has lasting impact on our lives, health, and so far over a year of sheer panic has occured as I scramble to fight an evolving set of bogus allogations and mounting fabricated and erased evidence; much of it being done openly as no state or federal agency or wathcdog has the balls to jump in and help. </p>
+                                    <p className="text-2xl leading-relaxed drop-shadow-md text-slate-100 drop-shadow-slate-500">Dont let Bagshaws demeanor and claims to help homeless fool you. She in fact has been caught often contradicting her claims of philanthropy. Ultimately big money and power is all she seeks.</p>
+                                    <p className="text-2xl list-disc list-inside leading-relaxed drop-shadow-md text-slate-200 drop-shadow-slate-500">Were we mistaken for homeless squatters? Perhaps that is why they attacked us as they did. One thing is for certain, it was a near fatal attack and it has lasting impact on our lives, health, and so far over a year of sheer panic has occured as I scramble to fight an evolving set of bogus allogations and mounting fabricated and erased evidence; much of it being done openly as no state or federal agency or wathcdog has the balls to jump in and help. </p>
                                 </div>
 
                                 <div className="Card">

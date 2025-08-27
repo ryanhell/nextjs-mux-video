@@ -345,8 +345,15 @@ h1 {
     #ccccb2
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+.image-container {
+  float: left; /* or float: right; */
+  margin-right: 1em; /* Add space between image and text */
+  margin-bottom: 1em; /* Add space below image */
+  /* Set a max-width for responsiveness if needed */
+  max-width: 300px;
+}
 .ryanPaper {
-  background-image: url("../public/handmadepaper.png");
+  background-image: url("/handmadepaper.jpg");
   background-repeat: repeat;
 }
 .tables {
