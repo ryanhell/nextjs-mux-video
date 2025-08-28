@@ -356,6 +356,10 @@ h1 {
   background-image: url("/handmadepaper.jpg");
   background-repeat: repeat;
 }
+.foil {
+  background-image: url("/foil.jpg");
+  background-repeat: repeat;
+}
 .tables {
   background-image: radial-gradient(
     circle 363px at 49.1% 0.8%,

@@ -2,19 +2,20 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function EthicalMisconduct() {
     return (
-        <Card className="md:mx-44 px-12">
+        <Card className="md:mx-44 md:px-12 foil inner-shadow-2xl border-zinc-6005 border-1">
             <CardHeader>
                 <p className="text-xl">Defense Legal Aid Needed for Chelan County Superior #2410025304</p>
             </CardHeader>
             <CardTitle>
-                <h3 className="text-3xl text-center">Prosecutorial Misconduct</h3>
+                <h3 className="text-3xl text-center">Egregious Prosecutorial Misconduct</h3>
+                <h2 className="text-2xl text-center">Chelan County Engaged in Brazen Criminal Conduct</h2>
             </CardTitle>
 
             <CardContent>
                 <ul className="text-xl list-inside list-decimal">
-                    <li>Tampered Dash Cam Footage Using AI</li>
-                    <li>Blocked me then destroyed my 911 audio</li>
-                    <li>Altered 911 CAD Files</li>
+                    <li>Brazen Evidence Tampering; Deputy Dash Cam Footage Using AI</li>
+                    <li>Blocked my records request then destroyed my 911 call audio</li>
+                    <li>Altered 911 CAD Files to deflect nature of call.</li>
                     <li>Denied Ambulance to disabled person in urgent need</li>
                     <li>Assaulted someone during medical duress </li>
                     <li>Kidnap by false pretence promising ambulance would come to the house</li>

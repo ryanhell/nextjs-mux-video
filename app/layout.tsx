@@ -2,8 +2,10 @@ import Banner from "@/components/Banner";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
+
 import Header from "@/components/Header";
 import SidaBar from "@/components/SidaBar";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,6 +32,7 @@ export default function RootLayout({
       >
         <main className="flex-1 overflow-y-auto">
           <div className="flex-1 ">
+
             <Header />
             <div className="">{children}</div>
           </div>
@@ -41,6 +44,7 @@ export default function RootLayout({
           position="top-right"
           duration={10000}
         />
+        <Toaster position="top-right" />
       </body>
     </html>
   );

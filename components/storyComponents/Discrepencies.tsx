@@ -2,16 +2,16 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function Discrepencies() {
     return (
-        <Card className="md:mx-44 px-12">
+        <Card className="md:mx-44 px-12 shadow-inner foil">
             <CardHeader>
                 <p className="text-xl">Defense Legal Aid Needed for Chelan County Superior #2410025304</p>
             </CardHeader>
             <CardTitle>
-                <p className="text-2xl text-center">Case Discrepencies</p>
+                <p className="text-2xl text-center">Multitudes of Easily Spotted Case Discrepencies</p>
             </CardTitle>
             <CardContent>
                 <ul className="text-xl list-inside list-decimal">
-                    <li>I did offer to pay. But they now wanted CASH only. They would not make reasonable accomidations like allow me to call to have it brought, since oddly only our phones would not work out there.</li>
+                    <li>I did offer to pay. They demanded CASH. They would not make reasonable accomidations like allow me to call to have it brought, since oddly only our phones would not work out there. This violates multiple state and federal statutes.</li>
                     <li>Multiple times I asked for the tow or imppound paperwork citing the MEDICAL EMERGENCY!</li>
                     <li>They keep calling eberuone of them "good samaritans" even though they each and all demanded 10000 dollars cash for their service... which is 4 times higher than market value if they even were upfront initially that an ambulance cost cash and they were sendinjg someone to STEAL my truck and put a wheel that us much smaller and older with a dry rotted tire on it.</li>
                     <li>I had just spent over 8 hours in direct sunlight heavily exerting myself desperately trying to save a dying passenger then these dispatchers lie promising an ambulance and then ambush me with a bogus repair bill... I am not allowed to pay it. They wont give me a bill, nor will they allow me to leave with my passenger for a taxi to get help nor will they let EITHER of us call anyone. Its called kidnapping, plane and simple. And yes, its VERY serious. And they all know this. But they never expected me to escape alive.</li>

@@ -5,11 +5,12 @@ import { Card, CardHeader, CardContent, CardTitle, CardDescription } from "@/com
 import Intro from "@/components/storyComponents/Intro";
 import EthicalMisconduct from "@/components/storyComponents/EthicalMisconduct";
 import Discrepencies from "@/components/storyComponents/Discrepencies";
-
+import data from '@/app/api/CaseData.json';
 
 export default function Home() {
   return (
     <div className="container tables mx-auto p-1 md:p-3">
+
 
       <Card className="bagshaw md:mx-12">
         <Card className="ryanPaper flex md:mx-12">
@@ -50,43 +51,80 @@ export default function Home() {
           </Card>
         </div>
 
+
         <div className="min-w-2/5 m-4">
-          <Card p-4>
+          <Card className="shadow-inner mx-12 bg-gradient-to-br from-[#f43f5e] via-[#be185d] to-[#831843] text-white">
             <CardHeader>
-              <h4>Case Highlights / Overview</h4>
+              <h4 className="text-xl text-right">Disgusting, Eggregious, Brazen Violations of Duty of Care</h4>
             </CardHeader>
             <CardContent>
-              <p>Rivercom 911 Dispatcher and Operation Center Manager and A tow truck operator / owner. Unclear. Prosecution has failed to be clear about anything and for over a year has built his case alond as he wishes, adding twist and turns and evidence and redacting the roles of the alleged victims etc. It took the courts about a YEAR to grant me access to see the videos and now they are clearly heavily tampered with.</p>
-              <p>I immediately filed a preservation of forensics motion regarding all dash cam, spillman, video evidence and communications pertaining to my case; and was met with fierce and unjust resistence. I remained vigilant and fought to keep the motion moving until my appointed council walked into court and lied misrepresenting the nature of my complaints, concerns, and the motions rebuttel. He refused to read or address any Brady concerns i had with regards to the fact the first attorney refused to grant access to my original call audio; in fact the courts and counsel, on the record assured me it had been obtained and it was safe. Its in fact gone and I am left with CAD files which are wildly innacurate as well, but still contain fragments of the original duress call to 911 to get help for my dying passenger.</p>
+              <Card className="bg-gradient-to-br from-[#f43f5e] via-[#be185d] to-[#831843] text-white">
+                <ul className="list-disc list-inside text-xl px-4">
+                  <li>
+                    A disabled woman with serious complications required immeidate medical assistance after being trapped on a mountain inside a state park 4th of july with no cell service due to a flat tire.
+                  </li>
+                  <li>
+                    Wenatchee Fire photographed on scene sitting idle during a medical duress call for urgent life saving medical
+                  </li>
+                  <li>
+                    Chelan Prosecutors in Coordination with Rivercom 911 and Chelan Sheriffs Department, Wenatchee fire re-classify a 911 call for life saving medical emergency help to a roadside 911 call after caller threatened to report the Operation Manager for kidnap and extortion for interfering with his passengers need for an ambulance and surprising him with unwanted roadside scheme.
+                  </li>
+                  <li>
+                    A dispute over a tow bill is alleged to have occurred however there was no impound and no tow. The vehicle was sent home with the ill passenger who is yet still never named in any paperwork but is visible in the evidence video.
+                  </li>
+                  <li>
+                    The director of Rivercom 911 rerouted a 911 call to his personal residence, where an associate of his showed up demanding cash for unsolicited vehicle repairs while an unsuspecting owner waited beside a dying passenger.
+                  </li>
+                  <li>
+                    Rivercom 911 director repeatedly says "Ryan needs to disappear for good", and has his wife, another dispatcher, assault Ryan at one point, in an effort to incite a justifiable homicide. When that fails he contacts a personal deputy friend and orders a shooting which narrowly did not occur.
+                  </li>
+                  <li>
+                    False charges of threats were loosely fabricated and supporting evidence was withheld for almost a year while defendant and victim; driver of truck, Ryan Hell was harassed.
+                  </li>
+                </ul>
+              </Card>
             </CardContent>
           </Card>
         </div>
       </div>
       <div className="flex-row md:flex-row">
-        <div className="card"><EthicalMisconduct /></div>
-        <div className="card"><Discrepencies /></div>
+        <div className="flex-col my-3 mx-9">
+          <div className="container my-5 ">
+            <div className="card px-12"><EthicalMisconduct /></div>
+          </div>
+          <div className="container">
+            <div className="card mx-3 px-3"><Discrepencies /></div>
+          </div>
+        </div>
+
+
+
       </div>
       <div className="container px-2">
-        <p className="text-2xl">However; there is still a substanctial amount of incredibly damnding evidence and it is pretty obvious these officials didnt merely make a bad judgement call; they were engaged in straight up nefarious activities and targeted me, a law abiding legal citixen while trying to save a womans life and do the right thing. Theyve called themselves GOOD SAMARITANS over and over. Keep in mind its on video they DEMANDED 1000 cash for the tire they surprised me with, and when that tow driver backed out and stopped, the two dispatchers started saying I owed them now. For saving our life. They also acknowledge the passenger was near death.</p>
-        <p>Yet strangely enought hey never list the female in any of the police reports or incident logs, oir CAD files. Being that she was the ONLY reason I called and she was rhe entire reason for needed aid car.. its not right.</p>
+        <Card className="tspin">
+          <Card className="foil mx-20 px-22 border-amber-300 border-4 inner-shadow drop-shadow-2xl">
+            <h2 className="text-4xl">Above Reproach Should Never Mean Immune From Accountability</h2>
+            <p className="text-2xl">However; there is still a substanctial amount of incredibly damnding evidence and it is pretty obvious these officials didnt merely make a bad judgement call; they were engaged in straight up nefarious activities and targeted me, a law abiding legal citixen while trying to save a womans life and do the right thing. Theyve called themselves GOOD SAMARITANS over and over. Keep in mind its on video they DEMANDED 1000 cash for the tire they surprised me with, and when that tow driver backed out and stopped, the two dispatchers started saying I owed them now. For saving our life. They also acknowledge the passenger was near death.</p>
+            <p>Yet strangely enought hey never list the female in any of the police reports or incident logs, oir CAD files. Being that she was the ONLY reason I called and she was rhe entire reason for needed aid car.. its not right.</p>
 
 
-        <p className="text-2xl">Dificult complex case with many twist....its been intentionally designed to overwhelm an already weary and underrepresented defendent...done by a 20 year senior CHIEF prosecutor {`(`}retired but still pulling shameful shit apparently{`)`}</p>
-        <h3 className="text-4xl">This incident was not just sketchy dispatchers and tow mutts trying to get over on tourist. </
-        h3>
-        <p className="text-2xl">It was kidnapping with a clear conspiracy to commit murder while interfering in life threatening medical duress call to 911. I have not violated any laws or rules or even decency expectations of any sort. </p>
-        <p className="text-3xl">The sheer volume of discrepencioes and unaddressed detaails like what the hell was a retired former 20 year CHIEF prosecutor from Seattle doing runnin out the back door so to speak, of these scumbag corrupt city workers home?</p>
-
+            <p className="text-2xl">Dificult complex case with many twist....its been intentionally designed to overwhelm an already weary and underrepresented defendent...done by a 20 year senior CHIEF prosecutor {`(`}retired but still pulling shameful shit apparently{`)`}</p>
+            <h3 className="text-4xl">This incident was not just sketchy dispatchers and tow mutts trying to get over on tourist. </
+            h3>
+            <p className="text-2xl">It was kidnapping with a clear conspiracy to commit murder while interfering in life threatening medical duress call to 911. I have not violated any laws or rules or even decency expectations of any sort. </p>
+            <p className="text-3xl">The sheer volume of discrepencioes and unaddressed detaails like what the hell was a retired former 20 year CHIEF prosecutor from Seattle doing runnin out the back door so to speak, of these scumbag corrupt city workers home?</p>
+          </Card>
+        </Card>
         <Background />
         <CAD1 />
-        <Card className="bg-black text-white">
+        <Card className="bg-slate-800 text-white mx-12 drop-shadow-2xl shadow-inner">
           <CardHeader>
-            <h2 className="text-3xl">Major Prosecutorial MISCONDUCT</h2>
-            <h3 className="text-2xl">Discrepencies...not just a few minor frivial things either.</h3>
+            <h2 className="text-5xl">Major Prosecutorial MISCONDUCT</h2>
+            <h3 className="text-2xl drop-shadow-lg">Discrepencies...not just a few minor frivial things either.</h3>
           </CardHeader>
           <CardContent>
             <ul>
-              <p className="text-2xl">WRONG TOW COMPANY INTENTIONALLY LISTED </p>
+              <p className="text-2xl drop-shadow-lg">WRONG TOW COMPANY INTENTIONALLY LISTED </p>
               <p className="text-lg">After a lot of round and round and citing law and explaining I knew what they were doinf; saying they can take my truck but they will be arrested by STATE PATROL because Jeremiah interjected bragging how he had the local deputies in his phone on speed dial and he would call them for me; I said no worries, I will call State Patrol. And I may call 4 or 5 troops to get an honest one who will intervene. Or I might need to contact attorney general, to which he also laughed. I saud then that I would call FBI but not a day will go by that I stop seeking justice and bringing awaremess to these acts. Jeremiah became visible scared and the tow operator angrily threw my keys swearing at Jeremiah, saying he wants nothing to do with this. Smart man.Jeremiah howeever, for all the brains and glory he represents as an operations managaer at a large private dispatch center; wouldnt budge, picked the keys up and claimed he was TAKING my truck its his and I need to leave or I would be shot. Again. They refused to let my injured passenger even talk to me, and i woouldnt leave her. Being that the tow operator shifted down adn left his stake in this; I realized Jeremiah was the one who was supposed to shoot me if I refused to leave his property. Under vehicle abandonment law in Washington State, given the fact the B&T tow truck was there still; walking away could also cost me my vehicle. Jermeiahs wife Jenna ran over and punched me in the face at one point, without warning while Jeremiah was talking to me. They started spitting and hurling insults so I recognized their effort to provoke me into a fight for justifiable homicide had picked up considerably.  </p>
               <p className="text-lg">The arresting deputies incident report as well as the 911 CAD file claim Stans Mount View Towing is the tow operator. Im not aware of any of that and the man who DROVE my truck without permission, tried to demand cash then backed out of it smartly; was driving this red roll-back with door tags indicating B&T Towing out of Cashmere Washington. Jeremiah and himself had claimed to be buddies. There was definately some bad blood after this mess, and it is apparent that he refused to cooperate with this now out of control and completely desperate criminal activity. They had to get some substance for their completely false narrative about me threatening these so called "heros" over some repair or tow bill. They simply resorted to a local tow company who they can confide in and this speaks volumes of the Stans Mountain View Towing. Obviously worth being cautious of if you need a tow in Chelan since I can assure you there was no tow of any sort nor was their any consent to tow, nor legal auithority nor did I need a tow. Nor did I need a tire. And I will check but I am pretty sure tow companies are tow companies. And they probably cant legitmately just offer to sell you a used tire and wheel even if that were what was requested. It cwertainly was not.</p>
               <p className="text-2xl">Court is not allowing access to the actual victim / witness, i.e. the tow operator in this photo who was the only one there</p>
