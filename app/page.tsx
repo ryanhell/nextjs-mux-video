@@ -6,6 +6,7 @@ import Intro from "@/components/storyComponents/Intro";
 import EthicalMisconduct from "@/components/storyComponents/EthicalMisconduct";
 import Discrepencies from "@/components/storyComponents/Discrepencies";
 import data from '@/app/api/CaseData.json';
+import { AccordianDemo } from '@/components/AccordianDemo';
 
 export default function Home() {
   return (
@@ -14,8 +15,8 @@ export default function Home() {
 
       <Card className="bagshaw md:mx-12">
         <Card className="ryanPaper flex md:mx-12">
-          <div className="border-1 inset-shadow-2xs">
-            <p className="mx-12 text-lg leading-relaxed drop-shadow-md text-slate-600 drop-shadow-slate-500">Surreptitious Criminal Conduct Involving the Director of Rivercom 911 Taking Us To His "Personal Home" With The False Promise of an Ambulance; During The Nearly 3 Hour Ordeal They Stole My Truck, Robbed Me and His Wife; As Their Panic and Desperation Grew, The Female Dispatcher Violently Assaulted Me in Attempt to Elicit a Fight So Her Armed Husband, The Operation Center Manager; Could Shoot and Kill Me. These People LITERALLY Created a Deadly, Unlawful Imprisonment Situation Amidst My Urgent Medical Emergency for Both My Passenger and Myself Being Stranded in a Desert on The Fourth of July. The Chelan County Prosecutor And Judge Jourdan Have Made No Secret of Their Contempt for Me; Like I Did ANYTHING Wrong At ALL. I BARELY SURVIVED Multiple Swatting Efforts. There were ViP's; RETIRED OFFICIALS; Being Ushered Off The PROPERTY. Fire / EMT Crews Sitting By Ordered Not To Interact. And I Am Supposed To Quietly Tolerate All These Attacks on my Personal Liberty anmd Wellbeing? </p>
+          <div className="inset-shadow-2xs">
+            <p className="mx-3 md:mx-12 text-lg leading-relaxed drop-shadow-md text-slate-600 drop-shadow-slate-500">Surreptitious Criminal Conduct Involving the Director of Rivercom 911 Taking Us To His "Personal Home" With The False Promise of an Ambulance; During The Nearly 3 Hour Ordeal They Stole My Truck, Robbed Me and His Wife; As Their Panic and Desperation Grew, The Female Dispatcher Violently Assaulted Me in Attempt to Elicit a Fight So Her Armed Husband, The Operation Center Manager; Could Shoot and Kill Me. These People LITERALLY Created a Deadly, Unlawful Imprisonment Situation Amidst My Urgent Medical Emergency for Both My Passenger and Myself Being Stranded in a Desert on The Fourth of July. The Chelan County Prosecutor And Judge Jourdan Have Made No Secret of Their Contempt for Me; Like I Did ANYTHING Wrong At ALL. I BARELY SURVIVED Multiple Swatting Efforts. There were ViP's; RETIRED OFFICIALS; Being Ushered Off The PROPERTY. Fire / EMT Crews Sitting By Ordered Not To Interact. And I Am Supposed To Quietly Tolerate All These Attacks on my Personal Liberty anmd Wellbeing? </p>
           </div>
           <figure>
             <Image
@@ -26,83 +27,85 @@ export default function Home() {
               alt='Wenatchee Fires Surplus HMVEE "brush truck" seen moving about with their lights on. There were multiple personnel onseen who appeared to be ordered to stand down and not assist or intervene in any way due to an EXTREMELY sensitive LEGAL situation created by Rivercom and Chelan County Sheriffs Office when they kidnapped me and my passenger, stole my truck, and then later arrested me on false charges. These actions yielded a serious problem with their CAD file architecture of the call I made requesting emergency medical help for my passenger who was near death. The CAD file was altered to remove any mention of a medical and it introduced a false narrative that I was seeking some sory of roadside for the flat tire I had. They somehow claim they had a truck, Wenatchee Fire EMTs and operastions manager for Rivercom just milling about with nothing better to do on the 4th of July in fire country. EMTs were there in case passengers situation degraded or went critical; but they had to lay low because taking her vitals would admit her name into the chronos and confirm this was in fact a 911 medical call. For over 4 hours they made this poor woman suffer, very nearly killed her, and called me the bad guy for staying focvused on her safety and getting her to a hospital.'
             />
 
-            <figcaption><h3>Wenatchee Fire Present for Roadside on the 4th of July?</h3>Impressive. But really. Wenatchee Fires Surplus HMVEE known as a "brush truck" was seen moving about the property with their lights on. Multiple fire personnel were quietly present on scene, and it would seem they were ordered to stand down and not assist or intervene in any way due to an EXTREMELY sensitive LEGAL situa  tion created by Rivercom and Chelan County Sheriffs Office when they kidnapped me and my passenger, stole my truck, and then later arrested me on false charges. These actions yielded a serious problem with their CAD file architecture of the call I made requesting emergency medical help for my passenger who was near death. The CAD file was altered to remove any mention of a medical and it introduced a false narrative that I was seeking some sory of roadside for the flat tire I had. They somehow claim they had a truck, Wenatchee Fire EMTs and operastions manager for Rivercom just milling about with nothing better to do on the 4th of July in fire country. EMTs were there in case passengers situation degraded or went critical; but they had to lay low because taking her vitals would admit her name into the chronos and confirm this was in fact a 911 medical call. For over 4 hours they made this poor woman suffer, very nearly killed her, and called me the bad guy for staying focvused on her safety and getting her to a hospital.</figcaption>
+            <figcaption className="mx-3 text-lg"><h3>Wenatchee Fire Present for Roadside on the 4th of July?</h3>Impressive. But really. Wenatchee Fires Surplus HMVEE known as a "brush truck" was seen moving about the property with their lights on. Multiple fire personnel were quietly present on scene, and it would seem they were ordered to stand down and not assist or intervene in any way due to an EXTREMELY sensitive LEGAL situa  tion created by Rivercom and Chelan County Sheriffs Office when they kidnapped me and my passenger, stole my truck, and then later arrested me on false charges. These actions yielded a serious problem with their CAD file architecture of the call I made requesting emergency medical help for my passenger who was near death. The CAD file was altered to remove any mention of a medical and it introduced a false narrative that I was seeking some sory of roadside for the flat tire I had. They somehow claim they had a truck, Wenatchee Fire EMTs and operastions manager for Rivercom just milling about with nothing better to do on the 4th of July in fire country. EMTs were there in case passengers situation degraded or went critical; but they had to lay low because taking her vitals would admit her name into the chronos and confirm this was in fact a 911 medical call. For over 4 hours they made this poor woman suffer, very nearly killed her, and called me the bad guy for staying focvused on her safety and getting her to a hospital.</figcaption>
 
           </figure>
         </Card>
       </Card>
       <div className="flex flex-col md:flex-row">
-        <div className="min-w-2/5 m-4">
-          <Card className="blues p-12">
-            <ul className="list-disc list-inside">
-              <li>
-                <p className="font-bold">Defendent: Ryan Hell, Age: 48 Residence: Seattle</p></li>
-              <li><p className="text-blue-200 text-shadow-xs text-shadow-blue-500">Contact Info:{`(`} 267{`)`}777-2344 <a href="mailto:ryanbrooklyn2020@gmail.com">ryanbrooklyn2020@gmail.com</a></p></li>
-              <li><p className="font-bold"> I Am Prepared To Prove The Following Crimes Beyond Reasonable Doubt, Were Committed With Wanton Disregard for Our Safety and the Laws and Provisions of The State of Washington and US Federal Codes: False Imprisonment, False Arrest, Malicious Prosecution, Evidence Tampering,Witness Intimidation, First Degree Kidnapping, Extortion, Auto Theft, Assault, Interference with 911 Medical Duress Call, Civil <text className="underline italic bold">Conspiracy</text> to Violate the Rights of a Disabled American Using Color of Law, namely my passenger.</p></li>
-              <li><p className="font-bold">On July 4th 2024 In: Colockum Wilderness State Park in Washington State</p></li>
-              <li> <p className="font-bold">Case #: 2410025304 Chelan County Superior Court</p></li>
-              <li><p className="font-bold"> Charges: Three Counts Felony Threats to "leave and get a firearm and come back and shoot the place up"</p></li>
-              <li>   Court Status: Awaiting Trial Next Hearing: Wendsday via Zoom Case Readiness</li>
-              <li>  Evidence of alleged threat: Testimony by three dispatchers and tow truck driver present.</li>
-              <li>  Crimes or Violence by Defendent Visible or Audible in Evidence: NOT A SINGLE CRIME </li>
-              <li>  Criminal Conduct by Alleged Victims Evident?: YES, alleged victims threaten me and demand cash for the 911 rescue "saving our lives" visible in states evidence videos</li>
-              <li>    Defendents Criminal History: NOTHING GOING BACK AT LEAST 20 YEARS</li>
-            </ul>
-          </Card>
-        </div>
-
-
-        <div className="min-w-2/5 m-4">
-          <Card className="shadow-inner mx-12 bg-gradient-to-br from-[#f43f5e] via-[#be185d] to-[#831843] text-white">
-            <CardHeader>
-              <h4 className="text-xl text-right">Disgusting, Eggregious, Brazen Violations of Duty of Care</h4>
-            </CardHeader>
+        <div className="min-w-2/5">
+          <Card className="blues">
             <CardContent>
-              <Card className="bg-gradient-to-br from-[#f43f5e] via-[#be185d] to-[#831843] text-white">
-                <ul className="list-disc list-inside text-xl px-4">
-                  <li>
-                    A disabled woman with serious complications required immeidate medical assistance after being trapped on a mountain inside a state park 4th of july with no cell service due to a flat tire.
-                  </li>
-                  <li>
-                    Wenatchee Fire photographed on scene sitting idle during a medical duress call for urgent life saving medical
-                  </li>
-                  <li>
-                    Chelan Prosecutors in Coordination with Rivercom 911 and Chelan Sheriffs Department, Wenatchee fire re-classify a 911 call for life saving medical emergency help to a roadside 911 call after caller threatened to report the Operation Manager for kidnap and extortion for interfering with his passengers need for an ambulance and surprising him with unwanted roadside scheme.
-                  </li>
-                  <li>
-                    A dispute over a tow bill is alleged to have occurred however there was no impound and no tow. The vehicle was sent home with the ill passenger who is yet still never named in any paperwork but is visible in the evidence video.
-                  </li>
-                  <li>
-                    The director of Rivercom 911 rerouted a 911 call to his personal residence, where an associate of his showed up demanding cash for unsolicited vehicle repairs while an unsuspecting owner waited beside a dying passenger.
-                  </li>
-                  <li>
-                    Rivercom 911 director repeatedly says "Ryan needs to disappear for good", and has his wife, another dispatcher, assault Ryan at one point, in an effort to incite a justifiable homicide. When that fails he contacts a personal deputy friend and orders a shooting which narrowly did not occur.
-                  </li>
-                  <li>
-                    False charges of threats were loosely fabricated and supporting evidence was withheld for almost a year while defendant and victim; driver of truck, Ryan Hell was harassed.
-                  </li>
-                </ul>
-              </Card>
+              <ul className="list-disc list-inside">
+                <li>
+                  Defendent: Ryan Hell, Age: 48 Residence: Seattle</li>
+                <li>Contact{`(`} 267{`)`}777-2344 ryanbrooklyn2020@gmail.com</li>
+                <li> I Am Prepared To Prove The Following Crimes Beyond Reasonable Doubt, Were Committed With Wanton Disregard for Our Safety and the Laws and Provisions of The State of Washington and US Federal Codes: False Imprisonment, False Arrest, Malicious Prosecution, Evidence Tampering,Witness Intimidation, First Degree Kidnapping, Extortion, Auto Theft, Assault, Interference with 911 Medical Duress Call, Civil Conspiracy to Violate the Rights of a Disabled American Using Color of Law, namely my passenger. </li>
+                <li>On July 4th 2024 In: Colockum Wilderness State Park in Washington State</li>
+                <li>Case #: 2410025304 Chelan County Superior Court</li>
+                <li>Charges: Three Counts Felony Threats to "leave and get a firearm and come back and shoot the place up"</li>
+                <li>   Court Status: Awaiting Trial Next Hearing: Wendsday via Zoom Case Readiness</li>
+                <li>  Evidence of alleged threat: Testimony by three dispatchers and tow truck driver present.</li>
+                <li>  Crimes or Violence by Defendent Visible or Audible in Evidence: NOT A SINGLE CRIME </li>
+                <li>  Criminal Conduct by Alleged Victims Evident?: YES, alleged victims threaten me and demand cash for the 911 rescue "saving our lives" visible in states evidence videos</li>
+                <li>    Defendents Criminal History: NOTHING GOING BACK AT LEAST 20 YEARS</li>
+              </ul>
             </CardContent>
           </Card>
         </div>
+
+
+
+        <Card className="shadow-inner bg-gradient-to-br from-[#f43f5e] via-[#be185d] to-[#831843] text-white md:mx-4">
+          <CardHeader>
+            <h4 className="text-xl text-right">Disgusting, Eggregious, Brazen Violations of Duty of Care</h4>
+          </CardHeader>
+          <CardContent>
+
+            <ul className="list-disc list-inside text-xl">
+              <li>
+                A disabled woman with serious complications required immeidate medical assistance after being trapped on a mountain inside a state park 4th of july with no cell service due to a flat tire.
+              </li>
+              <li>
+                Wenatchee Fire photographed on scene sitting idle during a medical duress call for urgent life saving medical
+              </li>
+              <li>
+                Chelan Prosecutors in Coordination with Rivercom 911 and Chelan Sheriffs Department, Wenatchee fire re-classify a 911 call for life saving medical emergency help to a roadside 911 call after caller threatened to report the Operation Manager for kidnap and extortion for interfering with his passengers need for an ambulance and surprising him with unwanted roadside scheme.
+              </li>
+              <li>
+                A dispute over a tow bill is alleged to have occurred however there was no impound and no tow. The vehicle was sent home with the ill passenger who is yet still never named in any paperwork but is visible in the evidence video.
+              </li>
+              <li>
+                The director of Rivercom 911 rerouted a 911 call to his personal residence, where an associate of his showed up demanding cash for unsolicited vehicle repairs while an unsuspecting owner waited beside a dying passenger.
+              </li>
+              <li>
+                Rivercom 911 director repeatedly says "Ryan needs to disappear for good", and has his wife, another dispatcher, assault Ryan at one point, in an effort to incite a justifiable homicide. When that fails he contacts a personal deputy friend and orders a shooting which narrowly did not occur.
+              </li>
+              <li>
+                False charges of threats were loosely fabricated and supporting evidence was withheld for almost a year while defendant and victim; driver of truck, Ryan Hell was harassed.
+              </li>
+            </ul>
+          </CardContent>
+        </Card>
+
+      </div>
+      <div className="flex-col md:flex-row">
+        <Card>
+          <AccordianDemo></AccordianDemo>
+        </Card>
       </div>
       <div className="flex-row md:flex-row">
-        <div className="flex-col my-3 mx-9">
-          <div className="container my-5 ">
-            <div className="card px-12"><EthicalMisconduct /></div>
-          </div>
-          <div className="container">
-            <div className="card mx-3 px-3"><Discrepencies /></div>
-          </div>
+        <div className="flex-col">
+          <Card className="px-1"><EthicalMisconduct /></Card>
+          <Card><Discrepencies /></Card>
         </div>
 
 
 
       </div>
       <div className="container px-2">
-        <Card className="tspin">
-          <Card className="foil mx-20 px-22 border-amber-300 border-4 inner-shadow drop-shadow-2xl">
+        <Card className="tspin md:mx-4">
+          <Card className="foil px-1 inner-shadow drop-shadow-2xl">
             <h2 className="text-4xl">Above Reproach Should Never Mean Immune From Accountability</h2>
             <p className="text-2xl">However; there is still a substanctial amount of incredibly damnding evidence and it is pretty obvious these officials didnt merely make a bad judgement call; they were engaged in straight up nefarious activities and targeted me, a law abiding legal citixen while trying to save a womans life and do the right thing. Theyve called themselves GOOD SAMARITANS over and over. Keep in mind its on video they DEMANDED 1000 cash for the tire they surprised me with, and when that tow driver backed out and stopped, the two dispatchers started saying I owed them now. For saving our life. They also acknowledge the passenger was near death.</p>
             <p>Yet strangely enought hey never list the female in any of the police reports or incident logs, oir CAD files. Being that she was the ONLY reason I called and she was rhe entire reason for needed aid car.. its not right.</p>
@@ -117,9 +120,9 @@ export default function Home() {
         </Card>
         <Background />
         <CAD1 />
-        <Card className="bg-slate-800 text-white mx-12 drop-shadow-2xl shadow-inner">
+        <Card className="bg-slate-800 text-white drop-shadow-2xl shadow-inner">
           <CardHeader>
-            <h2 className="text-5xl">Major Prosecutorial MISCONDUCT</h2>
+            <h2 className="text-5xl">Prosecutorial MISCONDUCT</h2>
             <h3 className="text-2xl drop-shadow-lg">Discrepencies...not just a few minor frivial things either.</h3>
           </CardHeader>
           <CardContent>
@@ -140,7 +143,6 @@ export default function Home() {
               <h3 className="text-2xl">Taunting Me, or Throwing Me a Bone?"</h3>
               <p className="text-1xl">After nearly an entire YEAR, I was finally told I could watch but not take home Jenas videos. I was invited to assigned counsels office to watch a copy of un-tampered video which clearly showed deputy asking tow operatopr for impound bill and the tow operator said Ryan doesnt owe me anything. He was asked about impound, tow, and the services / parts rendered to "fix" my truck and the tow operator adimently and sternly informed the deputy that he was not owed ANYTHING by me and he had no interest in my truck. Yet that deputy lied on his incident report stating that I was outraged over some repair or impound bill I wasnt able to pay. Keep in mind also; my truck was given to my passenger to drive home. They wrote that up as "we dropped his truck off at the park and ride" but in fact the tow operator drove my passenger to the park and ride then sent her on her way. The deputy actually came to the car window to get my consent on his body cam which conflicts the claim Chelan Sherifs make that their deputies are not equip[ed with body cams. But the Deputy did in fact ask and I graciously said yes please and thanks. They lack chain of custody for an impound claim. Further, the truck had a tire failure again due to low pressure and it had to be towed from Snoqualmie to Seattle that same night.  </p>
             </ul>
-
           </CardContent>
         </Card>
       </div>
