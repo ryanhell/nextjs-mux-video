@@ -1,0 +1,144 @@
+.pdf-viewer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.pdf-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  flex-shrink: 0;
+}
+
+.toolbar-left,
+.toolbar-center,
+.toolbar-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-button,
+.zoom-button,
+.reset-zoom,
+.download-button,
+.retry-button {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.nav-button:hover:not(:disabled),
+.zoom-button:hover,
+.reset-zoom:hover,
+.download-button:hover,
+.retry-button:hover {
+  background-color: #f0f0f0;
+}
+
+.nav-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.download-button {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+.page-info,
+.zoom-level {
+  font-size: 14px;
+  color: #666;
+  min-width: 80px;
+  text-align: center;
+}
+
+.pdf-container {
+  flex: 1;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.loading-spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #007bff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 16px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.pdf-viewer-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.error-content {
+  text-align: center;
+}
+
+.error-message {
+  color: #dc3545;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .pdf-toolbar {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .toolbar-center {
+    order: 3;
+    flex-basis: 100%;
+    justify-content: center;
+  }
+  
+  .pdf-container {
+    padding: 10px;
+  }
+}

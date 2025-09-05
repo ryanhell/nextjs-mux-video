@@ -546,3 +546,7 @@ body {
 .text-2xl {
   text-shadow: horizontal-offset vertical-offset blur-radius color;
 }
+.headlined {
+  text-shadow: #000000 1px 1px 0, -2px 1px 12px rgba(102, 255, 208, 0.21);
+  color: #fff9f9;
+}
