@@ -24,7 +24,7 @@ export default function JeremiahLiarLiarYouDontWorkOnFires() {
     return (
         <Card className="flex w-full flex-col gap-1 blue mx-1">
             <Tabs defaultValue="JeremiahFireman blues px-3">
-                <TabsList className="blues w-100 mx-auto my-auto text-xl headlined">
+                <TabsList className="blues w-100 mx-auto my-auto text-xl headlined bg-gradient-to-r from-fuchsia-500 to-pink-500">
                     <TabsTrigger value="JeremiahFireman">FIREFIGHTER</TabsTrigger>
                     <TabsTrigger value="Jeremiah911Manager">911 MANAGER</TabsTrigger>
                     <TabsTrigger value="RivercomResponse">Rivercom Replies:</TabsTrigger>

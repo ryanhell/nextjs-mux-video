@@ -11,10 +11,10 @@ export function AccordianDemo() {
         <Accordion
             type="single"
             collapsible
-            className="mx-4"
+            className="py-23 my-43"
             defaultValue="item-1"
         >
-            <AccordionItem value="item-1">
+            <AccordionItem value="item-1 text-black text-2xl">
                 <AccordionTrigger>They Call Stealing My Truck, "Towing My Truck"</AccordionTrigger>
                 <AccordionContent className="flex flex-col gap-4 text-balance">
                     <ul>

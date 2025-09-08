@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function Discrepencies() {
     return (
-        <Card className="md:mx-44 shadow-inner foil">
+        <Card className="md:mx-44 shadow-inner radd text-slate-300">
             <CardHeader>
                 <p className="text-xl">Defense Legal Aid Needed for Chelan County Superior #2410025304</p>
             </CardHeader>

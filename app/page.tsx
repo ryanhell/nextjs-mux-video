@@ -9,6 +9,7 @@ import data from '@/app/api/CaseData.json';
 import { AccordianDemo } from '@/components/AccordianDemo';
 import BagshawBadge from "@/components/BagshawBadge";
 import JeremiahLiarLiarYouDontWorkOnFires from "@/components/JeremiahLiarLiarYouDontWorkOnFires";
+import RobinsonCarousel from "@/components/imageComponents/Carousels/RobinsonCarousel";
 
 import {
   Accordion,
@@ -20,49 +21,145 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="container tables mx-auto p-1 md:p-3">
-
-
-      <Card className="bagshaw md:px-12">
-        <Card className="ryanPaper m-2 p-3 flex md:mx-12 drop-shadow-2xl">
-          <div className="inset-shadow-2xs">
-            <p className="mx-3 md:mx-12 text-lg leading-relaxed drop-shadow-md text-slate-600 drop-shadow-slate-500">Surreptitious Criminal Conduct Involving the Director of Rivercom 911 Taking Us To His "Personal Home" With The False Promise of an Ambulance; During The Nearly 3 Hour Ordeal They Stole My Truck, Robbed Me and His Wife; As Their Panic and Desperation Grew, The Female Dispatcher Violently Assaulted Me in Attempt to Elicit a Fight So Her Armed Husband, The Operation Center Manager; Could Shoot and Kill Me. These People LITERALLY Created a Deadly, Unlawful Imprisonment Situation Amidst My Urgent Medical Emergency for Both My Passenger and Myself Being Stranded in a Desert on The Fourth of July. The Chelan County Prosecutor And Judge Jourdan Have Made No Secret of Their Contempt for Me; Like I Did ANYTHING Wrong At ALL. I BARELY SURVIVED Multiple Swatting Efforts. There were ViP's; RETIRED OFFICIALS; Being Ushered Off The PROPERTY. Fire / EMT Crews Sitting By Ordered Not To Interact. And I Am Supposed To Quietly Tolerate All These Attacks on my Personal Liberty anmd Wellbeing? </p>
-          </div>
-          <figure>
-            <Image
-              src="/Chelan/july4_2024/960B101E-0D1C-45F9-BEAB-A7FA975B6B63_4_5005_c.jpeg"
-              width={730}
-              height={440}
-              className="mr-4 float-left flex-shrink-0"
-              alt='Wenatchee Fires Surplus HMVEE "brush truck" seen moving about with their lights on. There were multiple personnel onseen who appeared to be ordered to stand down and not assist or intervene in any way due to an EXTREMELY sensitive LEGAL situation created by Rivercom and Chelan County Sheriffs Office when they kidnapped me and my passenger, stole my truck, and then later arrested me on false charges. These actions yielded a serious problem with their CAD file architecture of the call I made requesting emergency medical help for my passenger who was near death. The CAD file was altered to remove any mention of a medical and it introduced a false narrative that I was seeking some sory of roadside for the flat tire I had. They somehow claim they had a truck, Wenatchee Fire EMTs and operastions manager for Rivercom just milling about with nothing better to do on the 4th of July in fire country. EMTs were there in case passengers situation degraded or went critical; but they had to lay low because taking her vitals would admit her name into the chronos and confirm this was in fact a 911 medical call. For over 4 hours they made this poor woman suffer, very nearly killed her, and called me the bad guy for staying focvused on her safety and getting her to a hospital.'
-            />
-
-            <figcaption className="mx-3 text-lg"><h3>Wenatchee Fire Present for Roadside on the 4th of July?</h3>Impressive. But really. Wenatchee Fires Surplus HMVEE known as a "brush truck" was seen moving about the property with their lights on. Multiple fire personnel were quietly present on scene, and it would seem they were ordered to stand down and not assist or intervene in any way due to an EXTREMELY sensitive LEGAL situa  tion created by Rivercom and Chelan County Sheriffs Office when they kidnapped me and my passenger, stole my truck, and then later arrested me on false charges. These actions yielded a serious problem with their CAD file architecture of the call I made requesting emergency medical help for my passenger who was near death. The CAD file was altered to remove any mention of a medical and it introduced a false narrative that I was seeking some sory of roadside for the flat tire I had. They somehow claim they had a truck, Wenatchee Fire EMTs and operastions manager for Rivercom just milling about with nothing better to do on the 4th of July in fire country. EMTs were there in case passengers situation degraded or went critical; but they had to lay low because taking her vitals would admit her name into the chronos and confirm this was in fact a 911 medical call. For over 4 hours they made this poor woman suffer, very nearly killed her, and called me the bad guy for staying focvused on her safety and getting her to a hospital.</figcaption>
-
-          </figure>
-
-        </Card>
-        <Card className="bagshaw md:px-12 px-3 mx-3">
-          <h3 className="text-2xl headlined">Intentional Mis-Identification Of Key Subjects, By Deputies, Victims, and Dispatch Company</h3>
-          <p className="headlined text-xl">The reason why? Simple: becuase during the incident when I was ambushed essentially, by this unwanted and unneeded not to mention fictitious repair as they claimed it were; the tow man was never towing my truck i fact. He admitted he went to the place we left it while i was struggling to get a non existent ambulance to show up which the Operations Manager and his dispatcher wife Jena Johnson never actually called for as it turns out. Instead, they called this man, who owned the B&T Towing truck they say, to come secretly replace my trucks wheel and tire while we were stranded at Jeremiahs home miles away, a place isolated without cell service. This was quite literally taking motor vehicle without owners permission and other violations potentially; however; I commend the B&T tow operator who took my truck for listening to my reasoming and yielding to my recommendation to pass on this scheme becuase I would report him to Wa State Patrol and since he lacks written contract or any valid proof of even a verbal contract; he will struggle to explain what gave him the right to move my vehicle. <br></br>
-            <h4 className="pt-4 underline italic text-3xl headlined"> Additional Pattern of Misconduct Exposed in Front of Multiple Witnesses</h4>
-            B7T Towing of Cashmere was pissed and threw my keys down and spit on the ground, then swore at Jeremiah for wasting his time on a lucrative holiday such as 4th of July, then made a parting comment to Jeremiah that he would owe him another dispatch after this one went bad as it had... and this opens up a real concern since state and federal dispatch guidelines and statutes explicitly prohibit dispatchers from referring tows; and only makes marginal provisions under extrenuating circumstances and only then it would still have to be what is known as a non-preference tow. You see; tow drivers and dispatchers make untrustworthy business partners and they are typically regulated heavily in the matter of referalls and such for reasons just like this case.   </p>
-          <Image src="/Tow/towScandalLIES.jpg"
-            width={2230}
-            height={440}
-            className="mr-4 float-left flex-shrink-0"
-            alt='scam includes INTENTIONAL ATTEMPT TO MISADDRESS NAME OF TOW COMPANY I ALLEGEDLY RIPPED OFF'
+    <div className="flex flex-col md:mx-5 servefast">
+      <div>
+        <Card className="gold">
+          <Image src="/ryansPhotos/shitshowcircus.jpg"
+            width={1900}
+            height={1000}
+            alt="edded"
+            style={{ objectFit: 'cover', overflow: 'hidden' }} // Ensures the image covers the area without distortion
           />
         </Card>
+        <Card className="radd md:mx-13 md:my-13 drop-shadow-2xl border-2 border-white">
+          <p className="text-white mx-3 md:mx-12 text-3xl leading-relaxed bold font-bold italic opaque-30">Surreptitious criminal conduct involving Chelan & Douglas County's 911 provider, Rivercom 911, their 'Director of Operations', dispatchers, Chelan County Sheriffs, Wenatchee Fire, Ballard Ambulance and Chelan County Superior Court, namely Judge Jourdan and the county attorneys office as well as defendents assigned indigent legal council; Chelan Public Defenders Justin Titus, Sean Estworthy, and Brian Chase. </p><br></br><div className="float-right"><RobinsonCarousel /></div><p className="mx-3 md:mx-12 text-2xl leading-relaxed text-white">
+            The above listed agencies and individuals are have cognized and identified as contributors to the facilitation of this crime, the planning and execution, and or the attempt to conceil the crimes and silence the victim, knowing the original cases severity and significance and the consequences that it carries.
+            They are bound by the key evidence as well as other indicators such as deliberate indifference and cruelty such as the course of conduct which which was demonstrated during this deadly incident as Wenatchee Fire Fighters and EMT's stood down while a severely injured disabled woman suffered while being held captive in the kidnappers garage. The woman's driver, Ryan Hell, who previously attempted to get her to a hospital; also ill, was being beat, verbally abused, had his truck stolen in what amounts to armed robbery, he was extorted and then told he would be shot and killed if he did not leave on foot and walk to town abandoning his passenger. In a deperate plea for compasand in prove these people have worked in conjunctiiosion he begged the gunman to surrender his pasenger so he could try some other means of getting her to a hospital. He was spit on and then swatted by violent Sheriff Deputy associates of the kidnapper who spent more than an hour on his personal phone pleading for his deputy friend to "make Ryan disappear for good".</p>
+        </Card>
+        <Card className="md:mx-44 md:px-12 blues inner-shadow-2xl border-zinc-6005">
+          <p className="mx-3 md:mx-9 text-2xl leading-relaxed text-white drop-shadow-amber-500">
+            The primary kidnapper and gunman is Jeremiah Johnson of Malaga Washington State, is confirmed as the Director of Rivercom 911, a private PSAP  911 service in central rural Washington State. This company enjoys a hybrid structure of private and municipal ownership which is rare for PSAP's. Jeremiah sits on the board of advisers and he provided much of the technical setup and holds much of the licensing required by the Federal Government to maintain this facility. Perhaps Jeremiah engaged in a roadside robbery of stranded emergency medical callers, and abused his role as DIRECTOR of the 911 service in order to do so. Or, perhaps Jeremiah was acting to carry out the request of a non-official who is not commissioned or otherwise performing official business. Meaning, Jeremiah used a Federally Regulated Emergency System, as well as coordinated with Wenatchee Fire and Cheelan County Sheriffs in order to do some type of grievous harm to Ryan Hell and his passenger as consequence. Without a doubt; one of these two scenarios is an absolute fact. When we consider the unknown woman who Jeremiah Johnson hastily ushered off the property in the moments before Deputies arrested Mr Hell; we an break down the language and ascertain some of the potential meanings. Additionally we can exclude some of the likelihood that Jeremiah's intent at dispatch was to merely hustle two people for a old beat up pickuop truck.
 
-      </Card>
-      <div className="agshaw flex-row md:flex-col md:mx-12">
+            Jeremiah and Wenatchee Fire Fighters were heard yelling to the unidentified woman in the pickup:
+            "you have to go", "you have to leave", "the sheriffs are almost here", "the sheriffs are hear", "they wont come in until you have left the property". These are almost verbatim what was yelled. Multiple people. Rivercom personel as well as Wenatchee Fire. The woman responded from inside of her pickup; "where is Ryan, I cant let Ryan see me." After the woman drove precariously, as I approached and asked her to wait for police, she pushed past me driving onto the grass striking me with the mirror of her truck, then sped away down the gravel driveway and beyond. Just moments after; the deities and wildlife agent slowly swerved up the road driving about 5 mph, which was unusual for a call. I put my hands up, palms toward the deputies knowing there is a high likelihood there will be some sort of desire to shoot me or perhaps a mistake caused by Jeremiahs false accusations. I was in plain view in the center of the lane at the driveeway apron to the property.
+
+            Another fun fact. I am unable to or maybe not yet around to it enough to solve it: but the residence noted in the documents on Colockum Road; it appears to not be in Jeremiah or Jenas name. I am not yet 100% sure. Records seem to change when I search. However doing a reverse search in order to determine if this is in fact the Joihnsons personal home or was it perhaps property belonging to Rivercom 911? The property has some details about it which lead me to suspect it belongs to a commercial entity. If so it is also being appropriated by non official use, although that could be legal I am not sure. When I did the reverse search for properties I did find a house supposed to be just two doors down the road, which is in Jeremiah Johnsons name. So this is worth looking into. If Rivercom owns the property Jeremiah and Jena took us to: this case takes on a new dynamic. Obviously everyone claims Jeremiah was off that day and volunteering for brush fire duty on the 4th of juky, then took off to pick us up and then took us to his "personal home"  to "wait for a tow truck". None of that passes the litmus test of common sense 101, for me anyhow. What seems much more plausible, in fact seems obvious aside from the denials by the perpetrators: Jeremiah and Jena were both at work at Rivercom 911 on 4th of July. They abused their roles and engaged in a serious criminal conspiracy to deprive and likely intentionally murder two completely innocent people stranded in a state park on the fourth of july. We already know they utilized their dispatch systems to intercept, mismanage miscategorize then facilitate their fake rescue. The sheer magnitude of criminality demonstrated in these concrete items alone, which I think we can all see; would surely not be worth a measly 1000 dollar cash ransom or a beatup 2007 F150 with nearly 300K miles on it. They needed the cooperation of several others we know for sure; not likely. However; if a VIP of some sort; like say, a Harvard Leader, were to come to them and ask them for their assistance; would they throw caution to the wind and ignore consequences assuming they were above the law?
+
+
+
+
+            The passenger and driver who called 911 did not succomb yet to these injuries or illnesses. The passenger, a 58 year old diabetic friend of Ryan's; had been given the keys to his truck after Ryan was arrested then drove the truck back towards Seattle and had broken down due to the tire losing air again, near Cle Elum. At that location she was able to achieve a tow by using her AAA Roadside, and the vehicle was towed to Ryan's residence in Seattle.
+
+            According to the narrative the county is pushing: Ryan and his passenger were up driving around and got lost got a flat tire then called 911 for road side assistance. This contradicts clear statute and guidelines on the matter of neutrality of 911 from roadside. In fact, the FCC recently posted an article on the subjeect re-iterating the fundemental rule of 911 staying away and uninvolved from roadside assistance. They save lives and property if signicant risk exist. This truck was on the side of a gravel park road, miles away from any people. It was not obstructing the road way.
+
+            Rather; what actually occured is Ryan and his passenger had traveled to Malaga for a long awaited camping trip to get the passengers medical dogs away from fireworks. Once there they seen a welcome board for the Wa State Discovery Park system which the passenger had an annual pass, as well as stating Fishing License granted provisions for access, which Ryan Held for 2024. The road was a bumpy and not maintained gravel wagon road, which winded through the hills and valleys of the various canyons throught the deserts and thickets of timbers etc. Mostly rocky and arrid terrain, no sight of habitations, structures, or other resources so be prepared as the sign said.
+          </p>
+          <Image src="/ryansPhotos/passengerEvidence/passengerICUDischargeSummary.jpg"
+            width={1700}
+            height={2267}
+            alt="My Passengers discharge sumary for a similar medical emergency in late August 2025, which required ambulance to ICU and several days intebsive care"
+          />
+          <p className="md:mx-44 md:px-12 blues inner-shadow-2xl border-zinc-6005">
+            The emergency call was for urgent life saving medical. There was NEVER anything else implied or permitted. My passengers critical life threatening medical emeergency was explicitly described with proper patience and understanding since my own mother passed some years ago after a life long battle with diabetes. I know a little about it. However; oddly eniough, during this most extreme and bizzare encounter with RIVERCOM 911 essentially mishandling at least one life threatening medical emergency; they in fact said a LOT of things which no surprise did not make their final cut for the CAD dispatch log. You see; from the beginning the dispatcher laughed. Refused ambulance, refused access to first aid help, refused any sort of help. She offered to buy my truck. She started asking if I needed a tune up. How many miles does my truck have. Is it 4 wheel drive, what engine the v6 or v8. Those are COMPLETELY innapropriate questions during an emergency medical 911 call, and I dont care if they erased all record of Rivercom 911's adherance to  Because storage space is super expensive thsee days. They have to erase and record over it every 90 days? Absurd we are to believe this type of thing. On the record well witwhich completely doze over the description bizarre and go straight into criminal malicious and idiotic. My passenger is dying Ryan said. The dispatcher laughed, she said its your problem. We cant help. She argued with Ryan nearly an hour while she berated him and made senseless accusations and said things like "we shouldnt pay for stupid people from seattle who get in trouble in Chelan". Ryan told her they could pay for the ambulance and the passenger has insurance. She asked who her insurance was then said she would see what she could do. She called back and said they could get a deputy or city council to pick them up. Ryan said yes if that is the only option to get her to the hospital. Several other odd things were mentioned by the dispatcher which put Ryan into an immediate defensive posture regarding his vehicle. The dispatcher mid stride, as Ryan is telling her about the passengers deadly situation and urgent medical emergency, interupted Ryan to ask him what year his truck was, is it 4 wheel drive, and was it paid for or financed. This is obviously illegal to ask in an emergency call and its also concerning since Ryan worked at car lots and tow yards many years ago, and is familiar with an assortment of laws especially the tyransferall of ownership of a vehicle, under Mechanic Lien or outstaning debts. She asked later how many miles and if it was 4 wheel drive. Then she offered to send a mechanic. When Ryan declined and asked her repeatedly to hurry and focus on the injuured passenger; the dispatcher would only eventusally, reluctantly return to her duties. She said if yoiu want anyt help you are going to let us fix your truck and that set Ryan off. These dispatchers were clearly engaged in a very well rehearsed scam of taking vehicles. Ryan had faith in the nations 911 laws and those associated technologies as being truly reslient and impervious to tampering or destruction. He made a very clear and very formal decleration after the dispatcher sent some people to pick them up to take them to "meet an ambulance which accepted our insurance", Ryan said thank you, and for the record, NOBODY is touching my truck. The dispatcher was again behaving dodgy. She reluctantly aggrees to not touch Ryan's truck and note that no work, tow or seervice or anything is to be performed without Ryan's written authorization and presence. It merely needed air in the tire. The dispatcher spent no less than 15 minutes of the overall call duration; trying to rope Ryan into free tune ups, assessments, reppairs and so forth. All scams. Ryan repeatedly told her there was nothing wrong with his truck and she still recommended a tune up; to just let their guy take a look at it. Its hard to believe and it is very likey this was all a ruse being done by the dispatcher for whatever other innterest behind the scenes was going on, or perhaps for entertainment. But the call was radically out of control and bizarre.</p>
+
+          <p className="mx-3 md:mx-12 text-2xl leading-relaxed text-slate-200"> The truck that came to pick them up was the operations manager of that 911 center as Ryan later uncovered and confirmed. At the time of incident he was dressed in Fire Fighter uniform and claimed he was a Fireman. The female he had with him was immediately recognizable by voice and attitude as the dispatcher Ryan had talked to. She was on the phone much of the drive to the house the Operations Manager said she was a dispatcher. Ryan asked if she was the one who took his call and she said no. Ryan knew she was lying but reserved that opinion.</p>
+        </Card>
+
+
+
+        <br></br>
+        <Card className="ryanspaper">
+
+          <p className="mx-3 md:mx-12 text-2xl leading-relaxed text-black"> & his wife taking Us To His "Personal Home" With lThe False Promise of an Ambulance; During The Nearly 3 Hour Ordeal They Stole My Truck, Robbed Me and His Wife; As Their Panic and Desperation Grew, The Female Dispatcher Violently Assaulted Me in Attempt to Elicit a Fight So Her Armed Husband, </p><br></br>
+          <p className="mx-5 md:mx-15 text-2xl text-black">The Operation Center Manager; Could Shoot and Kill Me. These People LITERALLY Created a Deadly, Unlawful Imprisonment Situation Amidst My Urgent Medical Emergency for Both My Passenger and Myself Being Stranded in a Desert on The Fourth of July. The Chelan County Prosecutor And Judge Jourdan Have Made No Secret of Their Contempt for Me; They Behave Outraged and Indignified as if I Did ANYTHING Wrong At ALL, AT ANY POINT IN TIME.</p>
+        </Card>
+        <Card className="bagshaw mx-4 px-12">
+          <Card className="gould border-zinc-600 border-3 drop-shadow-2xl mx-3 px-3">
+
+
+
+            <ul>
+              <li> <h3 className="text-4xl text-right">18 USC 241: Conspiracy against rights</h3></li>
+              <li><hr></hr></li>
+              <li> From Title 18-CRIMES AND CRIMINAL PROCEDURE</li>
+              <li>  CHAPTER 13-CIVIL RIGHTS</li>
+              <li> CHAPTER 13-CIVIL RIGHTS
+              </li>
+            </ul>
+            <p className="text-xl italic px-5">
+              18 USC 241: Conspiracy against rights
+              From Title 18-CRIMES AND CRIMINAL PROCEDURE
+
+              CHAPTER 13-CIVIL RIGHTS
+
+              §241. Conspiracy against rights
+              If two or more persons conspire to injure, oppress, threaten, or intimidate any person in any State, Territory, Commonwealth, Possession, or District in the free exercise or enjoyment of any right or privilege secured to him by the Constitution or laws of the United States, or because of his having so exercised the same; or
+              If two or more persons go in disguise on the highway, or on the premises of another, with intent to prevent or hinder his free exercise or enjoyment of any right or privilege so secured-
+              They shall be fined under this title or imprisoned not more than ten years, or both; and if death results from the acts committed in violation of this section or if such acts include kidnapping or an attempt to kidnap, aggravated sexual abuse or an attempt to commit aggravated sexual abuse, or an attempt to kill, they shall be fined under this title or imprisoned for any term of years or for life, or both, or may be sentenced to death.</p></Card>
+          <Card className="blues">
+            <h2 className="text-2xl mx-4">100% Law Abiding Citizens Violently Attacked in Coordinated Conspiracy Involving Multiple Local Agencies Abusing Color of Law While Acting on Behalf of a Non-Authority.</h2>
+            <h4 className="text-2xl mx-4"> I believe it is POSSIBLE this attack was facilitated by Sally Bagshaw as retaliation for my helping Seattle Times located a time sensitive record archive which declared Murray a pedophile molestor. Sally Bagshaw had a extremely unique protective intetrest with keeping Murray in office, many have noted. She was recently caught on film inside a Hotel with multiple lobbyist, and she since resigned from political office and is now working as a major construction chair on the hiways devlopemts.</h4>
+
+
+
+
+
+            <Card className="blues">
+              <blockquote className="relative p-4">
+                <span className="icon-[tabler--quote] text-base-300/20 absolute -start-3 -top-3 size-16 rotate-180 rtl:rotate-0"></span>
+                <div className="relative z-1">
+                  <p className="text-base-content text-center text-5xl">
+                    Conspiracy:<br></br>
+                    <em className="text-4xl">
+                      'a secret plan by a group to do something unlawful or harmful'.
+                    </em>
+                  </p>
+                  <p className="text-xs text-muted italic">so lets not giiglee and act like there are not huge provision in the penile code that arent explicitly there just to prevent the type of abuse of power, organized malfeasance and silencing of opposition which these people were engaged in.</p>
+                </div>
+
+              </blockquote>
+
+            </Card>
+
+
+            <h3 className="m-12 text-3xl">I BARELY SURVIVD Multiple Swatting Efforts. There were ViP's; RETIRED OFFICIALS; Being Ushered Off The PROPERTY. Fire / EMT Crews Sitting By Ordered Not To Interact. And I Am Patiently Waiting For Justice, for Legal Aid. I am falsely accused in a brazen bold attempt to conceil a very obvious and easy to spot criminal conspiracy which exposes deadly criminal racketeering where a retirted non official potentially, is able to facilitate the revenge for a wealthy elite child predator, by using her connections in state law circles, and a loosely managed large 911 provider in a State Park, on the Fourth of July. Leaving a legally disabled woman to suffer and nearly die as First Responders watched on.</h3>
+            <hr></hr></Card>
+        </Card>
+        <div className="container px-4 my-9 mb-4">
+          <h1 className="text-5xl text-center">Demonstrated Disregard for Life & Property, With Clear Pattern of Intentional & Unnecissary Violations Under Color of Law</h1>
+          <h3 className="text-3xl">..on the Fourth of July, rather than tending to legitimate duties they were busy abusing us</h3>
+          <Image src="/JeremiahJohnson/JeremiahJohnsonRivercomOfficerThumb.jpeg"
+            width={2300}
+            height={300}
+            alt={"Jeremiah Johnson was the Rivercom 911 Director; Operations Manager, confirmed oin July 4th 2024. He then donned the clothing of a Wenatchee Fire department firefighter and interfered with an urgent life saving medical emergency call for a disabled 58 year diabetic who was going into shock for insulin shocck and stranded outside cell service in a state park. Jeremiah and his wife Jena Johnson, another dispatcher devised and hatched a scheme to deny them an ambu8lance at the scene then transported the two injured motorist to the Johnsons Personal estate located in aniother desert canyon on a remote dead end road with limited cell phone service. Once there Jeremiah called an associate to go back and steal mr Hell's 2007 F150, then replace his flat tire using his own wheel and tire he brought. He then drove mr Hells treuck 5 miles to the Johnsons estate and Jeremiah ushered Mr Hell outside where his cohort was sitting inside ryans truck and then demanded 1000 dollars, cash only. Ryan said he was dealing with a medical emergency and needed to go and wanted his passenger and then things escalated after Jena assaulted Ryan, and Jeremiah stood by with his firearm and made threats to shoot and kill Ryan."}
+          />
+        </div>
+      </div>
+      <div className="wddewdw">
+
+        <Card className="blues md:px-12 px-3 mx-3">
+          <h3 className="text-2xl headlined">Intentional Mis-Identification Of Key Subjects, By Deputies, Victims, and Dispatch Company</h3>
+          <p className="headlined text-xl">The reason why? Simple: becuase during the incident when I was ambushed essentially, by this unwanted and unneeded not to mention fictitious repair as they claimed it were; the tow man was never towing my truck i fact. He admitted he went to the place we left it while i was struggling to get a non existent ambulance to show up which the Operations Manager and his dispatcher wife Jena Johnson never actually called for as it turns out. Instead, they called this man, who owned the B&T Towing truck they say, to come secretly replace my trucks wheel and tire while we were stranded at Jeremiahs home miles away, a place isolated without cell service. This was quite literally taking motor vehicle without owners permission and other violations potentially; however; I commend the B&T tow operator who took my truck for listening to my reasoming and yielding to my recommendation to pass on this scheme becuase I would report him to Wa State Patrol and since he lacks written contract or any valid proof of even a verbal contract; he will struggle to explain what gave him the right to move my vehicle.</p>
+          <h4 className="pt-4 underline italic text-3xl headlined"> Additional Pattern of Misconduct Exposed in Front of Multiple Witnesses</h4>
+          <p className="headlined text-xl">
+            B7T Towing of Cashmere was pissed and threw my keys down and spit on the ground, then swore at Jeremiah for wasting his time on a lucrative holiday such as 4th of July, then made a parting comment to Jeremiah that he would owe him another dispatch after this one went bad as it had... and this opens up a real concern since state and federal dispatch guidelines and statutes explicitly prohibit dispatchers from referring tows; and only makes marginal provisions under extrenuating circumstances and only then it would still have to be what is known as a non-preference tow. You see; tow drivers and dispatchers make untrustworthy business partners and they are typically regulated heavily in the matter of referalls and such for reasons just like this case.   </p>
+          <Card className="bg-gradient-to-r from-fuchsia-500 to-pink-500 px-12">
+            <Image src="/Tow/towScandalLIES.jpg"
+              width={2230}
+              height={440}
+              className="mr-4 float-left flex-shrink-0"
+              alt='scam includes INTENTIONAL ATTEMPT TO MISADDRESS NAME OF TOW COMPANY I ALLEGEDLY RIPPED OFF'
+            />
+          </Card>
+        </Card>
+      </div>
+      <div className="Bagshaw flex-row md:flex-col md:mx-12">
         <Card className="bagshaw flex md:flex-row md:mx-12">
           <Card className="foil">
             <CardHeader>
               <h2 className="text-xl headlined">The most important case in the Country?</h2>
             </CardHeader>
-            <CardContent className="my-13 border-slate-400 border-1 rounded-bl-xl shadow-2xl bg-blue-400 bg-opacity-20 mx-3">
+            <CardContent className="my-1 bg-blue-400 bg-opacity-10 mx-1">
               <h3>Director of Rivercom or Wenatchee Firefighter?</h3>
               <p className="text-xl">
                 Jeremiah Johnson, now being discretely referred to in subsequent chair meeting notes as simply Jeremiah Jones, which is a complete farce an attempt to hide this soon to be indicted criminal from Rivercom records and create space ahead of the legal shockwave they are antipating. Silly I know. </p>
@@ -168,38 +265,47 @@ export default function Home() {
             </Card>
           </Card>
         </div>
-
-
       </div>
-      <div className="flex-col md:flex-row">
-        <Card>
-          <AccordianDemo></AccordianDemo>
-        </Card>
-      </div>
-      <div className="flex-row md:flex-row">
-        <div className="flex-col">
-          <Card className="px-1"><EthicalMisconduct /></Card>
-          <Card><Discrepencies /></Card>
+
+      <div className="flex-col md:flex-row gap-5">
+        <div className="flex-col gap-4">
+          <div className="gap-3">
+            <Card className="accordianStyles"><EthicalMisconduct /></Card>
+          </div>
+
+          <Card className="gap-3 accordianStyles"><Discrepencies /></Card>
         </div>
-
-
-
       </div>
-      <div className="container px-2">
-        <Card className="tspin md:mx-4">
-          <Card className="foil px-1 inner-shadow drop-shadow-2xl">
-            <h2 className="text-4xl">Above Reproach Should Never Mean Immune From Accountability</h2>
-            <p className="text-2xl">However; there is still a substanctial amount of incredibly damnding evidence and it is pretty obvious these officials didnt merely make a bad judgement call; they were engaged in straight up nefarious activities and targeted me, a law abiding legal citixen while trying to save a womans life and do the right thing. Theyve called themselves GOOD SAMARITANS over and over. Keep in mind its on video they DEMANDED 1000 cash for the tire they surprised me with, and when that tow driver backed out and stopped, the two dispatchers started saying I owed them now. For saving our life. They also acknowledge the passenger was near death.</p>
-            <p>Yet strangely enought hey never list the female in any of the police reports or incident logs, oir CAD files. Being that she was the ONLY reason I called and she was rhe entire reason for needed aid car.. its not right.</p>
+      <div className="lex-row md:flex-row">
+        <Card className="blues gap-3">
+          <h2 className="text-4xl">Above Reproach Should Never Mean Immune From Accountability</h2>
+          <p className="text-2xl">However; there is still a substanctial amount of incredibly damnding evidence and it is pretty obvious these officials didnt merely make a bad judgement call; they were engaged in straight up nefarious activities and targeted me, a law abiding legal citixen while trying to save a womans life and do the right thing. Theyve called themselves GOOD SAMARITANS over and over. Keep in mind its on video they DEMANDED 1000 cash for the tire they surprised me with, and when that tow driver backed out and stopped, the two dispatchers started saying I owed them now. For saving our life. They also acknowledge the passenger was near death.</p>
 
 
-            <p className="text-2xl">Dificult complex case with many twist....its been intentionally designed to overwhelm an already weary and underrepresented defendent...done by a 20 year senior CHIEF prosecutor {`(`}retired but still pulling shameful shit apparently{`)`}</p>
-            <h3 className="text-4xl">This incident was not just sketchy dispatchers and tow mutts trying to get over on tourist. </
-            h3>
-            <p className="text-2xl">It was kidnapping with a clear conspiracy to commit murder while interfering in life threatening medical duress call to 911. I have not violated any laws or rules or even decency expectations of any sort. </p>
-            <p className="text-3xl">The sheer volume of discrepencioes and unaddressed detaails like what the hell was a retired former 20 year CHIEF prosecutor from Seattle doing runnin out the back door so to speak, of these scumbag corrupt city workers home?</p>
-          </Card>
+          <blockquote className="relative p-4">
+            <span className="icon-[tabler--quote] text-base-300/20 absolute -start-3 -top-3 size-16 rotate-180 rtl:rotate-0"></span>
+            <div className="relative z-1">
+
+
+              <em className="text-4xl">
+                Yet strangely enough; they never list my disabled diabetic passenger  who I see they DID leave in the call CAD file as something I just casully mentioned as if "hey I need a tow and tire and wheel, some cold drinks. Yah by the way that pesky passenger of mine has not had her insulin in days and is in diabetic shock. So what time can you guys get us in for service on the old truck?" And they simply logged "no medical emergency, call downgraded." The prosecutor and my prior attorneys have very addemately formally advised me that the jury in Chelan county are not sophisticated enough to be able to process this type of information. They have tried to advise me that the jury will be mad and they will never buy into my claims. They are not claims. These are the facts as they have been dumped onto me against my will. And I fully plan to re-post and make sure I do everything I can so bno more people die or are harmed.      </em>
+
+
+            </div>
+
+          </blockquote>
+
+
+
+
+
+          <p className="text-2xl">Dificult complex case with many twist....its been intentionally designed to overwhelm an already weary and underrepresented defendent...done by a 20 year senior CHIEF prosecutor {`(`}retired but still pulling shameful shit apparently{`)`}</p>
+          <h3 className="text-4xl">This incident was not just sketchy dispatchers and tow mutts trying to get over on tourist. </
+          h3>
+          <p className="text-2xl">It was kidnapping with a clear conspiracy to commit murder while interfering in life threatening medical duress call to 911. I have not violated any laws or rules or even decency expectations of any sort. </p>
+          <p className="text-3xl">The sheer volume of discrepencioes and unaddressed detaails like what the hell was a retired former 20 year CHIEF prosecutor from Seattle doing runnin out the back door so to speak, of these scumbag corrupt city workers home?</p>
         </Card>
+
         <Background />
         <CAD1 />
         <Card className="bg-slate-800 text-white drop-shadow-2xl shadow-inner">
@@ -223,11 +329,14 @@ export default function Home() {
               </div>
 
               <h3 className="text-2xl">Taunting Me, or Throwing Me a Bone?"</h3>
-              <p className="text-1xl">After nearly an entire YEAR, I was finally told I could watch but not take home Jenas videos. I was invited to assigned counsels office to watch a copy of un-tampered video which clearly showed deputy asking tow operatopr for impound bill and the tow operator said Ryan doesnt owe me anything. He was asked about impound, tow, and the services / parts rendered to "fix" my truck and the tow operator adimently and sternly informed the deputy that he was not owed ANYTHING by me and he had no interest in my truck. Yet that deputy lied on his incident report stating that I was outraged over some repair or impound bill I wasnt able to pay. Keep in mind also; my truck was given to my passenger to drive home. They wrote that up as "we dropped his truck off at the park and ride" but in fact the tow operator drove my passenger to the park and ride then sent her on her way. The deputy actually came to the car window to get my consent on his body cam which conflicts the claim Chelan Sherifs make that their deputies are not equip[ed with body cams. But the Deputy did in fact ask and I graciously said yes please and thanks. They lack chain of custody for an impound claim. Further, the truck had a tire failure again due to low pressure and it had to be towed from Snoqualmie to Seattle that same night.  </p>
+              <p className="text-1xl">After nearly an entire YEAR, I was finally told I could watch but not take home Jenas videos. I was invited to assigned counsels office to watch a copy of un-tampered video which clearly showed deputy asking tow operatopr for impound bill and the tow operator said Ryan doesnt owe me anything. He was asked about impound, tow, and the services / parts rendered to "fix" my truck and the tow operator adimently and sternly informed the deputy that he was not owed ANYTHING by me and he had no interest in my truck. Yet that deputy lied on his incident report stating that I was outraged over some repair or impound bill I wasnt able to pay. Keep in mind also; my truck was given to my passenger to drive home. They wrote that up as "we dropped his truck off at the park and ride" but in fact the tow operator drove my passenger to the park and ride then sent her on her way. The deputy actually came to the car window to get my consent on his body cam which conflicts the claim Chelan Sherifs make that their deputies are not equiped with body cams. But the Deputy did in fact ask and I graciously said yes please and thanks. They lack chain of custody for an impound claim. Further, the truck had a tire failure again due to low pressure and it had to be towed from Snoqualmie to Seattle that same night.  </p>
             </ul>
           </CardContent>
         </Card>
+
+
       </div>
-    </div>
+    </div >
+
   );
 }

@@ -45,10 +45,10 @@ export const dropDownItems = [
 const Header = () => {
   return (
     <>
-      <div className="w-full hidden lg:flex items-center justify-between">
-        <Logo />
+      <div className="w-full md:hidden lg:flex items-center justify-between">
+        <MobileNav className="flex" />
       </div>
-      <MobileNav className="flex lg:hidden" />
+
     </>
   );
 };

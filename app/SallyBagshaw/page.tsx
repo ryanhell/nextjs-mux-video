@@ -39,8 +39,8 @@ const page = () => {
                                 </CardTitle>
                             </CardContent>
                         </Card>
-                        <section className="bocontainer-wrapper section-soft flex-1">
-                            <Card className="max-w-9/12 px-12 harvardSucks">
+                        <section className="bocontainer-wrapper mx-auto section-soft flex-1 servefast px-2 md:px-9">
+                            <Card className="md:max-w-9/12 px-12 harvardSucks">
                                 <h2 className="text-4xl text-white text-right">Harvard? You don't say.</h2><hr></hr>
                                 <div className="harvard max-w-6/7">
                                     <ul className="border-1 px-5 list-disc list-inside text-xl leading-relaxed drop-shadow-md text-slate-200 drop-shadow-slate-500 float-start">
@@ -80,7 +80,7 @@ const page = () => {
 
                             <p className="text-xl leading-relaxed mb-10">...after dispatchers impede a desperate and stranded motorist 911 duress call then speed them off to their personal residence and hold them promising an ambulance which ultimately never arrived.... gravely endangering both passengers, stealing their truck, then falsifying a set of seriuous criminal charges to disappear and discredit the man from reporting these bad actors</p>
                             <div className="prose prose-lg max-w-none">
-                                <p className="text-xl leading-relaxed mb-10 text-blue-100">
+                                <p className="text-2xl leading-relaxed mx-3 px-3 mb-10 text-blue-100">
                                     I do not wish to say whether I think Mrs Bagshaw is a bad person or a good person but I will say that I have been trying to address this bizarre and deadly encounter which I cought her vacating the scene to allow the deputies to come and do whatever it was that they could not do while Sally Bagshaw was on the property. Seems outright sinister Im not gonna lie. Matter of fact; after over a year of really looking at the Bagshaw component from a hundred angles; I can not see a logical or practical reason she would have been there or yelled "I can not let Ryan see me" and i really dont get why she would have to vacate the property unless they planned to shoot me, after all that is what Operations Manager Jeremiah Johnson claimed, and what he remarked about on the evidence video, and I think it is actually noted in the transcipts with Rivercom 911 center as dispatch. notifed Jeremia that the. deputy was en route to arrest me and take me away. "Ryan needs to disappear for good not just go to jail or be taken away." </p>
                                 <BagShawGallery />
                                 <p className="leading-relaxed mb-6 text-2xl">

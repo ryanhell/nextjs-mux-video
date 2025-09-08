@@ -27,17 +27,20 @@ export default function RootLayout({
   return (
     <html lang="en">
 
+
+
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex min-h-screen h-screen flex-1  flex-row overflow-y-hidden `}
+        className={`${geistSans.variable} ${geistMono.variable} tables antialiased flex min-h-screen h-screen flex-1  flex-row overflow-y-hidden shadow-[-39px_-50px_100px_47px_rgba(0,_0,_0,_1)]`}
       >
+        <SidaBar className="order-first overflow-y-auto" />
         <main className="flex-1 overflow-y-auto">
-          <div className="flex-1 ">
+          <div className="flex-1">
 
             <Header />
             <div className="">{children}</div>
+
           </div>
         </main>
-        <SidaBar className="order-first  overflow-y-auto" />
 
         <Toaster
           className="bg-red-200 text-light"
@@ -45,7 +48,7 @@ export default function RootLayout({
           duration={10000}
         />
         <Toaster position="top-right" />
-      </body>
-    </html>
+      </body >
+    </html >
   );
 }

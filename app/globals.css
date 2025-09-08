@@ -369,12 +369,12 @@ h1 {
   color: white;
 }
 .blues {
-  background-image: linear-gradient(
-    288deg,
-    rgba(0, 85, 255, 1) 1.5%,
-    rgba(4, 56, 115, 1) 91.6%
-  );
+  background-image: linear-gradient(288deg, rgba(4, 56, 115, 1) 91.6%);
   color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-inline: 4px;
+  padding-inline: 12px;
+  box-shadow: inset 1px 2px 14px rgb(235, 234, 234);
 }
 .harvardSucks {
   background: linear-gradient(rgba(37, 124, 17, 0.665), rgba(74, 104, 123, 0.9)),
@@ -549,4 +549,59 @@ body {
 .headlined {
   text-shadow: #000000 1px 1px 0, -2px 1px 12px rgba(102, 255, 208, 0.21);
   color: #fff9f9;
+}
+.bagshaw {
+  background-image: url("/4k-seamless-silver-perforated-stainless-steel-metal-texture_499.webp");
+  background-size: 122px;
+  background-repeat: repeat;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.servefast {
+  background: #485563; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #29323c,
+    #485563
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #29323c,
+    #485563
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.tables {
+  background-image: url("/hotel-wallpaper-black.png");
+  background-size: 22%;
+  background-repeat: repeat;
+}
+.fineLeather {
+  background-image: url("/hotel-wallpaper-black.png");
+  background-size: 22%;
+  background-repeat: repeat;
+}
+.accordianStyles {
+  background-color: #6b696d;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23211f24' fill-opacity='1'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.radd {
+  background: #200122; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #6f0000,
+    #200122
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #6f0000,
+    #200122
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: inset 1px 2px 124px rgb(32, 32, 32);
+}
+.blockRock {
+  background-color: #0d5819;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%239bb481' fill-opacity='0.74'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+.fitzofdetention {
+  background-color: #0d1a0a;
+  background-image: url("data:image/svg+xml,%3Csvg width='84' height='16' viewBox='0 0 84 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M78 7V4h-2v3h-3v2h3v3h2V9h3V7h-3zM30 7V4h-2v3h-3v2h3v3h2V9h3V7h-3zM10 0h2v16h-2V0zm6 0h4v16h-4V0zM2 0h4v16H2V0zm50 0h2v16h-2V0zM38 0h2v16h-2V0zm28 0h2v16h-2V0zm-8 0h6v16h-6V0zM42 0h6v16h-6V0z' fill='%236ea2db' fill-opacity='0.37' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
