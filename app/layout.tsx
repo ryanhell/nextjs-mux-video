@@ -27,7 +27,7 @@ const navItems = [
     href: '/CADFiles',
   },
   {
-    title: 'Poice',
+    title: 'Police',
     href: '/PoliceReport',
   },
   {
