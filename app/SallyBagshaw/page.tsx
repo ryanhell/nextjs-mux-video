@@ -13,7 +13,7 @@ const page = () => {
                 <div style={{ width: '100%', height: '100%', position: 'relative' }}>
                     <Image
                         alt="Sally Bagshaw flees crime scene hit and run after failed kidnap extortion plot interfered with medical 911 call Rivercom 911"
-                        src="/ryansPhotos/IMG_6450 2.JPG"
+                        src="/ryansPhotos/shitshowcircus.jpg"
                         layout="fill"
                         objectFit="cover" // or 'contain', 'none', etc.
                     />

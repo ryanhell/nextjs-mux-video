@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 
-import Logo from "./Logo";
 import MobileNav from "./MobileNav";
+import { PhoneCall } from "lucide-react";
 
 export const dropDownItems = [
   {
@@ -46,7 +46,9 @@ const Header = () => {
   return (
     <>
       <div className="w-full md:hidden lg:flex items-center justify-between">
-        <MobileNav className="flex" />
+
+
+
       </div>
 
     </>
