@@ -88,12 +88,12 @@ export default function page() {
                                     </Card>
 
 
-                                    <Card className="px-10 mx-3 inset-1 drop-shadow-2xl bagshaw text-slate-100 text-shadow-sm mb-3">
-                                        <p className="leading-relaxed px-5 mb-6 text-3xl text-slate-900">
+                                    <Card className="px-10 mx-3 inset-1 drop-shadow-2xl radd text-slate-100 text-shadow-sm mb-3">
+                                        <p className="leading-relaxed px-5 mb-6 text-3xl ">
                                             That headline sound too dramatic? Well its precisely what happened.
                                             At the end of the day Jeremiah made a massive mistake and committed a signifanctly more serious set of crimes than anyone wants to talk about.
                                         </p>
-                                        <p className="leading-relaxed text-4xl italic text-black text-shadow-white text-shadow-2xl mb-6 px-12">As the Rivercom 911 Call Center Operations Manager; Jeremiah knew exactly what he was doing was the equivilent to a male kindergartner teacher taking a child home to spend the night at their home </p>
+                                        <p className="leading-relaxed text-4xl italic  text-shadow-white text-shadow-2xl mb-6 px-12">As the Rivercom 911 Call Center Operations Manager; Jeremiah knew exactly what he was doing was the equivilent to a male kindergartner teacher taking a child home to spend the night at their home </p>
                                         <p className="leading-relaxed mb-6 px-5 text-3xl text-shadow-2xs">While the knee jerk reaction is to blame scrupulous opportunist parents seeking punative damages; lets be very clear here: this was not a rescue nor were they good sammaritans nor did they do any of this out of the kindness of their hearts. They demanded a very high price; and they held back urgent medical needs until they were paid. That circumvents a number of very astute and very well known civil provisions across the state and federal level. Jeremiah is not a stupid man looking at his resume. However; he is a leader of a large 911 operation centewr and he is likely well liked and coddled by some local officials who are less than pure at times to say it nicely..</p>
                                     </Card>
 
