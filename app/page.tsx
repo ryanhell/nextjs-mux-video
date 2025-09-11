@@ -11,7 +11,7 @@ import BagshawBadge from "@/components/BagshawBadge";
 import JeremiahLiarLiarYouDontWorkOnFires from "@/components/JeremiahLiarLiarYouDontWorkOnFires";
 import RobinsonCarousel from "@/components/imageComponents/Carousels/RobinsonCarousel";
 import UrgentPleadFoHelp from "@/components/UrgentPleadFoHelp";
-
+import Badge13 from "@/components/customized/badge/badge-13.tsx";
 import {
   Accordion,
   AccordionContent,
@@ -25,6 +25,7 @@ export default function Home() {
     <div className="flex flex-col md:mx-5 servefast">
       <div>
         <UrgentPleadFoHelp />
+        <Badge13 />
         <Image src="/ryansPhotos/passengerEvidence/passengerICUDischargeSummary.jpg"
           width={1700}
           height={2267}
@@ -242,7 +243,13 @@ export default function Home() {
             </Card>
 
 
-
+            <Card className="blues">
+              <Image src="/Tow/littleIllegalTow2-2.jpg"
+                width={1200}
+                height={900}
+                alt={"It was auto theft plane and simple"}
+              />
+            </Card>
 
             <Card className="shadow-inner bg-gradient-to-br from-[#f43f5e] via-[#be185d] to-[#831843] text-white mx-3  md:float-right md:mx-4">
               <CardHeader>
@@ -285,11 +292,11 @@ export default function Home() {
             <Card className="accordianStyles"><EthicalMisconduct /></Card>
           </div>
 
-          <Card className="gap-3 accordianStyles"><Discrepencies /></Card>
+
         </div>
       </div>
-      <div className="lex-row md:flex-row">
-        <Card className="blues gap-3">
+      <div className="flex-row md:flex-col gap-3">
+        <Card className="blues gap-2">
           <h2 className="text-4xl">Above Reproach Should Never Mean Immune From Accountability</h2>
           <p className="text-2xl">However; there is still a substanctial amount of incredibly damnding evidence and it is pretty obvious these officials didnt merely make a bad judgement call; they were engaged in straight up nefarious activities and targeted me, a law abiding legal citixen while trying to save a womans life and do the right thing. Theyve called themselves GOOD SAMARITANS over and over. Keep in mind its on video they DEMANDED 1000 cash for the tire they surprised me with, and when that tow driver backed out and stopped, the two dispatchers started saying I owed them now. For saving our life. They also acknowledge the passenger was near death.</p>
 

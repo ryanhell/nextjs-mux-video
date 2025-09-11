@@ -7,7 +7,7 @@ import React from "react";
 const ClickableLinkBadgeDemo = () => {
   return (
     <Link
-      href="https://github.com/shadcn"
+      href="/videos"
       target="_blank"
       className={cn(
         badgeVariants({
@@ -17,7 +17,7 @@ const ClickableLinkBadgeDemo = () => {
       )}
     >
       <Image
-        src="https://github.com/shadcn.png"
+        src="/videos"
         className="mr-2 h-5 w-5 rounded-full"
         alt=""
         height={20}
