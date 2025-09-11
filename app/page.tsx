@@ -1,3 +1,4 @@
+"use client"
 import Background from "@/components/Background";
 import Image from "next/image";
 import CAD1 from "@/components/CAD1";
@@ -11,6 +12,7 @@ import BagshawBadge from "@/components/BagshawBadge";
 import JeremiahLiarLiarYouDontWorkOnFires from "@/components/JeremiahLiarLiarYouDontWorkOnFires";
 import RobinsonCarousel from "@/components/imageComponents/Carousels/RobinsonCarousel";
 import UrgentPleadFoHelp from "@/components/UrgentPleadFoHelp";
+import FuzzyText from '@/components/ui/shadcn-io/fuzzy-text';
 import Badge13 from "@/components/customized/badge/badge-13.tsx";
 import {
   Accordion,
@@ -87,28 +89,53 @@ export default function Home() {
           <p className="mx-5 md:mx-15 text-2xl text-black">The Operation Center Manager; Could Shoot and Kill Me. These People LITERALLY Created a Deadly, Unlawful Imprisonment Situation Amidst My Urgent Medical Emergency for Both My Passenger and Myself Being Stranded in a Desert on The Fourth of July. The Chelan County Prosecutor And Judge Jourdan Have Made No Secret of Their Contempt for Me; They Behave Outraged and Indignified as if I Did ANYTHING Wrong At ALL, AT ANY POINT IN TIME.</p>
         </Card>
         <Card className="bagshaw mx-4 px-12">
-          <Card className="gould border-zinc-600 border-3 drop-shadow-2xl mx-3 px-3">
+          <Card className="tables border-zinc-600 border-3 drop-shadow-2xl mx-3 px-3">
+            <Card className="accordianStyles">
 
+              <Card className="radd mx-5 md:mx-13">
+                <blockquote><h4 className="text-slate-300 text-shadow-dark md:scroll-m-20 text-center text-2xl mx-1 md:text-4xl md:font-extrabold tracking-tight text-balance md:mx-2">"This is rediculous Ryan! ... why would they go to such elaborate lengths to cover up these actions!? Just how serious could their alleged civil rights violations be, Ryan?</h4><br></br>
+                  <h4 className="muted text-slate-200 md:scroll-m-20 text-center italic text-xl md:text-4xl font-extrabold tracking-tight text-balance md:mx-2">
+                    Serious enough that their actions, as officials abusing their authority to conspire against a disabled womans emergency medical duress call to 911 </h4>
+                  <h4 className="text-blue-500 scroll-m-20 text-center italic text-xl md:text-4xl font-extrabold tracking-tight text-balance mx-2">
+                    potentially..could carry...
+                  </h4><br></br>
+                  <FuzzyText
+                    fontSize="2rem"
+                    fontWeight={900}
+                    color="#ffffff"
+                    enableHover={true}
+                    baseIntensity={0.18}
+                    hoverIntensity={0.5}
+                  >
+                    THE DEATH PENALTY.
+                  </FuzzyText>
 
+                </blockquote>
+                <div className="mx-auto">
+                  <video autoPlay width="1220" height="240" controls preload="none">
+                    <source src="/ryansPhotos/electric.mov" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </Card>
+              <ul className="text-shadow-light text-light blues">
+                <li> <h3 className="text-4xl text-right text-white weight-900 underline italic pr-3">18 USC 241: "Conspiracy against rights"</h3></li>
+                <li><hr></hr></li>
+                <li> Unites States Title 18 - "CRIMES AND CRIMINAL PROCEDURE"</li>
+                <li>  CHAPTER 13 - CIVIL RIGHTS</li>
+              </ul>
+              <div className="ryanPaper opacity-90">
+                <h4 className="text-3xl font-extrabold underline italic">18 USC 241: Conspiracy against rights
+                  From Title 18-CRIMES AND CRIMINAL PROCEDURE
 
-            <ul>
-              <li> <h3 className="text-4xl text-right">18 USC 241: Conspiracy against rights</h3></li>
-              <li><hr></hr></li>
-              <li> From Title 18-CRIMES AND CRIMINAL PROCEDURE</li>
-              <li>  CHAPTER 13-CIVIL RIGHTS</li>
-              <li> CHAPTER 13-CIVIL RIGHTS
-              </li>
-            </ul>
-            <p className="text-xl italic px-5">
-              18 USC 241: Conspiracy against rights
-              From Title 18-CRIMES AND CRIMINAL PROCEDURE
+                  CHAPTER 13-CIVIL RIGHTS</h4>
 
-              CHAPTER 13-CIVIL RIGHTS
-
-              §241. Conspiracy against rights
-              If two or more persons conspire to injure, oppress, threaten, or intimidate any person in any State, Territory, Commonwealth, Possession, or District in the free exercise or enjoyment of any right or privilege secured to him by the Constitution or laws of the United States, or because of his having so exercised the same; or
-              If two or more persons go in disguise on the highway, or on the premises of another, with intent to prevent or hinder his free exercise or enjoyment of any right or privilege so secured-
-              They shall be fined under this title or imprisoned not more than ten years, or both; and if death results from the acts committed in violation of this section or if such acts include kidnapping or an attempt to kidnap, aggravated sexual abuse or an attempt to commit aggravated sexual abuse, or an attempt to kill, they shall be fined under this title or imprisoned for any term of years or for life, or both, or may be sentenced to death.</p></Card>
+                <p className="text-3xl italic p-5"> §241. Conspiracy against rights
+                  If two or more persons conspire to injure, oppress, threaten, or intimidate any person in any State, Territory, Commonwealth, Possession, or District in the free exercise or enjoyment of any right or privilege secured to him by the Constitution or laws of the United States, or because of his having so exercised the same; or
+                  If two or more persons go in disguise on the highway, or on the premises of another, with intent to prevent or hinder his free exercise or enjoyment of any right or privilege so secured-
+                  They shall be fined under this title or imprisoned not more than ten years, or both; and if death results from the acts committed in violation of this section or if such acts include kidnapping or an attempt to kidnap, aggravated sexual abuse or an attempt to commit aggravated sexual abuse, or an attempt to kill, they shall be fined under this title or imprisoned for any term of years or for life, or both, or may be sentenced to death.</p></div>
+            </Card>
+          </Card>
           <Card className="blues">
             <h2 className="text-2xl mx-4">100% Law Abiding Citizens Violently Attacked in Coordinated Conspiracy Involving Multiple Local Agencies Abusing Color of Law While Acting on Behalf of a Non-Authority.</h2>
             <h4 className="text-2xl mx-4"> I believe it is POSSIBLE this attack was facilitated by Sally Bagshaw as retaliation for my helping Seattle Times located a time sensitive record archive which declared Murray a pedophile molestor. Sally Bagshaw had a extremely unique protective intetrest with keeping Murray in office, many have noted. She was recently caught on film inside a Hotel with multiple lobbyist, and she since resigned from political office and is now working as a major construction chair on the hiways devlopemts.</h4>
