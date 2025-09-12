@@ -376,6 +376,21 @@ h1 {
   padding-inline: 12px;
   box-shadow: inset 1px 2px 14px rgb(235, 234, 234);
 }
+.topographyCard {
+  background-image: url("/topographyCard.jpg");
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-inline: 4px;
+  padding-inline: 12px;
+  box-shadow: inset 1px 2px 14px rgb(235, 234, 234);
+}
+.grillCard {
+  background-image: url("/4k-seamless-silver-perforated-stainless-steel-metal-texture_499.webp");
+  background-size: 94px;
+  background-repeat: repeat;
+  opacity: 0.4;
+}
+
 .harvardSucks {
   background: linear-gradient(rgba(37, 124, 17, 0.665), rgba(74, 104, 123, 0.9)),
     url(/harvardSucks.jpeg);

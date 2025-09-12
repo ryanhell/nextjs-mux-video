@@ -23,6 +23,9 @@ const geistMono = Geist_Mono({
 
 const navItems = [
   {
+    title: 'Serverity',
+    href: '/#severity',
+  }, {
     title: '911',
     href: '/CADFiles',
   },

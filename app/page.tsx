@@ -2,7 +2,7 @@
 import Background from "@/components/Background";
 import Image from "next/image";
 import CAD1 from "@/components/CAD1";
-import { Card, CardHeader, CardContent, CardTitle, CardDescription } from "@/components/ui/card";
+import { Card, CardHeader, CardContent, CardTitle, CardDescription, CardFooter } from "@/components/ui/card";
 import Intro from "@/components/storyComponents/Intro";
 import EthicalMisconduct from "@/components/storyComponents/EthicalMisconduct";
 import Discrepencies from "@/components/storyComponents/Discrepencies";
@@ -13,7 +13,7 @@ import JeremiahLiarLiarYouDontWorkOnFires from "@/components/JeremiahLiarLiarYou
 import RobinsonCarousel from "@/components/imageComponents/Carousels/RobinsonCarousel";
 import UrgentPleadFoHelp from "@/components/UrgentPleadFoHelp";
 import FuzzyText from '@/components/ui/shadcn-io/fuzzy-text';
-import Badge13 from "@/components/customized/badge/badge-13.tsx";
+import Badge13 from "@/components/customized/badge/badge-13";
 import {
   Accordion,
   AccordionContent,
@@ -21,6 +21,7 @@ import {
   AccordionTrigger
 } from "@/components/ui/accordion";
 import Link from "next/link";
+import { AlignCenter } from "lucide-react";
 
 export default function Home() {
   return (
@@ -92,33 +93,36 @@ export default function Home() {
           <Card className="tables border-zinc-600 border-3 drop-shadow-2xl mx-3 px-3">
             <Card className="accordianStyles">
 
-              <Card className="radd mx-5 md:mx-13">
-                <blockquote><h4 className="text-slate-300 text-shadow-dark md:scroll-m-20 text-center text-2xl mx-1 md:text-4xl md:font-extrabold tracking-tight text-balance md:mx-2">"This is rediculous Ryan! ... why would they go to such elaborate lengths to cover up these actions!? Just how serious could their alleged civil rights violations be, Ryan?</h4><br></br>
-                  <h4 className="muted text-slate-200 md:scroll-m-20 text-center italic text-xl md:text-4xl font-extrabold tracking-tight text-balance md:mx-2">
-                    Serious enough that their actions, as officials abusing their authority to conspire against a disabled womans emergency medical duress call to 911 </h4>
-                  <h4 className="text-blue-500 scroll-m-20 text-center italic text-xl md:text-4xl font-extrabold tracking-tight text-balance mx-2">
-                    potentially..could carry...
-                  </h4><br></br>
-                  <FuzzyText
-                    fontSize="2rem"
-                    fontWeight={900}
-                    color="#ffffff"
-                    enableHover={true}
-                    baseIntensity={0.18}
-                    hoverIntensity={0.5}
-                  >
-                    THE DEATH PENALTY.
-                  </FuzzyText>
+              <Card className="blues mx-5 md: mx-33 md: px-13" id="severity">
+                <CardContent>
+                  <blockquote><h4 className="text-slate-300 text-shadow-dark md:scroll-m-20 text-left text-2xl mx-1 md:text-4xl md:font-extrabold tracking-tight text-balance md:mx-2">"This is rediculous Ryan! ... why would they go to such elaborate lengths to cover up these actions!?"</h4><br></br>
+                    <h4 className="muted text-slate-200 md:scroll-m-20 text-right italic text-xl md:text-4xl font-extrabold tracking-tight text-balance md:mx-2">
+                      I'm glad you asked. Because just the act of conspiracy to deny my disabled passenger of emergency medical aid during my 911 duress call to Rivercom 911 on 4th of July 2024 carries ...
+                      <FuzzyText
+                        fontSize='clamp(35px, 18px, 190px)'
+                        fontWeight={900}
+                        color="#ffffff"
+                        enableHover={true}
+                        baseIntensity={0.18}
+                        hoverIntensity={0.5}
+                      >
+                        DEATH.
+                      </FuzzyText>
+                    </h4>
+                  </blockquote>
+                  <div className="mx-auto">
+                    <video autoPlay width="1220" height="240" controls preload="none">
+                      <source src="/ryansPhotos/electric.mov" type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
 
-                </blockquote>
-                <div className="mx-auto">
-                  <video autoPlay width="1220" height="240" controls preload="none">
-                    <source src="/ryansPhotos/electric.mov" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
+                  </div>
+                </CardContent>
+                <CardFooter>
+                  <h4 className="muted text-slate-200 md:scroll-m-20 italic text-xl md:text-xl text-left mx-auto font-extrabold tracking-tight text-balance md:mx-2">You read that right. Its more serious than bank robbery. And being that they did it to an unrelated bystander, with demonstrated malace, and it is retaliation for me helping expose significant political corruption: if for some reason even a fraction of this matter hit the right desk these criminal officials would be in a bit of trouble to put it mildly. </h4>
+                </CardFooter>
               </Card>
-              <ul className="text-shadow-light text-light blues">
+              <ul className="text-shadow-light text-light blues max-width-[300]">
                 <li> <h3 className="text-4xl text-right text-white weight-900 underline italic pr-3">18 USC 241: "Conspiracy against rights"</h3></li>
                 <li><hr></hr></li>
                 <li> Unites States Title 18 - "CRIMES AND CRIMINAL PROCEDURE"</li>
@@ -182,7 +186,7 @@ export default function Home() {
           <p className="headlined text-xl">The reason why? Simple: becuase during the incident when I was ambushed essentially, by this unwanted and unneeded not to mention fictitious repair as they claimed it were; the tow man was never towing my truck i fact. He admitted he went to the place we left it while i was struggling to get a non existent ambulance to show up which the Operations Manager and his dispatcher wife Jena Johnson never actually called for as it turns out. Instead, they called this man, who owned the B&T Towing truck they say, to come secretly replace my trucks wheel and tire while we were stranded at Jeremiahs home miles away, a place isolated without cell service. This was quite literally taking motor vehicle without owners permission and other violations potentially; however; I commend the B&T tow operator who took my truck for listening to my reasoming and yielding to my recommendation to pass on this scheme becuase I would report him to Wa State Patrol and since he lacks written contract or any valid proof of even a verbal contract; he will struggle to explain what gave him the right to move my vehicle.</p>
           <h4 className="pt-4 underline italic text-3xl headlined"> Additional Pattern of Misconduct Exposed in Front of Multiple Witnesses</h4>
           <p className="headlined text-xl">
-            B7T Towing of Cashmere was pissed and threw my keys down and spit on the ground, then swore at Jeremiah for wasting his time on a lucrative holiday such as 4th of July, then made a parting comment to Jeremiah that he would owe him another dispatch after this one went bad as it had... and this opens up a real concern since state and federal dispatch guidelines and statutes explicitly prohibit dispatchers from referring tows; and only makes marginal provisions under extrenuating circumstances and only then it would still have to be what is known as a non-preference tow. You see; tow drivers and dispatchers make untrustworthy business partners and they are typically regulated heavily in the matter of referalls and such for reasons just like this case.   </p>
+            B&T Towing of Cashmere was pissed and threw my keys down and spit on the ground, then swore at Jeremiah for wasting his time on a lucrative holiday such as 4th of July, then made a parting comment to Jeremiah that he would owe him another dispatch after this one went bad as it had... and this opens up a real concern since state and federal dispatch guidelines and statutes explicitly prohibit dispatchers from referring tows; and only makes marginal provisions under extrenuating circumstances and only then it would still have to be what is known as a non-preference tow. You see; tow drivers and dispatchers make untrustworthy business partners and they are typically regulated heavily in the matter of referalls and such for reasons just like this case.   </p>
           <Card className="bg-gradient-to-r from-fuchsia-500 to-pink-500 px-12">
             <Image src="/Tow/towScandalLIES.jpg"
               width={2230}
@@ -363,9 +367,9 @@ export default function Home() {
             <ul>
               <p className="text-2xl drop-shadow-lg">WRONG TOW COMPANY INTENTIONALLY LISTED </p>
               <p className="text-lg">After a lot of round and round and citing law and explaining I knew what they were doinf; saying they can take my truck but they will be arrested by STATE PATROL because Jeremiah interjected bragging how he had the local deputies in his phone on speed dial and he would call them for me; I said no worries, I will call State Patrol. And I may call 4 or 5 troops to get an honest one who will intervene. Or I might need to contact attorney general, to which he also laughed. I saud then that I would call FBI but not a day will go by that I stop seeking justice and bringing awaremess to these acts. Jeremiah became visible scared and the tow operator angrily threw my keys swearing at Jeremiah, saying he wants nothing to do with this. Smart man.Jeremiah howeever, for all the brains and glory he represents as an operations managaer at a large private dispatch center; wouldnt budge, picked the keys up and claimed he was TAKING my truck its his and I need to leave or I would be shot. Again. They refused to let my injured passenger even talk to me, and i woouldnt leave her. Being that the tow operator shifted down adn left his stake in this; I realized Jeremiah was the one who was supposed to shoot me if I refused to leave his property. Under vehicle abandonment law in Washington State, given the fact the B&T tow truck was there still; walking away could also cost me my vehicle. Jermeiahs wife Jenna ran over and punched me in the face at one point, without warning while Jeremiah was talking to me. They started spitting and hurling insults so I recognized their effort to provoke me into a fight for justifiable homicide had picked up considerably.  </p>
-              <p className="text-lg">The arresting deputies incident report as well as the 911 CAD file claim Stans Mount View Towing is the tow operator. Im not aware of any of that and the man who DROVE my truck without permission, tried to demand cash then backed out of it smartly; was driving this red roll-back with door tags indicating B&T Towing out of Cashmere Washington. Jeremiah and himself had claimed to be buddies. There was definately some bad blood after this mess, and it is apparent that he refused to cooperate with this now out of control and completely desperate criminal activity. They had to get some substance for their completely false narrative about me threatening these so called "heros" over some repair or tow bill. They simply resorted to a local tow company who they can confide in and this speaks volumes of the Stans Mountain View Towing. Obviously worth being cautious of if you need a tow in Chelan since I can assure you there was no tow of any sort nor was their any consent to tow, nor legal auithority nor did I need a tow. Nor did I need a tire. And I will check but I am pretty sure tow companies are tow companies. And they probably cant legitmately just offer to sell you a used tire and wheel even if that were what was requested. It cwertainly was not.</p>
+              <p className="text-lg">The arresting deputies incident report as well as the 911 CAD file claim  Mountain View Towing is the tow operator. Im not aware of any of that and the man who DROVE my truck without permission, tried to demand cash then backed out of it smartly; was driving this red roll-back with door tags indicating B&T Towing out of Cashmere Washington. Jeremiah and himself had claimed to be buddies. There was definately some bad blood after this mess, and it is apparent that he refused to cooperate with this now out of control and completely desperate criminal activity. They had to get some substance for their completely false narrative about me threatening these so called "heros" over some repair or tow bill. They simply resorted to a local tow company who they can confide in and this speaks volumes of the Mountain View Towing. Obviously worth being cautious of if you need a tow in Chelan since I can assure you there was no tow of any sort nor was their any consent to tow, nor legal auithority nor did I need a tow. Nor did I need a tire. And I will check but I am pretty sure tow companies are tow companies. And they probably cant legitmately just offer to sell you a used tire and wheel even if that were what was requested. It cwertainly was not.</p>
               <p className="text-2xl">Court is not allowing access to the actual victim / witness, i.e. the tow operator in this photo who was the only one there</p>
-              <p className="text-xl">Stans accepts credit cards, also. And would have gladly yielded me a bill upon request as they are obligated to do. Again, Stan Mountain View ior whoever is being falsely introduced to compensate for a uncooperative tow operator who knew he was in over his head and tapped out. My compliments to him for his albeit late moment of clarity. Now if we could contact him... I cannot I have a court order not to and assigned counsel has refused to do so. So by slight of hand they railroad me here also.</p>
+              <p className="text-xl">Mountain View Towing accepts credit cards, also. And would have gladly yielded me a bill upon request as they are obligated to do. Again, Stan Mountain View ior whoever is being falsely introduced to compensate for a uncooperative tow operator who knew he was in over his head and tapped out. My compliments to him for his albeit late moment of clarity. Now if we could contact him... I cannot I have a court order not to and assigned counsel has refused to do so. So by slight of hand they railroad me here also.</p>
               <Image src="/Chelan/july4_2024/towtruck.jpg" width="1400" height="2800" loading="lazy" alt="This is a photp of the tow and operator at the scene. Stans Mountain View or whatever never existed"></Image>
               <div className="block mt-2 text-xl align-left antialiased font-normal leading-normal text-inherit mb-6">This is a screenshot from one of the prosecutions own videos.... it clearly shows B7T not Stans. Probably just trying to bog me down since I am fighting my case alone.</div>
               <Image src="/Chelan/july4_2024/E6EF22E9-DB1F-49B3-87E1-28D2CDE1CFC6_4_5005_c.jpeg" width="1900" height="2800" loading="lazy" alt="from left, in this photo: Jeremiah Johnson who is the Rivercom 911 OPERATIONS CENTER MANAGER, the actual tow operator, the female dispatcher they names as Jenna and now last minute have claimed is not and never has been a Rivercom employee... , unknown quiet man wearing wenatchee fire shirt, and possibly the other tow operator who had followed first tow operator as he drove my truck from the park to Jeremiahs home without my knowledge or consent, following him in the red B7T tow truck with a side by side ATV on bed. The two dogs are my passengers medical dogs and she never parts with them. They played on the element of causinf fear for my passengers safety by coddling her dogs and refusing to get her or say if she is ok, then laughing"></Image>
