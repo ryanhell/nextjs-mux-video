@@ -75,8 +75,8 @@ export default function HeroSection() {
                                         </Card>
                                     </Card>
 
-
-                                    <p className="ml-2 text-white text-left"> These criminal accusations are desperate last minute attempts to over up grossly negligent criminal intent abuse of role actions, and or inteded to silence me altogether. Inside this complex incident is a conspiracy to commit murder as well as the resultant effort to mitigate damage for a large private PSAP 911 service who were implicit with allowing their Operations Manager and a dispatcher to kidnap medical emergency callers while fielding the calls remotely from their vehicle and later on the property where they took them to. </p>
+                                    <h3>July 4th 2024: Oppportunity Strikes For Corrupt Consoirators</h3>
+                                    <p className="ml-2 text-white text-left"> These 2024 criminal accusations of threats I allegedly made during an attempt to get help via 911, are desperate last minute attempts to over up grossly negligent criminal intent abuse of role actions, and or inteded to silence me altogether. Inside this complex incident is a conspiracy to commit murder as well as the resultant effort to mitigate damage for a large private PSAP 911 service who were implicit with allowing their Operations Manager and a dispatcher to kidnap medical emergency callers while fielding the calls remotely from their vehicle and later on the property where they took them to. </p>
                                     <p className="text-slate-200 text-xl text-left">This case is being heard in Chelan County Washington State. The case number is</p>
                                     <h3 className='text-3xl'>2410025304</h3>
 
