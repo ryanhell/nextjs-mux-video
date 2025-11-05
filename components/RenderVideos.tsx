@@ -17,6 +17,12 @@ const RenderVideos = () => {
   }, []);
 
   return (
+    <div className="grid grid-cols-12">
+      <h2>Video Evidence:</h2>
+      <p>
+      These are the videos which the prosecutor forwarded to me after nearly an entire YEAR. I had finally forced them to hand over as is, by submitting my own motion for evidence under due process discovery laws, since JUSTIN TITUS AND SEAN ESTWORTHY of Chelan Public public defenders refused to engage and obtain. I also files for a FORENSICS PRESERVATION MOTION which commically caught the prosecutor off guard and caused near panic it appeared. JUDGE JORDAN had ruled over my foreensics preservation somehow it was not my right to contest they had ALTERED the evidence.
+      </p>
+    </div>
     <div className="grid grid-cols-3 gap-6 py-6">
       {videos.map((video: any) =>
         video.playback_ids?.[0] ? (
